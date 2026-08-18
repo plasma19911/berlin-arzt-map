@@ -9,7 +9,7 @@
     "lon": 13.1833278,
     "displayName": "67, Marwitzer Straße, Hakenfelde, Spandau, Berlin, 13589, Deutschland"
   },
-  "updatedAt": "2026-08-18T19:51:26.731Z",
+  "updatedAt": "2026-08-18T19:53:08.800Z",
   "doctors": [
     {
       "id": "node-11612834515",
@@ -29,7 +29,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11612834515"
     },
@@ -49,7 +49,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9649111847"
     },
@@ -69,7 +69,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/relation/8667439"
     },
@@ -89,7 +89,7 @@
       "website": "http://www.aerztezentrum-spandau.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/342388816"
     },
@@ -112,7 +112,7 @@
       "website": "https://hausarzt-kamga.de/",
       "email": "praxis@hausarzt-kamga.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12120074603"
     },
@@ -134,7 +134,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4429357805"
     },
@@ -154,7 +154,7 @@
       "website": "https://www.pgdiakonie.de/evangelisches-waldkrankenhaus-spandau/",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/24950668"
     },
@@ -174,7 +174,7 @@
       "website": "http://www.vivantes.de/ksp",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/393510169"
     },
@@ -196,7 +196,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1135819846"
     },
@@ -218,7 +218,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5777674981"
     },
@@ -238,7 +238,7 @@
       "website": "http://praxis-schluckebier.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13955477901"
     },
@@ -260,7 +260,7 @@
       "website": "https://mvzspandauneukoelln.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4317329217"
     },
@@ -282,7 +282,7 @@
       "website": "http://www.praxis-liermann.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4316387483"
     },
@@ -304,7 +304,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4316387484"
     },
@@ -326,7 +326,7 @@
       "website": "http://www.praxis-dr-albrecht-wolff.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/14067870055"
     },
@@ -346,7 +346,7 @@
       "website": null,
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1336552408"
     },
@@ -366,7 +366,7 @@
       "website": "https://www.pg-spandau.de/index.html",
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5030326571"
     },
@@ -388,7 +388,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5030382721"
     },
@@ -411,7 +411,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5030353911"
     },
@@ -433,7 +433,7 @@
       "website": "http://spree-ecke-berlin.de",
       "email": "praxis@spree-ecke-berlin.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13970605401"
     },
@@ -453,7 +453,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1336835358"
     },
@@ -475,7 +475,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13252119572"
     },
@@ -498,7 +498,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1336685638"
     },
@@ -520,7 +520,7 @@
       "website": "https://www.dr-buenger.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3314954430"
     },
@@ -542,7 +542,7 @@
       "website": "https://www.zahnarztpraxis-nietzold-reimers.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9924009696"
     },
@@ -564,7 +564,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11897217628"
     },
@@ -586,7 +586,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10015432817"
     },
@@ -609,7 +609,7 @@
       "website": "https://www.medeco.de/zahnarzt-berlin/spandau/",
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10090590167"
     },
@@ -631,7 +631,7 @@
       "website": "http://www.hausarzthirschheydt.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10696863149"
     },
@@ -651,7 +651,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10846806464"
     },
@@ -673,7 +673,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10846806465"
     },
@@ -695,7 +695,7 @@
       "website": "https://spandau.zahnarzt-staaken.de",
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/68730451"
     },
@@ -715,7 +715,7 @@
       "website": "http://www.gesundheitszentrum-spandau.de",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1231426108"
     },
@@ -737,7 +737,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4332297469"
     },
@@ -759,7 +759,7 @@
       "website": "http://www.gyn-praevention.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/929462289"
     },
@@ -781,7 +781,7 @@
       "website": "https://arztpraxis-wotschel.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/448081428"
     },
@@ -803,7 +803,7 @@
       "website": "https://www.zahnarzt-spandau.de/",
       "email": "info@zahnarzt-spandau.de",
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/57796020"
     },
@@ -827,7 +827,7 @@
       "website": "http://www.ortho-hvl.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3262492941"
     },
@@ -849,7 +849,7 @@
       "website": "https://www.augenarztpraxis-am-elsterplatz.de/augenarztpraxis-sanoculus-mvz-haselhorst",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11409394075"
     },
@@ -869,7 +869,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2877320034"
     },
@@ -889,7 +889,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2877320035"
     },
@@ -914,7 +914,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10141301392"
     },
@@ -936,7 +936,7 @@
       "website": "https://nadineengel.de/kontakt",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12697577544"
     },
@@ -956,7 +956,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10141301380"
     },
@@ -978,7 +978,7 @@
       "website": "https://www.praxisamfalkenplatz.de/",
       "email": "kontakt@praxisamfalkenplatz.de",
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7858528548"
     },
@@ -1000,7 +1000,7 @@
       "website": "https://zahnarztpraxis-spaethe.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2947843271"
     },
@@ -1029,7 +1029,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/362631112"
     },
@@ -1051,7 +1051,7 @@
       "website": "https://radiologie-wilhelm23.de/",
       "email": "termin@radiologie-wilhelm23.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/8936948323"
     },
@@ -1073,7 +1073,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3906983461"
     },
@@ -1093,7 +1093,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2877326320"
     },
@@ -1115,7 +1115,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2877316919"
     },
@@ -1137,7 +1137,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7985409099"
     },
@@ -1159,7 +1159,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7623044673"
     },
@@ -1183,7 +1183,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2877328152"
     },
@@ -1205,7 +1205,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9138261917"
     },
@@ -1225,7 +1225,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1305299272"
     },
@@ -1247,7 +1247,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10852996852"
     },
@@ -1267,7 +1267,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12765596753"
     },
@@ -1289,7 +1289,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11161877000"
     },
@@ -1311,7 +1311,7 @@
       "website": "https://www.augenarzt-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9496245891"
     },
@@ -1333,7 +1333,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/325161442"
     },
@@ -1355,7 +1355,7 @@
       "website": "https://kfo-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10769196357"
     },
@@ -1378,7 +1378,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9496245892"
     },
@@ -1400,7 +1400,7 @@
       "website": "https://www.zahnarzt-schoenwalde.de/",
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3896337557"
     },
@@ -1420,7 +1420,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1267619483"
     },
@@ -1443,7 +1443,7 @@
       "website": "https://www.gastropraxis-havelland.de/",
       "email": "info@gastropraxis-havelland.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10868044716"
     },
@@ -1466,7 +1466,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11030472250"
     },
@@ -1488,7 +1488,7 @@
       "website": "https://www.neurochirurgie-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10742067056"
     },
@@ -1510,7 +1510,7 @@
       "website": "https://www.dr-nahles-berlin.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5833904190"
     },
@@ -1532,7 +1532,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4627127169"
     },
@@ -1554,7 +1554,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10790659506"
     },
@@ -1576,7 +1576,7 @@
       "website": "https://www.za-seidel.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/654356082"
     },
@@ -1598,7 +1598,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10759577990"
     },
@@ -1620,7 +1620,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10769528677"
     },
@@ -1642,7 +1642,7 @@
       "website": "http://www.psychotherapie-für-kinder-und-jugendliche-in-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11748617588"
     },
@@ -1664,7 +1664,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10769528674"
     },
@@ -1686,7 +1686,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11748617587"
     },
@@ -1708,7 +1708,7 @@
       "website": "https://kinder-psychotherapie-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11748617589"
     },
@@ -1731,7 +1731,7 @@
       "website": "https://www.kinderarzt-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6898176787"
     },
@@ -1753,7 +1753,7 @@
       "website": "http://www.kjp-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11748617586"
     },
@@ -1775,7 +1775,7 @@
       "website": "http://chirurgie-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4980270018"
     },
@@ -1798,7 +1798,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10769528678"
     },
@@ -1821,7 +1821,7 @@
       "website": "https://www.gastropraxis-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11030472249"
     },
@@ -1844,7 +1844,7 @@
       "website": "https://www.praxis-dr-gropp.de/home/",
       "email": "info@praxis-dr-gropp.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10731107005"
     },
@@ -1866,7 +1866,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10731107006"
     },
@@ -1886,7 +1886,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5105686231"
     },
@@ -1909,7 +1909,7 @@
       "website": "http://www.radiologie-falkensee.de/",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4937543159"
     },
@@ -1931,7 +1931,7 @@
       "website": "https://www.medical-balance.com/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9090701594"
     },
@@ -1953,7 +1953,7 @@
       "website": "https://www.dr-narr.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5050686828"
     },
@@ -1976,7 +1976,7 @@
       "website": "https://www.praxis-hoyer.de/",
       "email": "praxis@praxis-hoyer.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11741911665"
     },
@@ -1998,7 +1998,7 @@
       "website": "https://ag-falkensee.jimdo.com/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11741911664"
     },
@@ -2018,7 +2018,7 @@
       "website": "http://www.heb-team.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11741911662"
     },
@@ -2040,7 +2040,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11741911663"
     },
@@ -2062,7 +2062,7 @@
       "website": "https://zahnaerztefalkensee.de/",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5387842598"
     },
@@ -2082,7 +2082,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/27584705"
     },
@@ -2104,7 +2104,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11746005426"
     },
@@ -2126,7 +2126,7 @@
       "website": "https://www.psychotherapiepraxis-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11746005428"
     },
@@ -2148,7 +2148,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11746005427"
     },
@@ -2168,7 +2168,7 @@
       "website": "https://www.ussat.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13722483201"
     },
@@ -2190,7 +2190,7 @@
       "website": "http://zahnarzt-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/8168851503"
     },
@@ -2212,7 +2212,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7989005346"
     },
@@ -2232,7 +2232,7 @@
       "website": "https://www.havelklinik.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/150566434"
     },
@@ -2254,7 +2254,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2425353970"
     },
@@ -2276,7 +2276,7 @@
       "website": "https://praxisgemeinschaft-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10775924106"
     },
@@ -2300,7 +2300,7 @@
       "website": "https://hausarztfalkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/8171454755"
     },
@@ -2322,7 +2322,7 @@
       "website": "https://praxisgemeinschaft-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10775859504"
     },
@@ -2342,7 +2342,7 @@
       "website": "https://praxisgemeinschaft-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10775924108"
     },
@@ -2364,7 +2364,7 @@
       "website": "https://praxisgemeinschaft-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10775924107"
     },
@@ -2386,7 +2386,7 @@
       "website": "https://praxisgemeinschaft-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10775924105"
     },
@@ -2408,7 +2408,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10840134781"
     },
@@ -2430,7 +2430,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11161872683"
     },
@@ -2454,7 +2454,7 @@
       "website": "http://internisten-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10860694054"
     },
@@ -2476,7 +2476,7 @@
       "website": "https://www.praxis-dr-stuesser.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5100594075"
     },
@@ -2498,7 +2498,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/603743003"
     },
@@ -2520,7 +2520,7 @@
       "website": "https://praxisheiligensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13722474301"
     },
@@ -2542,7 +2542,7 @@
       "website": "http://www.letzner.net/index.html",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3396696863"
     },
@@ -2564,7 +2564,7 @@
       "website": "http://hno-falkensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10775967444"
     },
@@ -2587,7 +2587,7 @@
       "website": "http://hausarzt-mildenberger.de/",
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2868855001"
     },
@@ -2609,7 +2609,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6725065738"
     },
@@ -2631,7 +2631,7 @@
       "website": "https://www.augenpraxis-kahle.de/",
       "email": "info@augenpraxis-kahle.de",
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1412541074"
     },
@@ -2651,7 +2651,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10731121779"
     },
@@ -2671,7 +2671,7 @@
       "website": "http://medihaus-falkensee.de/",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1412541075"
     },
@@ -2693,7 +2693,7 @@
       "website": "https://zahnarzt-falkensee.com/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4565473415"
     },
@@ -2713,7 +2713,7 @@
       "website": "http://www.paulinenkrankenhaus.de/",
       "email": "info@paulinenkrankenhaus.de",
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/138215763"
     },
@@ -2735,7 +2735,7 @@
       "website": "https://www.zahnarzt-tegel-sued.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1145597657"
     },
@@ -2757,7 +2757,7 @@
       "website": "https://www.zahnarztpraxis-in-falkensee.de/",
       "email": "praxis@zahnarztpraxis-in-falkensee.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11030472248"
     },
@@ -2779,7 +2779,7 @@
       "website": "https://bluemich-collegen.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2928065325"
     },
@@ -2799,7 +2799,7 @@
       "website": "https://www.biberburg.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5779019383"
     },
@@ -2819,7 +2819,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1233471137"
     },
@@ -2841,7 +2841,7 @@
       "website": "https://www.zahnarzt-rattunde.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12673203083"
     },
@@ -2863,7 +2863,7 @@
       "website": "https://www.praxis-neuweiler.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2822029842"
     },
@@ -2885,7 +2885,7 @@
       "website": "https://www.dentistenberlin.de/seeburg",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/97222455"
     },
@@ -2908,7 +2908,7 @@
       "website": "https://www.praxis-am-heilmannring.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9726820739"
     },
@@ -2930,7 +2930,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4301002392"
     },
@@ -2952,7 +2952,7 @@
       "website": "https://zahnaerzte-in-tegel.de/",
       "email": "praxis@zahnaerzte-in-tegel.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13983366740"
     },
@@ -2972,7 +2972,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/107293501"
     },
@@ -2994,7 +2994,7 @@
       "website": "https://diepferdefrau.de/",
       "email": "diepferdefrau@web.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/1470261099"
     },
@@ -3016,7 +3016,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10766915358"
     },
@@ -3036,7 +3036,7 @@
       "website": "https://malteser-krankenhaus-berlin.de/",
       "email": "verwaltung@malteser-krankenhaus-berlin.de",
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/266782475"
     },
@@ -3058,7 +3058,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10766915361"
     },
@@ -3080,7 +3080,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10766915356"
     },
@@ -3102,7 +3102,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10766915360"
     },
@@ -3124,7 +3124,7 @@
       "website": "https://brustkrebs-therapie.com",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13188472336"
     },
@@ -3146,7 +3146,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4145388521"
     },
@@ -3168,7 +3168,7 @@
       "website": "https://kinderarztpraxis-heiligensee.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12680769061"
     },
@@ -3190,7 +3190,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10001315675"
     },
@@ -3212,7 +3212,7 @@
       "website": "http://m.hnopraxis-berlin.de",
       "email": "hnopraxistegel@freenet.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4555674789"
     },
@@ -3234,7 +3234,7 @@
       "website": "https://www.gesunde-zaehne.berlin/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13572760502"
     },
@@ -3254,7 +3254,7 @@
       "website": "https://www.medicalpark.de/humboldtmuehle",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/184107767"
     },
@@ -3276,7 +3276,7 @@
       "website": "http://augenarzt-tegel.com/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/8319088520"
     },
@@ -3299,7 +3299,7 @@
       "website": "https://www.praxis-neye.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13954234849"
     },
@@ -3321,7 +3321,7 @@
       "website": "https://urologie-tegel.de/",
       "email": "kontakt@urologie-tegel.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12187894434"
     },
@@ -3343,7 +3343,7 @@
       "website": "https://www.augen-berlin-tegel.de",
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2421735920"
     },
@@ -3365,7 +3365,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10840111224"
     },
@@ -3385,7 +3385,7 @@
       "website": "https://hausarztzentrum-tegel.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11734285956"
     },
@@ -3407,7 +3407,7 @@
       "website": "https://fertilitycenterberlin.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12218907397"
     },
@@ -3431,7 +3431,7 @@
       "website": "https://www.dr-anvari.de",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/525495501"
     },
@@ -3453,7 +3453,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10148179190"
     },
@@ -3475,7 +3475,7 @@
       "website": "https://www.kieferorthopaedin.berlin/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1285681206"
     },
@@ -3495,7 +3495,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2935287105"
     },
@@ -3517,7 +3517,7 @@
       "website": "https://hausaerzte-tegel.de/hausaerzte/",
       "email": "praxis@hausaerzte-tegel.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13954234851"
     },
@@ -3537,7 +3537,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3330737659"
     },
@@ -3559,7 +3559,7 @@
       "website": "https://agz.charite.de/fachrichtungen/dermatologie_hautarztzentrum_tegel",
       "email": "mvz-tegel@charite.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13954234850"
     },
@@ -3581,7 +3581,7 @@
       "website": "https://www.zahnoase-berlin.de/",
       "email": "info@zahnoase-berlin.de",
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13983281734"
     },
@@ -3601,7 +3601,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/1445835274"
     },
@@ -3623,7 +3623,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12029672150"
     },
@@ -3645,7 +3645,7 @@
       "website": "https://individualpsychologie.info/",
       "email": "info@josef-auerbach.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5875300954"
     },
@@ -3665,7 +3665,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2126141390"
     },
@@ -3685,7 +3685,7 @@
       "website": "http://www.drk-kliniken-berlin.de/westend/lageplan-der-drk-kliniken-berlin-westend/",
       "email": "email@drk-kliniken-westend.de",
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/53038853"
     },
@@ -3707,7 +3707,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4439380195"
     },
@@ -3727,7 +3727,7 @@
       "website": "http://www.proepi-institut.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7457273095"
     },
@@ -3749,7 +3749,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9587639165"
     },
@@ -3771,7 +3771,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6516579586"
     },
@@ -3793,7 +3793,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2917780974"
     },
@@ -3815,7 +3815,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9547000438"
     },
@@ -3837,7 +3837,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1168898031"
     },
@@ -3859,7 +3859,7 @@
       "website": "https://www.friese-psychotherapie.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11091989389"
     },
@@ -3881,7 +3881,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3059314271"
     },
@@ -3903,7 +3903,7 @@
       "website": "http://www.blasenzentrum.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3166299957"
     },
@@ -3925,7 +3925,7 @@
       "website": "https://berlin-fusschirurg.de/praxis-orthopaedie/",
       "email": "mail@berlin-fusschirurg.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11947101471"
     },
@@ -3947,7 +3947,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3414392396"
     },
@@ -3969,7 +3969,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6312334285"
     },
@@ -3991,7 +3991,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/1524607991"
     },
@@ -4013,7 +4013,7 @@
       "website": "https://www.zahnarzt-siebers.de/",
       "email": "info@zahnarzt-siebers.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12241368367"
     },
@@ -4035,7 +4035,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2421116413"
     },
@@ -4057,7 +4057,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13326812376"
     },
@@ -4079,7 +4079,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2540972560"
     },
@@ -4102,7 +4102,7 @@
       "website": "https://www.ubn-praxis.de",
       "email": "info@ubn-praxis.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13326812375"
     },
@@ -4124,7 +4124,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6656951434"
     },
@@ -4146,7 +4146,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1948871670"
     },
@@ -4166,7 +4166,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4134304689"
     },
@@ -4188,7 +4188,7 @@
       "website": "https://www.derma-kaiserdamm.de/",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1515676194"
     },
@@ -4210,7 +4210,7 @@
       "website": "https://praxiszentrum-kaiserdamm.de/",
       "email": "info@praxiszentrum-kaiserdamm.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13982918501"
     },
@@ -4232,7 +4232,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12400804018"
     },
@@ -4252,7 +4252,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1092753240"
     },
@@ -4274,7 +4274,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11786749011"
     },
@@ -4296,7 +4296,7 @@
       "website": "https://www.hausarzt-charlottenburg.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11397711251"
     },
@@ -4318,7 +4318,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11741911666"
     },
@@ -4340,7 +4340,7 @@
       "website": "https://www.praxis-horst.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6808774024"
     },
@@ -4362,7 +4362,7 @@
       "website": "https://praxis-goehlich.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2432727162"
     },
@@ -4384,7 +4384,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7010624485"
     },
@@ -4406,7 +4406,7 @@
       "website": "https://www.praxis-doktor-berger.de/",
       "email": "mail@praxis-doktor-berger.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/8594871398"
     },
@@ -4426,7 +4426,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9178079418"
     },
@@ -4448,7 +4448,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4793146523"
     },
@@ -4470,7 +4470,7 @@
       "website": "https://www.berlin-zahnaerzte.com/berlin-reinickendorf-eichborndamm/",
       "email": "info@berlin-zahnaerzte.com",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4962021021"
     },
@@ -4492,7 +4492,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13058146861"
     },
@@ -4514,7 +4514,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4448386319"
     },
@@ -4534,7 +4534,7 @@
       "website": null,
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1252990393"
     },
@@ -4557,7 +4557,7 @@
       "website": "https://drbirkner.de/",
       "email": "praxis@drbirkner.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11164956252"
     },
@@ -4580,7 +4580,7 @@
       "website": "https://www.diabetologie-am-lietzensee.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11657335199"
     },
@@ -4602,7 +4602,7 @@
       "website": "http://www.hausaerztin-hoernicke.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13772127392"
     },
@@ -4624,7 +4624,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3394160805"
     },
@@ -4646,7 +4646,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7687756087"
     },
@@ -4668,7 +4668,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10177783714"
     },
@@ -4690,7 +4690,7 @@
       "website": "https://hausarztpraxisfalkensee.de/",
       "email": "hausarztpraxis.falkensee@gmail.com",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5324748996"
     },
@@ -4712,7 +4712,7 @@
       "website": "https://www.tothfalvy.de/",
       "email": "praxis@tothfalvy.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4448386318"
     },
@@ -4732,7 +4732,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4448386321"
     },
@@ -4754,7 +4754,7 @@
       "website": "https://zahnarzt-finkenkrug.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/8044686874"
     },
@@ -4776,7 +4776,7 @@
       "website": "https://www.zahnarzt-teichmann.de/",
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4066530892"
     },
@@ -4798,7 +4798,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4066530891"
     },
@@ -4820,7 +4820,7 @@
       "website": "https://www.frauenaerztin-in-charlottenburg.de",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7101601762"
     },
@@ -4842,7 +4842,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6191846885"
     },
@@ -4864,7 +4864,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9549472740"
     },
@@ -4886,7 +4886,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4448394614"
     },
@@ -4906,7 +4906,7 @@
       "website": "https://www.vivantes.de/huk",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/4765926"
     },
@@ -4928,7 +4928,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12777256950"
     },
@@ -4950,7 +4950,7 @@
       "website": "https://www.praxis-gueven-dursun.de",
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2718245783"
     },
@@ -4972,7 +4972,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4446880409"
     },
@@ -4996,7 +4996,7 @@
       "website": "https://www.hausarzt-ising.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11739197755"
     },
@@ -5018,7 +5018,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4446880410"
     },
@@ -5038,7 +5038,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13238686401"
     },
@@ -5060,7 +5060,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11739197756"
     },
@@ -5082,7 +5082,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12488509944"
     },
@@ -5105,7 +5105,7 @@
       "website": "https://drnicklas.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5201598623"
     },
@@ -5127,7 +5127,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/484267657"
     },
@@ -5149,7 +5149,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9233618517"
     },
@@ -5171,7 +5171,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1979152023"
     },
@@ -5193,7 +5193,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4809449233"
     },
@@ -5215,7 +5215,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/14098981941"
     },
@@ -5237,7 +5237,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9512131903"
     },
@@ -5259,7 +5259,7 @@
       "website": "https://www.praxis-amtsgerichtsplatz.de",
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7014269159"
     },
@@ -5281,7 +5281,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5730290890"
     },
@@ -5303,7 +5303,7 @@
       "website": "https://www.kfh.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/way/31795318"
     },
@@ -5323,7 +5323,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4208552042"
     },
@@ -5345,7 +5345,7 @@
       "website": "https://dentality-lab.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9586774574"
     },
@@ -5367,7 +5367,7 @@
       "website": "http://www.andreathiele.de/",
       "email": "praxis@andreathiele.de",
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3722675323"
     },
@@ -5390,7 +5390,7 @@
       "website": "https://medicalofficeberlin.de/",
       "email": "office@medicalofficeberlin.de",
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/2940544338"
     },
@@ -5412,7 +5412,7 @@
       "website": "https://zahnaerzte-otto-suhr-allee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11603093695"
     },
@@ -5434,7 +5434,7 @@
       "website": "https://biss45.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11983860345"
     },
@@ -5456,7 +5456,7 @@
       "website": "https://www.althaus-berlin.de/",
       "email": "praxis@althaus-berlin.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7811806385"
     },
@@ -5479,7 +5479,7 @@
       "website": "http://www.sporthopaedicum.de/index.php?id=55",
       "email": "info@sporthopaedicum.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5204793854"
     },
@@ -5499,7 +5499,7 @@
       "website": "https://www.praxisklinik-charlottenburg.de",
       "email": "info@praxisklinik-charlottenburg.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/14008212661"
     },
@@ -5522,7 +5522,7 @@
       "website": "https://www.praxiskirstein.de/",
       "email": "kirstein79@gmail.com",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6757561885"
     },
@@ -5545,7 +5545,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/11542760524"
     },
@@ -5567,7 +5567,7 @@
       "website": "https://ketaminplus.com",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/8375854290"
     },
@@ -5589,7 +5589,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7744838940"
     },
@@ -5611,7 +5611,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7744838942"
     },
@@ -5633,7 +5633,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7744838941"
     },
@@ -5655,7 +5655,7 @@
       "website": "https://www.hno-praxis-reinickendorf.de/",
       "email": "kontakt@hno-praxis-reinickendorf.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5175527823"
     },
@@ -5679,7 +5679,7 @@
       "website": "http://www.ortho-dukpa.de",
       "email": "info@ortho-dukpa.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5175515866"
     },
@@ -5701,7 +5701,7 @@
       "website": "http://www.za-reinickendorf.de/",
       "email": "zahnarztpraxis-kanowskij-olchow@web.de",
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5175538299"
     },
@@ -5724,7 +5724,7 @@
       "website": "https://www.praxis-oh3.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5175539921"
     },
@@ -5748,7 +5748,7 @@
       "website": "https://www.kurepkat-aalburg.de/",
       "email": "praxis@kurepkat-aalburg.de",
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5175540646"
     },
@@ -5771,7 +5771,7 @@
       "website": "https://www.mvz-windscheidstrasse.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5186166876"
     },
@@ -5793,7 +5793,7 @@
       "website": "https://praxis-buchheister.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7549698922"
     },
@@ -5815,7 +5815,7 @@
       "website": null,
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4415604088"
     },
@@ -5837,7 +5837,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10148163977"
     },
@@ -5859,7 +5859,7 @@
       "website": "https://www.zahnarzt-sistori.de/",
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/967206093"
     },
@@ -5882,7 +5882,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7549698923"
     },
@@ -5904,7 +5904,7 @@
       "website": null,
       "email": null,
       "wheelchair": "yes",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6441534576"
     },
@@ -5926,7 +5926,7 @@
       "website": "https://mein-frauenarzt-in-berlin.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7744838947"
     },
@@ -5953,7 +5953,7 @@
       "website": "https://www.drlotfiprivatpraxis.de",
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10967611164"
     },
@@ -5975,7 +5975,7 @@
       "website": null,
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/10152011085"
     },
@@ -5997,7 +5997,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5054068386"
     },
@@ -6019,7 +6019,7 @@
       "website": "https://www.prophylaxepraxis-berlin.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7633128465"
     },
@@ -6041,7 +6041,7 @@
       "website": "http://www.ukp-hennigsdorf.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6153473431"
     },
@@ -6063,7 +6063,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/6388933464"
     },
@@ -6085,7 +6085,7 @@
       "website": "https://sanoculus.de/augenarzt-kudamm",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7633128467"
     },
@@ -6107,7 +6107,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9592884385"
     },
@@ -6129,7 +6129,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9592884386"
     },
@@ -6151,7 +6151,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9592884387"
     },
@@ -6173,7 +6173,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9592884388"
     },
@@ -6195,7 +6195,7 @@
       "website": "http://www.zahnarztpraxis-feldmann.de",
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/5181703344"
     },
@@ -6217,7 +6217,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9592884389"
     },
@@ -6239,7 +6239,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9592884390"
     },
@@ -6261,7 +6261,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/13688285680"
     },
@@ -6283,7 +6283,7 @@
       "website": "http://www.dr-w-heinze.de/",
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/8185198474"
     },
@@ -6305,7 +6305,7 @@
       "website": null,
       "email": null,
       "wheelchair": "limited",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9598362840"
     },
@@ -6325,7 +6325,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/7844479113"
     },
@@ -6347,7 +6347,7 @@
       "website": null,
       "email": null,
       "wheelchair": "no",
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/9592884384"
     },
@@ -6369,7 +6369,7 @@
       "website": "https://www.zahnteam-halensee.de/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/3391940094"
     },
@@ -6389,7 +6389,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/1311121838"
     },
@@ -6411,7 +6411,7 @@
       "website": "https://meindentist.de/reinickendorf/",
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/4143174674"
     },
@@ -6433,7 +6433,7 @@
       "website": null,
       "email": null,
       "wheelchair": null,
-      "rating": 0,
+      "rating": null,
       "ratingCount": null,
       "sourceUrl": "https://www.openstreetmap.org/node/12037489221"
     }
