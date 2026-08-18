@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/update-doctors.mjs'
+      - 'data/additional-doctor-candidates.json'
       - '.github/workflows/update-doctors.yml'
   schedule:
     - cron: '17 3 * * 1'
@@ -28,7 +29,7 @@ jobs:
         with:
           ref: main
 
-      - name: Aktuelle Arzt-Daten abrufen
+      - name: Aktuelle Arzt-Daten aus allen Quellen abrufen
         run: node scripts/update-doctors.mjs
 
       - name: Datenänderung committen
@@ -37,6 +38,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/doctors.json
+          if [ -f data/additional-geocache.json ]; then
+            git add data/additional-geocache.json
+          fi
           if git diff --cached --quiet; then
             echo "Nichts zu committen."
           else
