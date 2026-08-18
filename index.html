@@ -11,6 +11,27 @@
   <link rel="preconnect" href="https://tile.openstreetmap.org">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynwlYqTqNfRo9VXWBYqfXtP3Qq5Q=" crossorigin="">
   <link rel="stylesheet" href="./styles.css">
+  <style>
+    html, body { width: 100%; height: 100%; min-height: 100%; }
+    body { min-height: 100dvh; }
+    .app-shell { height: 100dvh; min-height: 0; grid-template-rows: auto auto minmax(0, 1fr); }
+    .workspace { min-height: 0; overflow: hidden; grid-template-columns: 360px minmax(0, 1fr); }
+    .map-wrap { width: 100%; height: 100%; min-width: 0; min-height: 0; overflow: hidden; }
+    #map { width: 100%; height: 100%; min-height: 260px; }
+    .select-wrap select {
+      background: #0d1d29 !important;
+      color: #eff8ff !important;
+      color-scheme: dark;
+    }
+    .select-wrap select option {
+      background: #0d1d29 !important;
+      color: #eff8ff !important;
+    }
+    @media (max-width: 840px) {
+      .workspace { grid-template-columns: minmax(0, 1fr); }
+      .map-wrap, #map { min-height: 300px; }
+    }
+  </style>
 </head>
 <body>
   <div class="app-shell">
