@@ -7,6 +7,7 @@ on:
       - 'scripts/update-doctors.mjs'
       - 'data/additional-doctor-candidates.json'
       - 'data/manual-doctor-additions.json'
+      - 'data/manual-doctor-additions-round2.json'
       - '.github/workflows/update-doctors.yml'
   schedule:
     - cron: '17 3 * * 1'
@@ -36,15 +37,21 @@ jobs:
           node - <<'NODE'
           const fs = require('fs');
           const basePath = 'data/additional-doctor-candidates.json';
-          const manualPath = 'data/manual-doctor-additions.json';
+          const manualPaths = [
+            'data/manual-doctor-additions.json',
+            'data/manual-doctor-additions-round2.json'
+          ];
           const base = JSON.parse(fs.readFileSync(basePath, 'utf8'));
-          const manual = JSON.parse(fs.readFileSync(manualPath, 'utf8'));
+          const manualDoctors = manualPaths.flatMap((file) => {
+            const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+            return data.doctors || [];
+          });
           const merged = {
             ...base,
-            doctors: [...(base.doctors || []), ...(manual.doctors || [])]
+            doctors: [...(base.doctors || []), ...manualDoctors]
           };
           fs.writeFileSync(basePath, JSON.stringify(merged, null, 2) + '\n');
-          console.log(`Zusatzquellen: ${(base.doctors || []).length} automatisch + ${(manual.doctors || []).length} manuell verifiziert.`);
+          console.log(`Zusatzquellen: ${(base.doctors || []).length} automatisch + ${manualDoctors.length} manuell verifiziert.`);
           NODE
 
       - name: Aktuelle Arzt-Daten aus allen Quellen abrufen
