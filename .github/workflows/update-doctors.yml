@@ -20,17 +20,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  update-data:
     runs-on: ubuntu-latest
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v6
-
-      - name: Laufzeit anzeigen
-        run: node --version
+        with:
+          ref: main
 
       - name: Aktuelle Arzt-Daten abrufen
         run: node scripts/update-doctors.mjs
@@ -45,17 +41,29 @@ jobs:
             echo "Nichts zu committen."
           else
             git commit -m "Arzt-Daten automatisch aktualisieren"
-            git push
+            git push origin HEAD:main
           fi
+
+  deploy-pages:
+    needs: update-data
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Neueste Version auschecken
+        uses: actions/checkout@v6
+        with:
+          ref: main
 
       - name: GitHub Pages konfigurieren
         uses: actions/configure-pages@v5
 
-      - name: Aktualisierte Seite hochladen
+      - name: Seite hochladen
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
 
-      - name: Aktualisierte Karte veröffentlichen
+      - name: Karte veröffentlichen
         id: deployment
         uses: actions/deploy-pages@v4
