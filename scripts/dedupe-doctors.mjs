@@ -9,11 +9,12 @@ const MAX_DUPLICATE_DISTANCE_KM = 0.18;
 const data = JSON.parse(await fs.readFile(FILE, 'utf8'));
 const doctors = Array.isArray(data.doctors) ? data.doctors : [];
 const groups = new Map();
+const ungrouped = [];
 
 for (const doctor of doctors) {
   const name = canonicalName(doctor.name);
   if (!name || name.startsWith('unbenannte ')) {
-    addUnique(doctor);
+    ungrouped.push(cloneDoctor(doctor));
     continue;
   }
 
@@ -29,7 +30,7 @@ for (const doctor of doctors) {
 
 const deduped = [];
 for (const entries of groups.values()) deduped.push(...entries);
-for (const doctor of ungrouped) deduped.push(doctor);
+deduped.push(...ungrouped);
 
 deduped.sort((a, b) => Number(a.distanceKm ?? Infinity) - Number(b.distanceKm ?? Infinity) || String(a.name || '').localeCompare(String(b.name || ''), 'de'));
 
@@ -43,12 +44,6 @@ data.stats = {
 
 await fs.writeFile(FILE, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
 console.log(`Dublettenbereinigung: ${doctors.length} -> ${deduped.length} (${removed} entfernt).`);
-
-const ungrouped = [];
-
-function addUnique(doctor) {
-  ungrouped.push(cloneDoctor(doctor));
-}
 
 function sameDoctorLocation(a, b) {
   const latA = Number(a.lat);
@@ -125,7 +120,6 @@ function canonicalName(value) {
 function canonicalAddress(value) {
   return normalize(value)
     .replace(/\b(strasse|str)\b/g, 'str')
-    .replace(/\b(platz)\b/g, 'platz')
     .replace(/\s+(\d+)\s+([a-z])\b/g, ' $1$2')
     .replace(/\s+/g, ' ')
     .trim();
