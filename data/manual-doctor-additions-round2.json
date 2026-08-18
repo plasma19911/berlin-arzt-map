@@ -36,14 +36,14 @@
       "sourceUrl": "https://hausarzt-mildenberger.de/"
     },
     {
-      "name": "Dr. med. Ute Dulisch",
+      "name": "Dr. med. Ute Kariger-Schweigert",
       "type": "Arztpraxis",
       "specialties": ["Augenheilkunde"],
       "address": "Straße der Einheit 127a, 14612 Falkensee",
       "phone": "03322 1213996",
       "website": "https://www.augenarzt-falkensee.de/",
-      "openingHours": null,
-      "sourceName": "Augenarztpraxis Falkensee – offizielle Praxiswebseite",
+      "openingHours": "Mo 08:00-14:00; Tu 08:00-14:00; We 08:00-12:30,13:30-18:00; Th 08:00-14:00",
+      "sourceName": "Augenarztpraxis Dr. Ute Kariger-Schweigert – offizielle Praxiswebseite",
       "sourceUrl": "https://www.augenarzt-falkensee.de/"
     },
     {
