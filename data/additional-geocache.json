@@ -1,0 +1,720 @@
+{
+  "schemaVersion": 1,
+  "items": {
+    "franz meyer str 2 13587 berlin": {
+      "address": "Franz-Meyer-Str. 2, 13587 Berlin",
+      "lat": 52.5571571,
+      "lon": 13.218557,
+      "displayName": "2, Franz-Meyer-Straße, Quartier Havelspitze, Wasserstadt Spandau, Hakenfelde, Spandau, Berlin, 13587, Deutschland",
+      "checkedAt": "2026-08-18T20:36:58.003Z"
+    },
+    "neumeisterstr 1 13585 berlin": {
+      "address": "Neumeisterstr. 1, 13585 Berlin",
+      "lat": 52.547676,
+      "lon": 13.2019336,
+      "displayName": "1, Neumeisterstraße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:36:59.262Z"
+    },
+    "carl schurz str 27 13597 berlin": {
+      "address": "Carl-Schurz-Str. 27, 13597 Berlin",
+      "lat": 52.5367527,
+      "lon": 13.2023815,
+      "displayName": "27, Carl-Schurz-Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:36:59.990Z"
+    },
+    "breite str 35 13597 berlin": {
+      "address": "Breite Str. 35, 13597 Berlin",
+      "lat": 52.5380486,
+      "lon": 13.2068219,
+      "displayName": "Eiscafé Millefiori, 35, Breite Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:01.978Z"
+    },
+    "seeburger str 8 13581 berlin": {
+      "address": "Seeburger Str. 8, 13581 Berlin",
+      "lat": 52.5286636,
+      "lon": 13.1920347,
+      "displayName": "Hair Atelier, 8, Seeburger Straße, Wilhelmstadt, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T20:37:02.317Z"
+    },
+    "schonwalder str 42 13585 berlin": {
+      "address": "Schönwalder Str. 42, 13585 Berlin",
+      "lat": 52.5506411,
+      "lon": 13.2004927,
+      "displayName": "42, Schönwalder Straße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:03.762Z"
+    },
+    "galenstr 3 13597 berlin": {
+      "address": "Galenstr. 3, 13597 Berlin",
+      "lat": 52.5359644,
+      "lon": 13.1952749,
+      "displayName": "3, Galenstraße, Georg-Ramin-Siedlung, Klosterfelde, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:04.427Z"
+    },
+    "schonwalder str 1 13585 berlin": {
+      "address": "Schönwalder Str. 1, 13585 Berlin",
+      "lat": 52.5432963,
+      "lon": 13.2062295,
+      "displayName": "1, Schönwalder Straße, Kolk, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:05.590Z"
+    },
+    "neumeisterstr 17 13585 berlin": {
+      "address": "Neumeisterstr. 17, 13585 Berlin",
+      "lat": 52.5479165,
+      "lon": 13.2016323,
+      "displayName": "17, Neumeisterstraße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:06.584Z"
+    },
+    "carl schurz str 46 13597 berlin": {
+      "address": "Carl-Schurz-Str. 46, 13597 Berlin",
+      "lat": 52.5379148,
+      "lon": 13.2045053,
+      "displayName": "46, Carl-Schurz-Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:07.705Z"
+    },
+    "borkzeile 10 13583 berlin": {
+      "address": "Borkzeile 10, 13583 Berlin",
+      "lat": 52.5376683,
+      "lon": 13.1902453,
+      "displayName": "10, Borkzeile, Georg-Ramin-Siedlung, Spandau-West, Spandau, Berlin, 13583, Deutschland",
+      "checkedAt": "2026-08-18T20:37:09.156Z"
+    },
+    "schonwalder str 110 13585 berlin": {
+      "address": "Schönwalder Str. 110, 13585 Berlin",
+      "lat": 52.5446695,
+      "lon": 13.2041452,
+      "displayName": "110, Schönwalder Straße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:10.265Z"
+    },
+    "kurstr 20 13585 berlin": {
+      "address": "Kurstr. 20, 13585 Berlin",
+      "lat": 52.5481417,
+      "lon": 13.2083772,
+      "displayName": "20, Kurstraße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:11.340Z"
+    },
+    "bramwaldweg 6 13589 berlin": {
+      "address": "Bramwaldweg 6, 13589 Berlin",
+      "lat": 52.5518731,
+      "lon": 13.1803387,
+      "displayName": "6, Bramwaldweg, Siegener Viertel, Falkenhagener Feld, Spandau, Berlin, 13589, Deutschland",
+      "checkedAt": "2026-08-18T20:37:12.128Z"
+    },
+    "flankenschanze 4 13585 berlin": {
+      "address": "Flankenschanze 4, 13585 Berlin",
+      "lat": 52.545731,
+      "lon": 13.200336,
+      "displayName": "4, Flankenschanze, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:13.696Z"
+    },
+    "schonwalder allee 26 13587 berlin": {
+      "address": "Schönwalder Allee 26, 13587 Berlin",
+      "lat": 52.5732865,
+      "lon": 13.1982351,
+      "displayName": "Schule ohne Grenzen, 26/29a, Schönwalder Allee, Waldsiedlung Hakenfelde, Hakenfelde, Spandau, Berlin, 13587, Deutschland",
+      "checkedAt": "2026-08-18T20:37:14.764Z"
+    },
+    "kienhorststr 151 13403 berlin": {
+      "address": "Kienhorststr. 151, 13403 Berlin",
+      "lat": 52.5743955,
+      "lon": 13.3154034,
+      "displayName": "151, Kienhorststraße, Reinickendorf, Berlin, 13403, Deutschland",
+      "checkedAt": "2026-08-18T20:37:15.871Z"
+    },
+    "neue kantstr 32 14057 berlin": {
+      "address": "Neue Kantstr. 32, 14057 Berlin",
+      "lat": 52.5065904,
+      "lon": 13.2943055,
+      "displayName": "Arztpraxis am Amtsgerichtsplatz, 32, Neue Kantstraße, Witzleben, Charlottenburg, Charlottenburg-Wilmersdorf, Berlin, 14057, Deutschland",
+      "checkedAt": "2026-08-18T20:37:16.461Z"
+    },
+    "klosterstr 34 35 13581 berlin": {
+      "address": "Klosterstr. 34-35, 13581 Berlin",
+      "lat": 52.5321292,
+      "lon": 13.1985553,
+      "displayName": "34-35, Klosterstraße, Stresow, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T20:37:18.064Z"
+    },
+    "markt 1 13597 berlin": {
+      "address": "Markt 1, 13597 Berlin",
+      "lat": 52.5372575,
+      "lon": 13.2038801,
+      "displayName": "1;1A, Markt, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:18.875Z"
+    },
+    "carl schurz str 33 13597 berlin": {
+      "address": "Carl-Schurz-Str. 33, 13597 Berlin",
+      "lat": 52.537283,
+      "lon": 13.2029821,
+      "displayName": "33, Carl-Schurz-Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:20.163Z"
+    },
+    "klosterstr 34 13581 berlin": {
+      "address": "Klosterstr. 34, 13581 Berlin",
+      "lat": 52.5322809,
+      "lon": 13.1983688,
+      "displayName": "34, Klosterstraße, Altstadt, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T20:37:20.865Z"
+    },
+    "markt 5 13597 berlin": {
+      "address": "Markt 5, 13597 Berlin",
+      "lat": 52.5367966,
+      "lon": 13.2047781,
+      "displayName": "5, Markt, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:22.769Z"
+    },
+    "galenstr 4 13597 berlin": {
+      "address": "Galenstr. 4, 13597 Berlin",
+      "lat": 52.5359476,
+      "lon": 13.1957482,
+      "displayName": "4, Galenstraße, Georg-Ramin-Siedlung, Klosterfelde, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:23.104Z"
+    },
+    "bismarckstr 63 13585 berlin": {
+      "address": "Bismarckstr. 63, 13585 Berlin",
+      "lat": 52.5419454,
+      "lon": 13.2044019,
+      "displayName": "63, Bismarckstraße, Kolk, Altstadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:24.761Z"
+    },
+    "moritzstr 1 13597 berlin": {
+      "address": "Moritzstr. 1, 13597 Berlin",
+      "lat": 52.5377383,
+      "lon": 13.20353,
+      "displayName": "1, Moritzstraße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:25.225Z"
+    },
+    "carl schurz str 42 13597 berlin": {
+      "address": "Carl-Schurz-Str. 42, 13597 Berlin",
+      "lat": 52.5376926,
+      "lon": 13.2042275,
+      "displayName": "42, Carl-Schurz-Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:26.449Z"
+    },
+    "klosterstr 3 13581 berlin": {
+      "address": "Klosterstr. 3, 13581 Berlin",
+      "lat": 52.5337539,
+      "lon": 13.1957661,
+      "displayName": "3, Klosterstraße, Altstadt, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T20:37:27.522Z"
+    },
+    "falkenhagener str 52 13585 berlin": {
+      "address": "Falkenhagener Str. 52, 13585 Berlin",
+      "lat": 52.5459312,
+      "lon": 13.2002759,
+      "displayName": "52, Falkenhagener Straße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:28.646Z"
+    },
+    "klosterstr 23 13581 berlin": {
+      "address": "Klosterstr. 23, 13581 Berlin",
+      "lat": 52.5298194,
+      "lon": 13.1965753,
+      "displayName": "23, Klosterstraße, Klosterfelde, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T20:37:29.856Z"
+    },
+    "markt 2 3 13597 berlin": {
+      "address": "Markt 2-3, 13597 Berlin",
+      "lat": 52.5370546,
+      "lon": 13.2042425,
+      "displayName": "2-3, Markt, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:30.913Z"
+    },
+    "breite str 18 13597 berlin": {
+      "address": "Breite Str. 18, 13597 Berlin",
+      "lat": 52.5364357,
+      "lon": 13.2050408,
+      "displayName": "18, Breite Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:32.032Z"
+    },
+    "friedrichstr 3 13585 berlin": {
+      "address": "Friedrichstr. 3, 13585 Berlin",
+      "lat": 52.5414633,
+      "lon": 13.2044599,
+      "displayName": "Dr. med. Florentine Jungbluth, 3, Friedrichstraße, Kolk, Altstadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:33.871Z"
+    },
+    "neue bergstr 6 13585 berlin": {
+      "address": "Neue Bergstr. 6, 13585 Berlin",
+      "lat": 52.5490574,
+      "lon": 13.206213,
+      "displayName": "6, Neue Bergstraße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:34.255Z"
+    },
+    "klosterstr 6 7 13581 berlin": {
+      "address": "Klosterstr. 6-7, 13581 Berlin",
+      "lat": 52.5322684,
+      "lon": 13.1974758,
+      "displayName": "6-7, Klosterstraße, Altstadt, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T20:37:35.663Z"
+    },
+    "neuendorfer str 70 13585 berlin": {
+      "address": "Neuendorfer Str. 70, 13585 Berlin",
+      "lat": 52.5499725,
+      "lon": 13.209714,
+      "displayName": "70, Neuendorfer Straße, Speicherballett, Maselake-Zentrum, Hakenfelde, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:36.765Z"
+    },
+    "markt 2 13597 berlin": {
+      "address": "Markt 2, 13597 Berlin",
+      "lat": 52.5370546,
+      "lon": 13.2042425,
+      "displayName": "2-3, Markt, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:38.870Z"
+    },
+    "breite str 53 13597 berlin": {
+      "address": "Breite Str. 53, 13597 Berlin",
+      "lat": 52.5372939,
+      "lon": 13.2056182,
+      "displayName": "52;53, Breite Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:39.601Z"
+    },
+    "galenstr 25 a 13597 berlin": {
+      "address": "Galenstr. 25 A, 13597 Berlin",
+      "lat": 52.5377613,
+      "lon": 13.1956137,
+      "displayName": "25A, Galenstraße, Georg-Ramin-Siedlung, Klosterfelde, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:40.695Z"
+    },
+    "paula hirschfeld steig 11 13585 berlin": {
+      "address": "Paula-Hirschfeld-Steig 11, 13585 Berlin",
+      "lat": 52.5454601,
+      "lon": 13.2106548,
+      "displayName": "11, Paula-Hirschfeld-Steig, Quartier Schultheiss, Hakenfelde, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:41.702Z"
+    },
+    "lynarstr 12 13585 berlin": {
+      "address": "Lynarstr. 12, 13585 Berlin",
+      "lat": 52.5488933,
+      "lon": 13.2066897,
+      "displayName": "12, Lynarstraße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T20:37:42.341Z"
+    },
+    "breite str 47 13597 berlin": {
+      "address": "Breite Str. 47, 13597 Berlin",
+      "lat": 52.5379566,
+      "lon": 13.2063733,
+      "displayName": "47, Breite Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:43.676Z"
+    },
+    "berliner str 5 13507 berlin": {
+      "address": "Berliner Str. 5, 13507 Berlin",
+      "lat": 52.5889388,
+      "lon": 13.283915,
+      "displayName": "5, Berliner Straße, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland",
+      "checkedAt": "2026-08-18T20:37:45.202Z"
+    },
+    "wattstr 12 13629 berlin": {
+      "address": "Wattstr. 12, 13629 Berlin",
+      "lat": 52.5370845,
+      "lon": 13.2663513,
+      "displayName": "Royal Asia, 12, Wattstraße, Siedlung Heimat, Alt-Siemensstadt, Siemensstadt, Spandau, Berlin, 13629, Deutschland",
+      "checkedAt": "2026-08-18T20:37:45.980Z"
+    },
+    "gatower str 59 13595 berlin": {
+      "address": "Gatower Str. 59, 13595 Berlin",
+      "lat": 52.516071,
+      "lon": 13.1858059,
+      "displayName": "59, Gatower Straße, Bocksfelde, Wilhelmstadt, Spandau, Berlin, 13595, Deutschland",
+      "checkedAt": "2026-08-18T20:37:47.100Z"
+    },
+    "pichelsdorfer str 140 13595 berlin": {
+      "address": "Pichelsdorfer Str. 140, 13595 Berlin",
+      "lat": 52.5270118,
+      "lon": 13.1962018,
+      "displayName": "140, Pichelsdorfer Straße, Wilhelmstadt, Spandau, Berlin, 13595, Deutschland",
+      "checkedAt": "2026-08-18T20:37:48.300Z"
+    },
+    "breite str 49 13597 berlin": {
+      "address": "Breite Str. 49, 13597 Berlin",
+      "lat": 52.5376533,
+      "lon": 13.2060372,
+      "displayName": "49, Breite Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:49.498Z"
+    },
+    "breite str 37 13597 berlin": {
+      "address": "Breite Str. 37, 13597 Berlin",
+      "lat": 52.5383362,
+      "lon": 13.2072197,
+      "displayName": "37, Breite Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:50.273Z"
+    },
+    "moritzstr 11 13597 berlin": {
+      "address": "Moritzstr. 11, 13597 Berlin",
+      "lat": 52.5388288,
+      "lon": 13.1996714,
+      "displayName": "11, Moritzstraße, Georg-Ramin-Siedlung, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:51.602Z"
+    },
+    "carl schurz str 23 13597 berlin": {
+      "address": "Carl-Schurz-Str. 23, 13597 Berlin",
+      "lat": 52.5365652,
+      "lon": 13.2021318,
+      "displayName": "EuroShop, 23, Carl-Schurz-Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:52.689Z"
+    },
+    "carl schurz str 53 13597 berlin": {
+      "address": "Carl-Schurz-Str. 53, 13597 Berlin",
+      "lat": 52.5383803,
+      "lon": 13.2045256,
+      "displayName": "GIZ gGmbH, 53, Carl-Schurz-Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:53.380Z"
+    },
+    "moritzstr 22 13597 berlin": {
+      "address": "Moritzstr. 22, 13597 Berlin",
+      "lat": 52.53778,
+      "lon": 13.2027841,
+      "displayName": "22, Moritzstraße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:54.418Z"
+    },
+    "klosterstr 33 13581 berlin": {
+      "address": "Klosterstr. 33, 13581 Berlin",
+      "lat": 52.5319656,
+      "lon": 13.1978155,
+      "displayName": "Grieneisen Bestattungen, 33, Klosterstraße, Stresow, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T20:37:55.992Z"
+    },
+    "judenstr 28 13597 berlin": {
+      "address": "Jüdenstr. 28, 13597 Berlin",
+      "lat": 52.5382618,
+      "lon": 13.2031509,
+      "displayName": "28, Jüdenstraße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:58.109Z"
+    },
+    "fischerstr 35 13597 berlin": {
+      "address": "Fischerstr. 35, 13597 Berlin",
+      "lat": 52.5360604,
+      "lon": 13.2053165,
+      "displayName": "35, Fischerstraße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:37:58.644Z"
+    },
+    "klosterstr 6 13581 berlin": {
+      "address": "Klosterstr. 6, 13581 Berlin",
+      "lat": 52.5323465,
+      "lon": 13.1975304,
+      "displayName": "Kloster-Apotheke, 6/7, Klosterstraße, Altstadt, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T20:38:00.043Z"
+    },
+    "moritzstr 2 13597 berlin": {
+      "address": "Moritzstr. 2, 13597 Berlin",
+      "lat": 52.537825,
+      "lon": 13.2031886,
+      "displayName": "2, Moritzstraße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:38:00.835Z"
+    },
+    "breite str 17 13597 berlin": {
+      "address": "Breite Str. 17, 13597 Berlin",
+      "lat": 52.5363773,
+      "lon": 13.2049044,
+      "displayName": "17, Breite Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T20:38:01.747Z"
+    },
+    "poststr 48 50 14612 falkensee": {
+      "address": "Poststr. 48-50, 14612 Falkensee",
+      "lat": 52.5613153,
+      "lon": 13.0861774,
+      "displayName": "Medihaus Falkensee, 48/50, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:03.017Z"
+    },
+    "friedrich engels allee 66 14612 falkensee": {
+      "address": "Friedrich-Engels-Allee 66, 14612 Falkensee",
+      "lat": 52.5750501,
+      "lon": 13.0743869,
+      "displayName": "66, Friedrich-Engels-Allee, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:03.840Z"
+    },
+    "spandauer str 146 14612 falkensee": {
+      "address": "Spandauer Str. 146, 14612 Falkensee",
+      "lat": 52.5591042,
+      "lon": 13.1331436,
+      "displayName": "Meier Augenoptik, 146, Spandauer Straße, Gartenstadt Falkenhöh, Falkenhöh, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:04.882Z"
+    },
+    "adlerstr 48 14612 falkensee": {
+      "address": "Adlerstr. 48, 14612 Falkensee",
+      "lat": 52.5594682,
+      "lon": 13.07574,
+      "displayName": "Adlerstraße, 48, Adlerstraße, Falkenhorst, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:06.435Z"
+    },
+    "rudolf breitscheid str 74 14612 falkensee": {
+      "address": "Rudolf-Breitscheid-Str. 74, 14612 Falkensee",
+      "lat": 52.5586924,
+      "lon": 13.0508939,
+      "displayName": "74, Rudolf-Breitscheid-Straße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:07.162Z"
+    },
+    "havellander weg 10 14612 falkensee": {
+      "address": "Havelländer Weg 10, 14612 Falkensee",
+      "lat": 52.5800936,
+      "lon": 13.0631048,
+      "displayName": "10, Havelländer Weg, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:08.225Z"
+    },
+    "poststr 46 14612 falkensee": {
+      "address": "Poststr. 46, 14612 Falkensee",
+      "lat": 52.5611548,
+      "lon": 13.0866139,
+      "displayName": "Ärztehaus, 46, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:09.639Z"
+    },
+    "bahnhofstr 66 14612 falkensee": {
+      "address": "Bahnhofstr. 66, 14612 Falkensee",
+      "lat": 52.5611488,
+      "lon": 13.0932106,
+      "displayName": "66, Bahnhofstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:10.465Z"
+    },
+    "spandauer str 188 b 14612 falkensee": {
+      "address": "Spandauer Str. 188 b, 14612 Falkensee",
+      "lat": 52.5571372,
+      "lon": 13.1403803,
+      "displayName": "188B, Spandauer Straße, Gartenstadt Falkenhöh, Falkenhöh, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:12.746Z"
+    },
+    "dallgower str 9 14612 falkensee": {
+      "address": "Dallgower Str. 9, 14612 Falkensee",
+      "lat": 52.5578986,
+      "lon": 13.0916588,
+      "displayName": "Gesundheitszentrum Falkensee, 9, Dallgower Straße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:13.377Z"
+    },
+    "poststr 41 14612 falkensee": {
+      "address": "Poststr. 41, 14612 Falkensee",
+      "lat": 52.5612907,
+      "lon": 13.0875064,
+      "displayName": "41, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:13.995Z"
+    },
+    "potsdamer str 1 a 14612 falkensee": {
+      "address": "Potsdamer Str. 1 a, 14612 Falkensee",
+      "lat": 52.559073,
+      "lon": 13.0899766,
+      "displayName": "1a, Potsdamer Straße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:15.578Z"
+    },
+    "dallgower str 10 14 14612 falkensee": {
+      "address": "Dallgower Str. 10-14, 14612 Falkensee",
+      "lat": 52.5576834,
+      "lon": 13.0923728,
+      "displayName": "10-14, Dallgower Straße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:16.669Z"
+    },
+    "bahnhofstr 44 14612 falkensee": {
+      "address": "Bahnhofstr. 44, 14612 Falkensee",
+      "lat": 52.5630757,
+      "lon": 13.096298,
+      "displayName": "44, Bahnhofstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:17.320Z"
+    },
+    "fehrbelliner str 28 14612 falkensee": {
+      "address": "Fehrbelliner Str. 28, 14612 Falkensee",
+      "lat": 52.5736424,
+      "lon": 13.0917332,
+      "displayName": "Hausarztpraxis Dr. med. Vanessa Stüsser, 28, Fehrbelliner Straße, Falkenhain, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:18.749Z"
+    },
+    "karl marx str 68 14612 falkensee": {
+      "address": "Karl-Marx-Str. 68, 14612 Falkensee",
+      "lat": 52.569353,
+      "lon": 13.0511453,
+      "displayName": "68, Karl-Marx-Straße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:19.537Z"
+    },
+    "bahnhofstr 52 a 14612 falkensee": {
+      "address": "Bahnhofstr. 52 a, 14612 Falkensee",
+      "lat": 52.5621628,
+      "lon": 13.0947118,
+      "displayName": "52a, Bahnhofstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:21.071Z"
+    },
+    "bahnhofstr 64 14612 falkensee": {
+      "address": "Bahnhofstr. 64, 14612 Falkensee",
+      "lat": 52.561335,
+      "lon": 13.093512,
+      "displayName": "64, Bahnhofstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:21.698Z"
+    },
+    "hansastr 12 14612 falkensee": {
+      "address": "Hansastr. 12, 14612 Falkensee",
+      "lat": 52.5621713,
+      "lon": 13.0870759,
+      "displayName": "12, Hansastraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:22.817Z"
+    },
+    "wachtelfeld 9 14612 falkensee": {
+      "address": "Wachtelfeld 9, 14612 Falkensee",
+      "lat": 52.5598933,
+      "lon": 13.0515865,
+      "displayName": "9, Wachtelfeld, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:24.374Z"
+    },
+    "bahnstr 5 7 14612 falkensee": {
+      "address": "Bahnstr. 5-7, 14612 Falkensee",
+      "lat": 52.5601019,
+      "lon": 13.0898963,
+      "displayName": "5-7, Bahnstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:25.061Z"
+    },
+    "grusonstr 3 14612 falkensee": {
+      "address": "Grusonstr. 3, 14612 Falkensee",
+      "lat": 52.5574244,
+      "lon": 13.0882614,
+      "displayName": "3, Grusonstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:26.569Z"
+    },
+    "holbeinstr 38 14612 falkensee": {
+      "address": "Holbeinstr. 38, 14612 Falkensee",
+      "lat": 52.5653539,
+      "lon": 13.047038,
+      "displayName": "38, Holbeinstraße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:27.198Z"
+    },
+    "poststr 27 14612 falkensee": {
+      "address": "Poststr. 27, 14612 Falkensee",
+      "lat": 52.5606908,
+      "lon": 13.091046,
+      "displayName": "Stadtvilla, 27, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:28.781Z"
+    },
+    "potsdamer str 12 14612 falkensee": {
+      "address": "Potsdamer Str. 12, 14612 Falkensee",
+      "lat": 52.558071,
+      "lon": 13.0903549,
+      "displayName": "12, Potsdamer Straße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:29.394Z"
+    },
+    "bahnhofstr 61 14612 falkensee": {
+      "address": "Bahnhofstr. 61, 14612 Falkensee",
+      "lat": 52.5621555,
+      "lon": 13.093852,
+      "displayName": "Coronita, 61, Bahnhofstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:30.970Z"
+    },
+    "poststr 22 24 14612 falkensee": {
+      "address": "Poststr. 22-24, 14612 Falkensee",
+      "lat": 52.5588662,
+      "lon": 13.0937114,
+      "displayName": "Poststraße, Merlin-Quartier, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:32.073Z"
+    },
+    "bahnhofstr 10 14612 falkensee": {
+      "address": "Bahnhofstr. 10, 14612 Falkensee",
+      "lat": 52.5651226,
+      "lon": 13.1012393,
+      "displayName": "10, Bahnhofstraße, Falkenhagen, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:33.049Z"
+    },
+    "ringpromenade 76 14612 falkensee": {
+      "address": "Ringpromenade 76, 14612 Falkensee",
+      "lat": 52.5636525,
+      "lon": 13.0898957,
+      "displayName": "76, Ringpromenade, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:33.874Z"
+    },
+    "spandauer str 53 14612 falkensee": {
+      "address": "Spandauer Str. 53, 14612 Falkensee",
+      "lat": 52.562078,
+      "lon": 13.1189603,
+      "displayName": "53, Spandauer Straße, Falkenhagen-Ost, Falkenhagen, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:34.851Z"
+    },
+    "potsdamer str 2 14612 falkensee": {
+      "address": "Potsdamer Str. 2, 14612 Falkensee",
+      "lat": 52.5589347,
+      "lon": 13.0907527,
+      "displayName": "2, Potsdamer Straße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:36.482Z"
+    },
+    "poststr 56 14612 falkensee": {
+      "address": "Poststr. 56, 14612 Falkensee",
+      "lat": 52.561549,
+      "lon": 13.085272,
+      "displayName": "56, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:37.113Z"
+    },
+    "kolner str 40 14612 falkensee": {
+      "address": "Kölner Str. 40, 14612 Falkensee",
+      "lat": 52.561449,
+      "lon": 13.1133507,
+      "displayName": "40, Kölner Straße, Falkenhagen-Ost, Siedlung Seegefeld Ost, Falkenhagen, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:38.150Z"
+    },
+    "ringpromenade 101 14612 falkensee": {
+      "address": "Ringpromenade 101, 14612 Falkensee",
+      "lat": 52.5636277,
+      "lon": 13.0844347,
+      "displayName": "101, Ringpromenade, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:39.293Z"
+    },
+    "falkenhagener str 79 14612 falkensee": {
+      "address": "Falkenhagener Str. 79, 14612 Falkensee",
+      "lat": 52.56946,
+      "lon": 13.0970295,
+      "displayName": "79, Falkenhagener Straße, Falkenhagen, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:38:40.477Z"
+    },
+    "veitstr 36 13507 berlin": {
+      "address": "Veitstr. 36, 13507 Berlin",
+      "lat": 52.5858437,
+      "lon": 13.2854575,
+      "displayName": "36, Veitstraße, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland",
+      "checkedAt": "2026-08-18T20:38:41.495Z"
+    },
+    "tile brugge weg 15 13509 berlin": {
+      "address": "Tile-Brügge-Weg 15, 13509 Berlin",
+      "lat": 52.5914355,
+      "lon": 13.2902835,
+      "displayName": "15, Tile-Brügge-Weg, Tegel, Reinickendorf, Berlin, 13509, Deutschland",
+      "checkedAt": "2026-08-18T20:38:42.575Z"
+    },
+    "waidmannsluster damm 21 13509 berlin": {
+      "address": "Waidmannsluster Damm 21, 13509 Berlin",
+      "lat": 52.5962098,
+      "lon": 13.2911476,
+      "displayName": "Getränke Hoffmann, 21a, Waidmannsluster Damm, Freie Scholle, Tegel, Reinickendorf, Berlin, 13509, Deutschland",
+      "checkedAt": "2026-08-18T20:38:44.267Z"
+    },
+    "ziekowstr 114 13509 berlin": {
+      "address": "Ziekowstr. 114, 13509 Berlin",
+      "lat": 52.5893978,
+      "lon": 13.2930829,
+      "displayName": "114, Ziekowstraße, Kleinhaussiedlung am Steinberg, Tegel, Reinickendorf, Berlin, 13509, Deutschland",
+      "checkedAt": "2026-08-18T20:38:44.853Z"
+    },
+    "berliner str 6 13507 berlin": {
+      "address": "Berliner Str. 6, 13507 Berlin",
+      "lat": 52.5886156,
+      "lon": 13.2843348,
+      "displayName": "HIT Hausärzte in Tegel, 6, Berliner Straße, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland",
+      "checkedAt": "2026-08-18T20:38:46.165Z"
+    },
+    "berliner str 2 13507 berlin": {
+      "address": "Berliner Str. 2, 13507 Berlin",
+      "lat": 52.5893329,
+      "lon": 13.2833809,
+      "displayName": "2, Berliner Straße, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland",
+      "checkedAt": "2026-08-18T20:38:47.671Z"
+    },
+    "berliner str 91 13507 berlin": {
+      "address": "Berliner Str. 91, 13507 Berlin",
+      "lat": 52.5875651,
+      "lon": 13.2861254,
+      "displayName": "Dr. Malte Zorn, 91, Berliner Straße, Tegel, Reinickendorf, Berlin, 13507, Deutschland",
+      "checkedAt": "2026-08-18T20:38:48.769Z"
+    },
+    "schlossstr 2 13507 berlin": {
+      "address": "Schloßstr. 2, 13507 Berlin",
+      "lat": 52.5907584,
+      "lon": 13.2833689,
+      "displayName": "Rossmann, 2, Schloßstraße, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland",
+      "checkedAt": "2026-08-18T20:38:49.300Z"
+    },
+    "alt tegel 9 13507 berlin": {
+      "address": "Alt-Tegel 9, 13507 Berlin",
+      "lat": 52.589301,
+      "lon": 13.2819332,
+      "displayName": "L’angolo del Gelato, 9, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland",
+      "checkedAt": "2026-08-18T20:38:50.247Z"
+    }
+  },
+  "updatedAt": "2026-08-18T20:38:50.247Z"
+}
