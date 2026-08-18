@@ -714,7 +714,21 @@
       "lon": 13.2819332,
       "displayName": "L’angolo del Gelato, 9, Alt-Tegel, Tegel, Reinickendorf, Berlin, 13507, Deutschland",
       "checkedAt": "2026-08-18T20:38:50.247Z"
+    },
+    "wegscheider str 14 13587 berlin": {
+      "address": "Wegscheider Straße 14, 13587 Berlin",
+      "lat": 52.5566166,
+      "lon": 13.2065798,
+      "displayName": "14, Wegscheider Straße, Siedlung am Wansdorfer Platz, Maselake-Zentrum, Hakenfelde, Spandau, Berlin, 13587, Deutschland",
+      "checkedAt": "2026-08-18T20:42:14.308Z"
+    },
+    "falkenseer chaussee 242a 13583 berlin": {
+      "address": "Falkenseer Chaussee 242a, 13583 Berlin",
+      "lat": 52.5482784,
+      "lon": 13.1792112,
+      "displayName": "242A, Falkenseer Chaussee, Westfalenviertel, Siegener Viertel, Falkenhagener Feld, Spandau, Berlin, 13583, Deutschland",
+      "checkedAt": "2026-08-18T20:42:15.389Z"
     }
   },
-  "updatedAt": "2026-08-18T20:38:50.247Z"
+  "updatedAt": "2026-08-18T20:42:15.389Z"
 }

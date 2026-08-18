@@ -23,11 +23,11 @@
     "lon": 13.1833278,
     "displayName": "67, Marwitzer Straße, Hakenfelde, Spandau, Berlin, 13589, Deutschland"
   },
-  "updatedAt": "2026-08-18T20:38:50.262Z",
+  "updatedAt": "2026-08-18T20:42:20.523Z",
   "stats": {
     "osm": 294,
-    "additionalWithinRadius": 168,
-    "combined": 461
+    "additionalWithinRadius": 172,
+    "combined": 465
   },
   "doctors": [
     {
@@ -110,6 +110,92 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/9649111847"
+        }
+      ]
+    },
+    {
+      "id": "web-3okhxp",
+      "name": "Dr. med. Jens-Uwe Meyer",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Orthopädie",
+        "Unfallchirurgie",
+        "Osteopathie",
+        "Akupunktur"
+      ],
+      "lat": 52.5482784,
+      "lon": 13.1792112,
+      "distanceKm": 1.229,
+      "address": "Falkenseer Chaussee 242a, 13583 Berlin",
+      "openingHours": "Mo 08:00-13:00,13:30-16:30; Tu 08:00-13:00,13:30-16:30; We 08:00-13:00; Th 10:00-13:00,13:30-16:30; Fr 08:00-13:00",
+      "phone": "030 3727071",
+      "website": "https://www.orthoberlin-spandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Orthoberlin – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.orthoberlin-spandau.de/das-team/",
+      "sources": [
+        {
+          "name": "Orthoberlin – offizielle Praxiswebseite",
+          "url": "https://www.orthoberlin-spandau.de/das-team/"
+        }
+      ]
+    },
+    {
+      "id": "web-spow8k",
+      "name": "Matthias Pankow",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Orthopädie",
+        "Unfallchirurgie"
+      ],
+      "lat": 52.5482784,
+      "lon": 13.1792112,
+      "distanceKm": 1.229,
+      "address": "Falkenseer Chaussee 242a, 13583 Berlin",
+      "openingHours": "Mo 08:00-13:00,13:30-16:30; Tu 08:00-13:00,13:30-16:30; We 08:00-13:00; Th 10:00-13:00,13:30-16:30; Fr 08:00-13:00",
+      "phone": "030 3727071",
+      "website": "https://www.orthoberlin-spandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Orthoberlin – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.orthoberlin-spandau.de/das-team/",
+      "sources": [
+        {
+          "name": "Orthoberlin – offizielle Praxiswebseite",
+          "url": "https://www.orthoberlin-spandau.de/das-team/"
+        }
+      ]
+    },
+    {
+      "id": "web-kw03nh",
+      "name": "Orthoberlin",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Orthopädie",
+        "Unfallchirurgie"
+      ],
+      "lat": 52.5482784,
+      "lon": 13.1792112,
+      "distanceKm": 1.229,
+      "address": "Falkenseer Chaussee 242a, 13583 Berlin",
+      "openingHours": "Mo 08:00-13:00,13:30-16:30; Tu 08:00-13:00,13:30-16:30; We 08:00-13:00; Th 10:00-13:00,13:30-16:30; Fr 08:00-13:00",
+      "phone": "030 3727071",
+      "website": "https://www.orthoberlin-spandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Orthoberlin – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.orthoberlin-spandau.de/",
+      "sources": [
+        {
+          "name": "Orthoberlin – offizielle Praxiswebseite",
+          "url": "https://www.orthoberlin-spandau.de/"
         }
       ]
     },
@@ -221,6 +307,33 @@
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/Allgemein%C3%A4rzte/Berlin-Spandau.html"
+        }
+      ]
+    },
+    {
+      "id": "web-btxnkv",
+      "name": "Anne-Kathrin Kunze",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5566166,
+      "lon": 13.2065798,
+      "distanceKm": 1.595,
+      "address": "Wegscheider Straße 14, 13587 Berlin",
+      "openingHours": null,
+      "phone": "030 3351282",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Arzt-Auskunft",
+      "sourceUrl": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin/anne-kathrin-kunze-710225",
+      "sources": [
+        {
+          "name": "Arzt-Auskunft",
+          "url": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin/anne-kathrin-kunze-710225"
         }
       ]
     },
