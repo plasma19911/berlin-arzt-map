@@ -5,11 +5,11 @@
     {
       "name": "Anne-Kathrin Kunze",
       "type": "Arztpraxis",
-      "specialties": ["Allgemeinmedizin"],
+      "specialties": ["Allgemeinmedizin", "Akupunktur", "Manuelle Medizin / Chirotherapie"],
       "address": "Wegscheider Straße 14, 13587 Berlin",
       "phone": "030 3351282",
       "website": null,
-      "openingHours": null,
+      "openingHours": "Mo 08:30-12:00,15:45-18:00; Tu 08:30-12:00,13:30-18:00; We 08:30-12:00,13:30-16:00; Th 15:45-18:00; Fr 08:30-12:00",
       "sourceName": "Arzt-Auskunft",
       "sourceUrl": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin/anne-kathrin-kunze-710225"
     },
@@ -45,6 +45,72 @@
       "openingHours": "Mo 08:00-13:00,13:30-16:30; Tu 08:00-13:00,13:30-16:30; We 08:00-13:00; Th 10:00-13:00,13:30-16:30; Fr 08:00-13:00",
       "sourceName": "Orthoberlin – offizielle Praxiswebseite",
       "sourceUrl": "https://www.orthoberlin-spandau.de/das-team/"
+    },
+    {
+      "name": "Matthias Schlegel",
+      "type": "Arztpraxis",
+      "specialties": ["Allgemeinmedizin", "Diabetologie"],
+      "address": "Seegefelder Straße 83, 13583 Berlin",
+      "phone": "030 3726453",
+      "website": "https://praxisschlegel.de",
+      "openingHours": "Mo 08:00-12:00; Tu 08:00-12:00,15:00-18:00; We 08:00-12:00; Th 08:00-12:00; Fr 08:00-15:00",
+      "sourceName": "Arzt-Auskunft",
+      "sourceUrl": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin/matthias-schlegel-708005"
+    },
+    {
+      "name": "Helene Suhrenbrock",
+      "type": "Arztpraxis",
+      "specialties": ["Allgemeinmedizin", "Naturheilverfahren"],
+      "address": "Streitstraße 27 a, 13587 Berlin",
+      "phone": "030 3353497",
+      "website": null,
+      "openingHours": "Mo 08:00-12:00,16:00-18:00; Tu 08:00-12:00,16:00-18:00; We 09:00-12:00; Th 08:00-12:00,16:00-18:00; Fr 08:00-12:00",
+      "sourceName": "Arzt-Auskunft",
+      "sourceUrl": "https://www.arzt-auskunft.de/arzt/anaesthesiologie/berlin-spandau/helene-suhrenbrock-3134171"
+    },
+    {
+      "name": "Dr. med. Konstanze Schöningh",
+      "type": "Arztpraxis",
+      "specialties": ["Allgemeinmedizin"],
+      "address": "Streitstraße 27 a, 13587 Berlin",
+      "phone": "030 3353497",
+      "website": null,
+      "openingHours": "Mo 08:00-12:00,16:00-18:00; Tu 08:00-12:00,16:00-18:00; We 09:00-12:00; Th 08:00-12:00,16:00-18:00; Fr 08:00-12:00",
+      "sourceName": "Arzt-Auskunft",
+      "sourceUrl": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin-spandau/dr-konstanze-schoeningh-4519721"
+    },
+    {
+      "name": "Marthe Lukait",
+      "type": "Arztpraxis",
+      "specialties": ["Allgemeinmedizin"],
+      "address": "Dallgower Straße 9, 14612 Falkensee",
+      "phone": "03322 274200",
+      "website": null,
+      "openingHours": "Mo 08:00-13:00,14:00-18:00; Tu 08:00-13:00; We 08:00-13:00; Th 08:00-13:00,14:00-18:00; Fr 08:00-13:00",
+      "sourceName": "KV Brandenburg – Arztsuche",
+      "sourceUrl": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf"
+    },
+    {
+      "name": "Dr. med. Anja Schirbel",
+      "type": "Arztpraxis",
+      "specialties": ["Innere Medizin", "Gastroenterologie"],
+      "address": "Straße der Einheit 116, 14612 Falkensee",
+      "phone": "03322 4079260",
+      "website": null,
+      "openingHours": null,
+      "sourceName": "KV Brandenburg – Arztsuche",
+      "sourceUrl": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf"
+    },
+    {
+      "name": "Christiane Schömer",
+      "type": "Arztpraxis",
+      "specialties": ["Psychiatrie", "Psychotherapie"],
+      "address": "Holbeinstraße 63, 14612 Falkensee",
+      "phone": "03322 420284",
+      "website": null,
+      "openingHours": "Mo 08:00-12:00,12:00-14:00; Tu 08:00-12:00,15:00-18:00; We 08:00-12:00,12:00-14:00; Th 08:00-12:00,15:00-18:00; Fr 08:00-12:00",
+      "sourceName": "KV Brandenburg – Arztsuche",
+      "sourceUrl": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf"
     }
   ]
 }
