@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07131d">
+  <meta name="description" content="Arztkarte im 10-km-Umkreis um Marwitzer Str. 67, 13589 Berlin.">
+  <title>Berlin Arzt Map</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://tile.openstreetmap.org">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynwlYqTqNfRo9VXWBYqfXtP3Qq5Q=" crossorigin="">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">✚</span>
+        <div>
+          <h1>Berlin Arzt Map</h1>
+          <p>10 km um Marwitzer Str. 67 · Berlin-Spandau</p>
+        </div>
+      </div>
+      <div class="status-wrap">
+        <span id="dataStatus" class="status-chip">Daten werden geladen …</span>
+        <button id="reloadButton" class="icon-button" type="button" title="Daten neu laden" aria-label="Daten neu laden">↻</button>
+      </div>
+    </header>
+
+    <section class="controls" aria-label="Filter">
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Arzt, Fachrichtung oder Ort suchen …" autocomplete="off">
+      </label>
+      <label class="select-wrap">
+        <span class="sr-only">Fachrichtung</span>
+        <select id="specialtySelect">
+          <option value="all">Alle Fachrichtungen</option>
+        </select>
+      </label>
+      <label class="select-wrap">
+        <span class="sr-only">Entfernung</span>
+        <select id="distanceSelect">
+          <option value="10">bis 10 km</option>
+          <option value="5">bis 5 km</option>
+          <option value="3">bis 3 km</option>
+          <option value="1">bis 1 km</option>
+        </select>
+      </label>
+      <button id="listToggle" class="secondary-button" type="button">☰ Liste</button>
+    </section>
+
+    <main class="workspace">
+      <aside id="sidebar" class="sidebar" aria-label="Ärzteliste">
+        <div class="sidebar-head">
+          <strong id="resultCount">0 Treffer</strong>
+          <button id="closeList" class="icon-button mobile-only" type="button" aria-label="Liste schließen">×</button>
+        </div>
+        <div id="doctorList" class="doctor-list" aria-live="polite"></div>
+      </aside>
+
+      <section class="map-wrap" aria-label="Karte">
+        <div id="map"></div>
+        <div class="map-legend" aria-label="Legende">
+          <span><i class="legend-dot practice"></i> Arztpraxis</span>
+          <span><i class="legend-dot dentist"></i> Zahnarzt</span>
+          <span><i class="legend-dot clinic"></i> Klinik/MVZ</span>
+          <span><i class="legend-dot home"></i> Startpunkt</span>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <section id="detailSheet" class="detail-sheet" aria-hidden="true" aria-label="Arztdetails">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <button id="closeDetails" class="sheet-close" type="button" aria-label="Details schließen">×</button>
+    <div id="detailContent"></div>
+  </section>
+  <div id="sheetBackdrop" class="sheet-backdrop" hidden></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="./app.js" defer></script>
+</body>
+</html>
