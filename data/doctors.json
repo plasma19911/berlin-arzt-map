@@ -23,11 +23,11 @@
     "lon": 13.1833278,
     "displayName": "67, Marwitzer Straße, Hakenfelde, Spandau, Berlin, 13589, Deutschland"
   },
-  "updatedAt": "2026-08-18T20:42:20.523Z",
+  "updatedAt": "2026-08-18T20:44:51.293Z",
   "stats": {
     "osm": 294,
-    "additionalWithinRadius": 172,
-    "combined": 465
+    "additionalWithinRadius": 178,
+    "combined": 471
   },
   "doctors": [
     {
@@ -315,13 +315,15 @@
       "name": "Anne-Kathrin Kunze",
       "type": "Arztpraxis",
       "specialties": [
-        "Allgemeinmedizin"
+        "Allgemeinmedizin",
+        "Akupunktur",
+        "Manuelle Medizin / Chirotherapie"
       ],
       "lat": 52.5566166,
       "lon": 13.2065798,
       "distanceKm": 1.595,
       "address": "Wegscheider Straße 14, 13587 Berlin",
-      "openingHours": null,
+      "openingHours": "Mo 08:30-12:00,15:45-18:00; Tu 08:30-12:00,13:30-18:00; We 08:30-12:00,13:30-16:00; Th 15:45-18:00; Fr 08:30-12:00",
       "phone": "030 3351282",
       "website": null,
       "email": null,
@@ -363,6 +365,61 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/4429357805"
+        }
+      ]
+    },
+    {
+      "id": "web-r0s5b",
+      "name": "Dr. med. Konstanze Schöningh",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5613891,
+      "lon": 13.2087304,
+      "distanceKm": 1.737,
+      "address": "Streitstraße 27 a, 13587 Berlin",
+      "openingHours": "Mo 08:00-12:00,16:00-18:00; Tu 08:00-12:00,16:00-18:00; We 09:00-12:00; Th 08:00-12:00,16:00-18:00; Fr 08:00-12:00",
+      "phone": "030 3353497",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Arzt-Auskunft",
+      "sourceUrl": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin-spandau/dr-konstanze-schoeningh-4519721",
+      "sources": [
+        {
+          "name": "Arzt-Auskunft",
+          "url": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin-spandau/dr-konstanze-schoeningh-4519721"
+        }
+      ]
+    },
+    {
+      "id": "web-htwbd",
+      "name": "Helene Suhrenbrock",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin",
+        "Naturheilverfahren"
+      ],
+      "lat": 52.5613891,
+      "lon": 13.2087304,
+      "distanceKm": 1.737,
+      "address": "Streitstraße 27 a, 13587 Berlin",
+      "openingHours": "Mo 08:00-12:00,16:00-18:00; Tu 08:00-12:00,16:00-18:00; We 09:00-12:00; Th 08:00-12:00,16:00-18:00; Fr 08:00-12:00",
+      "phone": "030 3353497",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Arzt-Auskunft",
+      "sourceUrl": "https://www.arzt-auskunft.de/arzt/anaesthesiologie/berlin-spandau/helene-suhrenbrock-3134171",
+      "sources": [
+        {
+          "name": "Arzt-Auskunft",
+          "url": "https://www.arzt-auskunft.de/arzt/anaesthesiologie/berlin-spandau/helene-suhrenbrock-3134171"
         }
       ]
     },
@@ -1021,6 +1078,34 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/13955477901"
+        }
+      ]
+    },
+    {
+      "id": "web-hebdm3",
+      "name": "Matthias Schlegel",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin",
+        "Diabetologie"
+      ],
+      "lat": 52.5378173,
+      "lon": 13.1853147,
+      "distanceKm": 2.364,
+      "address": "Seegefelder Straße 83, 13583 Berlin",
+      "openingHours": "Mo 08:00-12:00; Tu 08:00-12:00,15:00-18:00; We 08:00-12:00; Th 08:00-12:00; Fr 08:00-15:00",
+      "phone": "030 3726453",
+      "website": "https://praxisschlegel.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Arzt-Auskunft",
+      "sourceUrl": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin/matthias-schlegel-708005",
+      "sources": [
+        {
+          "name": "Arzt-Auskunft",
+          "url": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin/matthias-schlegel-708005"
         }
       ]
     },
@@ -4593,6 +4678,34 @@
       ]
     },
     {
+      "id": "web-11eld2m",
+      "name": "Dr. med. Anja Schirbel",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Innere Medizin",
+        "Gastroenterologie"
+      ],
+      "lat": 52.5534695,
+      "lon": 13.1000471,
+      "distanceKm": 5.664,
+      "address": "Straße der Einheit 116, 14612 Falkensee",
+      "openingHours": null,
+      "phone": "03322 4079260",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "KV Brandenburg – Arztsuche",
+      "sourceUrl": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf",
+      "sources": [
+        {
+          "name": "KV Brandenburg – Arztsuche",
+          "url": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf"
+        }
+      ]
+    },
+    {
       "id": "node-10868044716",
       "osmType": "node",
       "osmId": 10868044716,
@@ -5879,6 +5992,33 @@
         {
           "name": "Stadt Falkensee",
           "url": "https://www.falkensee.de/verzeichnis/index.php?kategorie=204"
+        }
+      ]
+    },
+    {
+      "id": "web-f4zda2",
+      "name": "Marthe Lukait",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5578986,
+      "lon": 13.0916588,
+      "distanceKm": 6.198,
+      "address": "Dallgower Straße 9, 14612 Falkensee",
+      "openingHours": "Mo 08:00-13:00,14:00-18:00; Tu 08:00-13:00; We 08:00-13:00; Th 08:00-13:00,14:00-18:00; Fr 08:00-13:00",
+      "phone": "03322 274200",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "KV Brandenburg – Arztsuche",
+      "sourceUrl": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf",
+      "sources": [
+        {
+          "name": "KV Brandenburg – Arztsuche",
+          "url": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf"
         }
       ]
     },
@@ -11362,6 +11502,34 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/11739197756"
+        }
+      ]
+    },
+    {
+      "id": "web-esad8p",
+      "name": "Christiane Schömer",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Psychiatrie",
+        "Psychotherapie"
+      ],
+      "lat": 52.5630672,
+      "lon": 13.0466513,
+      "distanceKm": 9.25,
+      "address": "Holbeinstraße 63, 14612 Falkensee",
+      "openingHours": "Mo 08:00-12:00,12:00-14:00; Tu 08:00-12:00,15:00-18:00; We 08:00-12:00,12:00-14:00; Th 08:00-12:00,15:00-18:00; Fr 08:00-12:00",
+      "phone": "03322 420284",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "KV Brandenburg – Arztsuche",
+      "sourceUrl": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf",
+      "sources": [
+        {
+          "name": "KV Brandenburg – Arztsuche",
+          "url": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf"
         }
       ]
     },

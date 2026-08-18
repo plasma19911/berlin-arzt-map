@@ -728,7 +728,35 @@
       "lon": 13.1792112,
       "displayName": "242A, Falkenseer Chaussee, Westfalenviertel, Siegener Viertel, Falkenhagener Feld, Spandau, Berlin, 13583, Deutschland",
       "checkedAt": "2026-08-18T20:42:15.389Z"
+    },
+    "seegefelder str 83 13583 berlin": {
+      "address": "Seegefelder Straße 83, 13583 Berlin",
+      "lat": 52.5378173,
+      "lon": 13.1853147,
+      "displayName": "83, Seegefelder Straße, Georg-Ramin-Siedlung, Spandau-West, Spandau, Berlin, 13583, Deutschland",
+      "checkedAt": "2026-08-18T20:44:47.906Z"
+    },
+    "streitstrasse 27 a 13587 berlin": {
+      "address": "Streitstraße 27 a, 13587 Berlin",
+      "lat": 52.5613891,
+      "lon": 13.2087304,
+      "displayName": "27A, Streitstraße, Siedlung am Wansdorfer Platz, Maselake-Zentrum, Hakenfelde, Spandau, Berlin, 13587, Deutschland",
+      "checkedAt": "2026-08-18T20:44:48.520Z"
+    },
+    "str der einheit 116 14612 falkensee": {
+      "address": "Straße der Einheit 116, 14612 Falkensee",
+      "lat": 52.5534695,
+      "lon": 13.1000471,
+      "displayName": "116, Straße der Einheit, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:44:49.954Z"
+    },
+    "holbeinstrasse 63 14612 falkensee": {
+      "address": "Holbeinstraße 63, 14612 Falkensee",
+      "lat": 52.5630672,
+      "lon": 13.0466513,
+      "displayName": "63, Holbeinstraße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T20:44:51.079Z"
     }
   },
-  "updatedAt": "2026-08-18T20:42:15.389Z"
+  "updatedAt": "2026-08-18T20:44:51.079Z"
 }
