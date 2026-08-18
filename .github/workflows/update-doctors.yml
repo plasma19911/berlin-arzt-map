@@ -20,7 +20,7 @@ permissions:
 
 concurrency:
   group: weekly-doctor-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update-data:
@@ -55,6 +55,8 @@ jobs:
           NODE
 
       - name: Aktuelle Arzt-Daten aus allen Quellen abrufen
+        env:
+          OVERPASS_URL: https://overpass.kumi.systems/api/interpreter
         run: node scripts/update-doctors.mjs
 
       - name: Temporäre Zusammenführung zurücksetzen
