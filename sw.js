@@ -1,4 +1,4 @@
-const CACHE = 'berlin-arzt-map-v1';
+const CACHE = 'berlin-arzt-map-v2';
 const APP_SHELL = [
   './',
   './index.html',
