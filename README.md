@@ -24,11 +24,9 @@ OpenStreetMap-Daten können unvollständig sein. Besonders Öffnungszeiten, Fach
 
 Der Workflow **„Arzt-Daten wöchentlich aktualisieren“** aktualisiert `data/doctors.json` jeden Montag um **03:17 UTC**. Datenaktualisierung und GitHub-Pages-Deployment sind getrennt, damit neue Arzt-Daten auch dann gespeichert werden können, wenn Pages vorübergehend nicht bereitgestellt werden kann.
 
-## Einmalig: GitHub Pages aktivieren
+## GitHub Pages
 
-1. Im Repository **Settings → Pages** öffnen.
-2. Unter **Build and deployment** bei **Source** die Option **GitHub Actions** auswählen.
-3. Danach übernimmt der vorhandene Workflow **„GitHub Pages bereitstellen“** die Veröffentlichung.
+Unter **Settings → Pages → Build and deployment → Source** muss **GitHub Actions** ausgewählt sein. Danach übernimmt der vorhandene Workflow **„GitHub Pages bereitstellen“** die Veröffentlichung bei jedem Push auf `main`.
 
 App-Adresse:
 
