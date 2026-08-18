@@ -18,30 +18,55 @@
     ['internal_medicine', 'Innere Medizin'],
     ['cardiology', 'Kardiologie'],
     ['dermatology', 'Dermatologie'],
+    ['dermatovenereology', 'Dermatologie und Venerologie'],
     ['gynaecology', 'Gynäkologie'],
     ['gynecology', 'Gynäkologie'],
     ['obstetrics', 'Geburtshilfe'],
     ['ophthalmology', 'Augenheilkunde'],
+    ['ophthalmic_surgery', 'Augenchirurgie'],
     ['paediatrics', 'Kinder- und Jugendmedizin'],
     ['pediatrics', 'Kinder- und Jugendmedizin'],
     ['child_and_adolescent_medicine', 'Kinder- und Jugendmedizin'],
+    ['neonatology', 'Neonatologie'],
     ['psychiatry', 'Psychiatrie'],
+    ['child_psychiatry', 'Kinder- und Jugendpsychiatrie'],
+    ['child_and_adolescent_psychiatry', 'Kinder- und Jugendpsychiatrie'],
     ['psychotherapy', 'Psychotherapie'],
     ['psychology', 'Psychologie'],
+    ['psychosomatic', 'Psychosomatische Medizin'],
+    ['psychosomatics', 'Psychosomatische Medizin'],
+    ['behavior', 'Verhaltenstherapie'],
+    ['behaviour', 'Verhaltenstherapie'],
+    ['behavioral_therapy', 'Verhaltenstherapie'],
+    ['behavioural_therapy', 'Verhaltenstherapie'],
+    ['depth', 'Tiefenpsychologie'],
+    ['depth_psychology', 'Tiefenpsychologie'],
     ['urology', 'Urologie'],
+    ['andrology', 'Andrologie'],
     ['orthopaedics', 'Orthopädie'],
     ['orthopedics', 'Orthopädie'],
     ['radiology', 'Radiologie'],
+    ['nuclear_medicine', 'Nuklearmedizin'],
     ['otolaryngology', 'Hals-Nasen-Ohren-Heilkunde'],
     ['ear_nose_throat', 'Hals-Nasen-Ohren-Heilkunde'],
     ['ent', 'Hals-Nasen-Ohren-Heilkunde'],
     ['neurology', 'Neurologie'],
+    ['neuropediatrics', 'Neuropädiatrie'],
+    ['neurosurgery', 'Neurochirurgie'],
     ['surgery', 'Chirurgie'],
     ['general_surgery', 'Allgemeinchirurgie'],
     ['vascular_surgery', 'Gefäßchirurgie'],
     ['plastic_surgery', 'Plastische Chirurgie'],
+    ['cosmetic_surgery', 'Ästhetische Chirurgie'],
     ['orthopedic_surgery', 'Orthopädische Chirurgie'],
+    ['orthopaedic_surgery', 'Orthopädische Chirurgie'],
+    ['trauma_surgery', 'Unfallchirurgie'],
+    ['hand_surgery', 'Handchirurgie'],
+    ['visceral_surgery', 'Viszeralchirurgie'],
+    ['thoracic_surgery', 'Thoraxchirurgie'],
+    ['cardiac_surgery', 'Herzchirurgie'],
     ['oncology', 'Onkologie'],
+    ['cancer', 'Onkologie'],
     ['nephrology', 'Nephrologie'],
     ['gastroenterology', 'Gastroenterologie'],
     ['endocrinology', 'Endokrinologie'],
@@ -52,14 +77,20 @@
     ['anaesthetics', 'Anästhesiologie'],
     ['anesthesiology', 'Anästhesiologie'],
     ['anaesthesiology', 'Anästhesiologie'],
+    ['intensive_care', 'Intensivmedizin'],
+    ['critical_care', 'Intensivmedizin'],
     ['dentistry', 'Zahnmedizin'],
     ['dentist', 'Zahnmedizin'],
     ['oral_surgery', 'Oralchirurgie'],
     ['maxillofacial_surgery', 'Mund-, Kiefer- und Gesichtschirurgie'],
+    ['dental_oral_maxillo_facial_surgery', 'Zahn-, Mund-, Kiefer- und Gesichtschirurgie'],
+    ['oral_maxillo_facial_surgery', 'Mund-, Kiefer- und Gesichtschirurgie'],
     ['orthodontics', 'Kieferorthopädie'],
     ['periodontics', 'Parodontologie'],
     ['endodontics', 'Endodontologie'],
-    ['dermatovenereology', 'Dermatologie und Venerologie'],
+    ['chiropody', 'Podologie / Fußheilkunde'],
+    ['podiatry', 'Podologie / Fußheilkunde'],
+    ['podology', 'Podologie / Fußheilkunde'],
     ['infectious_diseases', 'Infektiologie'],
     ['sports_medicine', 'Sportmedizin'],
     ['occupational_medicine', 'Arbeitsmedizin'],
@@ -68,20 +99,50 @@
     ['geriatric', 'Geriatrie'],
     ['haematology', 'Hämatologie'],
     ['hematology', 'Hämatologie'],
-    ['nuclear_medicine', 'Nuklearmedizin'],
     ['pathology', 'Pathologie'],
+    ['laboratory_medicine', 'Laboratoriumsmedizin'],
+    ['microbiology', 'Mikrobiologie'],
+    ['virology', 'Virologie'],
     ['rehabilitation', 'Rehabilitationsmedizin'],
     ['physical_medicine', 'Physikalische und Rehabilitative Medizin'],
     ['pain_management', 'Schmerzmedizin'],
+    ['pain_medicine', 'Schmerzmedizin'],
     ['sleep_medicine', 'Schlafmedizin'],
     ['diabetology', 'Diabetologie'],
     ['angiology', 'Angiologie'],
+    ['phlebology', 'Phlebologie'],
     ['proctology', 'Proktologie'],
     ['hepatology', 'Hepatologie'],
     ['immunology', 'Immunologie'],
     ['genetics', 'Humangenetik'],
     ['medical_genetics', 'Humangenetik'],
+    ['palliative_medicine', 'Palliativmedizin'],
+    ['sexual_medicine', 'Sexualmedizin'],
+    ['transfusion_medicine', 'Transfusionsmedizin'],
+    ['public_health', 'Öffentliches Gesundheitswesen'],
+    ['travel_medicine', 'Reisemedizin'],
+    ['tropical_medicine', 'Tropenmedizin'],
+    ['nutritional_medicine', 'Ernährungsmedizin'],
+    ['environmental_medicine', 'Umweltmedizin'],
+    ['fertility', 'Kinderwunschmedizin'],
+    ['reproductive_medicine', 'Reproduktionsmedizin'],
+    ['abortion', 'Schwangerschaftsabbruch'],
+    ['acupuncture', 'Akupunktur'],
+    ['applied_kinesiology', 'Angewandte Kinesiologie'],
+    ['kinesiology', 'Kinesiologie'],
+    ['chiropractic', 'Chiropraktik'],
+    ['chiropractics', 'Chiropraktik'],
+    ['osteopathy', 'Osteopathie'],
+    ['homeopathy', 'Homöopathie'],
+    ['homoeopathy', 'Homöopathie'],
+    ['naturopathy', 'Naturheilkunde'],
+    ['addiction', 'Suchtmedizin'],
+    ['addiction_medicine', 'Suchtmedizin'],
+    ['prenatal_diagnostics', 'Pränataldiagnostik'],
+    ['mammography', 'Mammographie'],
   ]);
+
+  const GERMAN_HINTS = /(?:medizin|chirurgie|therapie|heilkunde|zahn|kiefer|psycho|gyn|kinder|augen|hals|nase|ohren|innere|allgemein|orthop|kardio|neuro|uro|dermato|radio|onko|nephro|gastro|endokrino|rheuma|pneumo|allerg|anäst|anaest|geriatr|hämat|haemat|patholog|rehabil|schmerz|schlaf|diabeto|angio|prokto|hepato|immun|genetik|palliativ|reisemedizin|tropenmedizin|ernährungs|umwelt|akupunktur|kinesiologie|chiropraktik|osteopathie|homöopathie|naturheilkunde|podologie|fußheilkunde|fussheilkunde|geburtshilfe|infektiologie|sportmedizin|arbeitsmedizin|notfallmedizin|intensivmedizin|laboratorium|mikrobiologie|virologie|andrologie|phlebologie|pränatal|mammographie|reproduktion|kinderwunsch|schwangerschaft)/i;
 
   const state = {
     data: null,
@@ -261,6 +322,7 @@
         doctor.type,
         doctor.address,
         ...germanSpecialties,
+        ...(doctor.specialties || []),
       ].filter(Boolean).join(' '));
       return haystack.includes(query);
     });
@@ -377,13 +439,20 @@
   function translateSpecialty(value) {
     const original = String(value || '').trim();
     if (!original) return '';
-    const key = normalize(original)
+    const key = specialtyKey(original);
+    const mapped = SPECIALTY_TRANSLATIONS.get(key);
+    if (mapped) return mapped;
+    if (GERMAN_HINTS.test(original) || /[äöüß]/i.test(original)) return original;
+    return 'Weitere medizinische Fachrichtung';
+  }
+
+  function specialtyKey(value) {
+    return normalize(value)
       .replace(/&/g, 'and')
       .replace(/[\s\-/]+/g, '_')
       .replace(/[^a-z0-9_]/g, '')
       .replace(/_+/g, '_')
       .replace(/^_|_$/g, '');
-    return SPECIALTY_TRANSLATIONS.get(key) || original;
   }
 
   function divIcon(kind, emoji) {
