@@ -4,55 +4,50 @@ Installierbare mobile Karte mit Ärzten, Praxen, Zahnärzten, Kliniken und mediz
 
 ## Funktionen
 
-- interaktive OpenStreetMap-Karte mit 10-km-Radius
+- interaktive OpenStreetMap-Karte mit festem 10-km-Radius
 - Suche nach Arzt/Praxis, Fachrichtung und Adresse
 - Filter nach Fachrichtung und Entfernung
-- kompakte Handy-Detailansicht
-- Fachrichtung, Entfernung, Öffnungszeiten, Telefon, Webseite und Barrierefreiheit
-- Bewertung nur dann, wenn ein frei nutzbarer Datenwert vorhanden ist; ansonsten Link zur Bewertungssuche
-- als PWA auf Android/iPhone zum Startbildschirm hinzufügbar
-- automatische Aktualisierung der Arzt-Daten **einmal pro Woche** über GitHub Actions
-- keine laufende PC-Software erforderlich
+- kompakte Detailansicht für Handy und PC
+- Fachrichtung, Entfernung, Öffnungszeiten, Telefon, Webseite und Barrierefreiheit, sofern in der Quelle vorhanden
+- Bewertungen nur bei vorhandenem nutzbaren Bewertungswert; sonst direkter Link zur Bewertungssuche
+- PWA: auf Android und iPhone zum Startbildschirm hinzufügbar
+- automatische Aktualisierung der Arzt-Daten **jeden Montag** über GitHub Actions
+- kein Cloudflare und kein laufender PC erforderlich
 
-## Datenquellen
+## Datenquelle
 
-Praxisdaten stammen aus OpenStreetMap über die Overpass API. Die Startadresse wird beim allerersten Datenlauf einmalig über Nominatim geokodiert und danach im Datensatz zwischengespeichert. OpenStreetMap-Daten sind nicht garantiert vollständig; Öffnungszeiten und Kontaktdaten können fehlen oder veraltet sein.
+Die Praxisdaten stammen aus OpenStreetMap über die Overpass API. Die Startadresse wird über Nominatim geokodiert und im Datensatz gespeichert. Der Updater besitzt zusätzlich einen festen Fallback-Mittelpunkt und mehrere Overpass-Endpunkte, damit ein einzelner Geocoding- oder API-Ausfall die Wochenaktualisierung nicht dauerhaft blockiert.
 
-## Einmalige Einrichtung
+OpenStreetMap-Daten können unvollständig sein. Besonders Öffnungszeiten, Fachrichtungen, Telefonnummern und Webseiten sind nur sichtbar, wenn sie in der Quelle hinterlegt sind.
 
-### 1. Arzt-Daten zum ersten Mal erzeugen
+## Automatische Aktualisierung
 
-Im GitHub-Repository:
+Der Workflow **„Arzt-Daten wöchentlich aktualisieren“** aktualisiert `data/doctors.json` jeden Montag um **03:17 UTC**. Datenaktualisierung und GitHub-Pages-Deployment sind getrennt, damit neue Arzt-Daten auch dann gespeichert werden können, wenn Pages vorübergehend nicht bereitgestellt werden kann.
 
-1. **Actions** öffnen.
-2. Workflow **„Arzt-Daten wöchentlich aktualisieren“** auswählen.
-3. **Run workflow** anklicken.
-4. Nach dem Lauf enthält `data/doctors.json` die aktuellen Einträge.
+## Einmalig: GitHub Pages aktivieren
 
-Danach läuft der Workflow automatisch jeden Montag um 03:17 UTC.
+1. Im Repository **Settings → Pages** öffnen.
+2. Unter **Build and deployment** bei **Source** die Option **GitHub Actions** auswählen.
+3. Danach übernimmt der vorhandene Workflow **„GitHub Pages bereitstellen“** die Veröffentlichung.
 
-### 2. GitHub Pages aktivieren
-
-1. **Settings → Pages** öffnen.
-2. Unter **Build and deployment** als Source **GitHub Actions** wählen.
-3. Workflow **„GitHub Pages bereitstellen“** starten oder einen Commit auf `main` abwarten.
-
-Die App ist anschließend typischerweise unter folgender Adresse erreichbar:
+App-Adresse:
 
 `https://plasma19911.github.io/berlin-arzt-map/`
 
-### 3. Auf dem Handy installieren
+## Auf dem Handy installieren
 
-- Android/Chrome: Menü → **Zum Startbildschirm hinzufügen** / **App installieren**
-- iPhone/Safari: Teilen → **Zum Home-Bildschirm**
+### Android / Chrome
 
-## Optional: Cloudflare Pages
+App öffnen → Browser-Menü → **App installieren** oder **Zum Startbildschirm hinzufügen**.
 
-Das Repository ist vollständig statisch und kann alternativ direkt mit Cloudflare Pages verbunden werden. Build-Befehl: **kein Build-Befehl**, Ausgabeverzeichnis: Repository-Wurzel (`/`). Jeder wöchentliche Daten-Commit löst dann automatisch ein neues Deployment aus.
+### iPhone / Safari
+
+App öffnen → **Teilen** → **Zum Home-Bildschirm**.
 
 ## Datenschutz / Hinweise
 
-- Die Karte verlangt keinen Standortzugriff des Handys.
+- Die Karte benötigt keinen Standortzugriff des Handys.
 - Die feste Startadresse ist Bestandteil dieses öffentlichen Repositorys.
-- Keine Google-API-Schlüssel oder andere Secrets in Dateien eintragen.
-- Für Bewertungen wird kein fremdes Bewertungsportal automatisiert ausgescrapt.
+- Es werden keine Google-API-Schlüssel oder andere Secrets benötigt.
+- Bewertungsportale werden nicht automatisiert ausgescrapt.
+- Vor einem Arztbesuch Öffnungszeiten und Kontaktdaten nach Möglichkeit auf der Praxiswebseite prüfen.
