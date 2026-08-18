@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "source": "OpenStreetMap via Overpass API",
+  "sourceLicense": "ODbL 1.0",
+  "address": "Marwitzer Str. 67, 13589 Berlin",
+  "radiusMeters": 10000,
+  "home": null,
+  "updatedAt": null,
+  "doctors": []
+}
