@@ -23,11 +23,11 @@
     "lon": 13.1833278,
     "displayName": "67, Marwitzer Straße, Hakenfelde, Spandau, Berlin, 13589, Deutschland"
   },
-  "updatedAt": "2026-08-18T20:44:51.293Z",
+  "updatedAt": "2026-08-18T21:02:15.008Z",
   "stats": {
-    "osm": 294,
-    "additionalWithinRadius": 178,
-    "combined": 471
+    "osm": 284,
+    "additionalWithinRadius": 197,
+    "combined": 480
   },
   "doctors": [
     {
@@ -478,6 +478,33 @@
       ]
     },
     {
+      "id": "web-b0mp83",
+      "name": "Dr. med. Hasan Mohamad",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Hals-Nasen-Ohren-Heilkunde"
+      ],
+      "lat": 52.547676,
+      "lon": 13.2019336,
+      "distanceKm": 1.783,
+      "address": "Neumeisterstraße 1, 13585 Berlin",
+      "openingHours": "Mo 08:00-13:00; Tu 09:00-13:00,14:00-17:00; We 08:00-13:00; Th 09:00-13:00,14:00-17:00; Fr 08:00-13:00",
+      "phone": "030 3354660",
+      "website": "https://www.hno-praxisspandaudrhasanmohamad.site/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "HNO-Praxis Dr. Hasan Mohamad – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.hno-praxisspandaudrhasanmohamad.site/",
+      "sources": [
+        {
+          "name": "HNO-Praxis Dr. Hasan Mohamad – offizielle Praxiswebseite",
+          "url": "https://www.hno-praxisspandaudrhasanmohamad.site/"
+        }
+      ]
+    },
+    {
       "id": "web-rua2d4",
       "name": "Latchezar Behrendt",
       "type": "Arztpraxis",
@@ -777,6 +804,34 @@
       ]
     },
     {
+      "id": "web-19vymxl",
+      "name": "Dr. med. Norbert Puhan",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin",
+        "Innere Medizin"
+      ],
+      "lat": 52.5540557,
+      "lon": 13.2106776,
+      "distanceKm": 1.93,
+      "address": "Havelschanze 9a, 13587 Berlin",
+      "openingHours": null,
+      "phone": "030 3354383",
+      "website": "https://havel-praxis.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Havel-Praxis – offizielle Praxiswebseite",
+      "sourceUrl": "https://havel-praxis.de/",
+      "sources": [
+        {
+          "name": "Havel-Praxis – offizielle Praxiswebseite",
+          "url": "https://havel-praxis.de/"
+        }
+      ]
+    },
+    {
       "id": "web-1himjw3",
       "name": "Praxis & Dialyse am Klinikum Spandau",
       "type": "Klinik / MVZ",
@@ -1051,33 +1106,6 @@
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/Allgemein%C3%A4rzte/Berlin-Spandau.html"
-        }
-      ]
-    },
-    {
-      "id": "node-13955477901",
-      "osmType": "node",
-      "osmId": 13955477901,
-      "name": "Praxis am Wröhmännerpark",
-      "type": "Arztpraxis",
-      "specialties": [],
-      "lat": 52.5433,
-      "lon": 13.2062638,
-      "distanceKm": 2.339,
-      "address": "Schönwalder Straße 1, 13585",
-      "openingHours": "Mo 08:30-11:30, 15:00-18:00; Tu 08:30-11:30; Th 08:30-11:30, 14:00-15:30; Fr 08:30-10:30",
-      "phone": "+49303363332",
-      "website": "http://praxis-schluckebier.de",
-      "email": null,
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13955477901",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13955477901"
         }
       ]
     },
@@ -1411,35 +1439,6 @@
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/Psychotherapie/Berlin-Spandau.html"
-        }
-      ]
-    },
-    {
-      "id": "node-14067870055",
-      "osmType": "node",
-      "osmId": 14067870055,
-      "name": "Dr. med. A. Wolff",
-      "type": "Arztpraxis",
-      "specialties": [
-        "Allgemeinmedizin"
-      ],
-      "lat": 52.5387509,
-      "lon": 13.2046451,
-      "distanceKm": 2.677,
-      "address": "Carl-Schurz-Straße 53, 13597 Berlin",
-      "openingHours": "Mo-Tu 08:30-10:30, Th-Fr 08:30-10:30, Th 15:00-17:00",
-      "phone": "+49303335098",
-      "website": "http://www.praxis-dr-albrecht-wolff.de",
-      "email": null,
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/14067870055",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/14067870055"
         }
       ]
     },
@@ -1922,35 +1921,6 @@
       ]
     },
     {
-      "id": "node-13970605401",
-      "osmType": "node",
-      "osmId": 13970605401,
-      "name": "Spree Ecke Havel",
-      "type": "Zahnarztpraxis",
-      "specialties": [
-        "Zahnmedizin"
-      ],
-      "lat": 52.5483071,
-      "lon": 13.2198561,
-      "distanceKm": 2.743,
-      "address": "Eiswerderstraße 16D, 13585",
-      "openingHours": "Mo-Th 08:00-18:00; Fr 08:00-14:00",
-      "phone": "+49303334807",
-      "website": "http://spree-ecke-berlin.de",
-      "email": "praxis@spree-ecke-berlin.de",
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13970605401",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13970605401"
-        }
-      ]
-    },
-    {
       "id": "node-1336835358",
       "osmType": "node",
       "osmId": 1336835358,
@@ -2059,6 +2029,88 @@
       ]
     },
     {
+      "id": "web-11dznop",
+      "name": "Almuth Klank",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Urologie"
+      ],
+      "lat": 52.5371147,
+      "lon": 13.2028561,
+      "distanceKm": 2.773,
+      "address": "Carl-Schurz-Straße 31, 13597 Berlin",
+      "openingHours": null,
+      "phone": "030 3334030",
+      "website": "https://www.urologie-in-spandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Urologie in Spandau – Praxiswebseite / Arzt-Auskunft",
+      "sourceUrl": "https://www.urologie-in-spandau.de/",
+      "sources": [
+        {
+          "name": "Urologie in Spandau – Praxiswebseite / Arzt-Auskunft",
+          "url": "https://www.urologie-in-spandau.de/"
+        }
+      ]
+    },
+    {
+      "id": "web-1g9moxp",
+      "name": "Priv.-Doz. Dr. med. Manfred Johannsen",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Urologie",
+        "Andrologie"
+      ],
+      "lat": 52.5371147,
+      "lon": 13.2028561,
+      "distanceKm": 2.773,
+      "address": "Carl-Schurz-Straße 31, 13597 Berlin",
+      "openingHours": null,
+      "phone": "030 3334030",
+      "website": "https://www.urologie-in-spandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Urologie in Spandau – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.urologie-in-spandau.de/",
+      "sources": [
+        {
+          "name": "Urologie in Spandau – offizielle Praxiswebseite",
+          "url": "https://www.urologie-in-spandau.de/"
+        }
+      ]
+    },
+    {
+      "id": "web-k2wdoz",
+      "name": "Tobias Laux",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Urologie"
+      ],
+      "lat": 52.5371147,
+      "lon": 13.2028561,
+      "distanceKm": 2.773,
+      "address": "Carl-Schurz-Straße 31, 13597 Berlin",
+      "openingHours": null,
+      "phone": "030 3334030",
+      "website": "https://www.urologie-in-spandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Urologie in Spandau – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.urologie-in-spandau.de/",
+      "sources": [
+        {
+          "name": "Urologie in Spandau – offizielle Praxiswebseite",
+          "url": "https://www.urologie-in-spandau.de/"
+        }
+      ]
+    },
+    {
       "id": "web-8ivood",
       "name": "Dr. med. Claudia Ebert",
       "type": "Arztpraxis",
@@ -2126,17 +2178,21 @@
       "address": "Markt 1, 13597 Berlin",
       "openingHours": null,
       "phone": "030 3333161",
-      "website": null,
+      "website": "https://www.frauenarzt-walther-spandau.de/",
       "email": null,
       "wheelchair": null,
       "rating": null,
       "ratingCount": null,
-      "dataSource": "Das Örtliche",
-      "sourceUrl": "https://www.dasoertliche.de/Themen/%C3%84rzte-Frauenheilkunde-und-Geburtshilfe-Fach%C3%A4rzte/Berlin-Spandau.html",
+      "dataSource": "Frauenarzt Walther – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.frauenarzt-walther-spandau.de/",
       "sources": [
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/%C3%84rzte-Frauenheilkunde-und-Geburtshilfe-Fach%C3%A4rzte/Berlin-Spandau.html"
+        },
+        {
+          "name": "Frauenarzt Walther – offizielle Praxiswebseite",
+          "url": "https://www.frauenarzt-walther-spandau.de/"
         }
       ]
     },
@@ -2220,6 +2276,34 @@
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/Psychotherapie/Berlin-Spandau.html"
+        }
+      ]
+    },
+    {
+      "id": "web-c8y4n4",
+      "name": "Salam El-Mahmoud",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Orthopädie",
+        "Unfallchirurgie"
+      ],
+      "lat": 52.5383362,
+      "lon": 13.2072197,
+      "distanceKm": 2.813,
+      "address": "Breite Straße 37, 13597 Berlin",
+      "openingHours": "Mo 08:00-18:00; Tu 08:00-18:00; We 08:00-18:00; Th 08:00-18:00; Fr 08:00-14:00",
+      "phone": "030 33979533",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Ärztekammer Berlin / Arzt-Auskunft",
+      "sourceUrl": "https://www.aekb.de/",
+      "sources": [
+        {
+          "name": "Ärztekammer Berlin / Arzt-Auskunft",
+          "url": "https://www.aekb.de/"
         }
       ]
     },
@@ -2410,6 +2494,35 @@
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/Kardiologen/Berlin-Spandau.html"
+        }
+      ]
+    },
+    {
+      "id": "web-1xcdvk1",
+      "name": "Dr. med. Markus Schumacher",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Innere Medizin",
+        "Kardiologie",
+        "Notfallmedizin"
+      ],
+      "lat": 52.5370546,
+      "lon": 13.2042425,
+      "distanceKm": 2.825,
+      "address": "Markt 2-3, 13597 Berlin",
+      "openingHours": null,
+      "phone": "030 35384050",
+      "website": "https://www.kardiologespandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Kardiologie Spandau – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.kardiologespandau.de/",
+      "sources": [
+        {
+          "name": "Kardiologie Spandau – offizielle Praxiswebseite",
+          "url": "https://www.kardiologespandau.de/"
         }
       ]
     },
@@ -3105,6 +3218,34 @@
       ]
     },
     {
+      "id": "web-3e39vl",
+      "name": "Dr. med. Fadua Spelsberg",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Innere Medizin",
+        "Pneumologie"
+      ],
+      "lat": 52.5321292,
+      "lon": 13.1985553,
+      "distanceKm": 3.165,
+      "address": "Klosterstraße 34-35, 13581 Berlin",
+      "openingHours": null,
+      "phone": "030 3331944",
+      "website": "https://www.lungenaerzte-spandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Lungenärzte Spandau – Praxiswebseite / Arzt-Auskunft",
+      "sourceUrl": "https://www.lungenaerzte-spandau.de/",
+      "sources": [
+        {
+          "name": "Lungenärzte Spandau – Praxiswebseite / Arzt-Auskunft",
+          "url": "https://www.lungenaerzte-spandau.de/"
+        }
+      ]
+    },
+    {
       "id": "web-445cik",
       "name": "Dr. med. Tahereh Kamkar",
       "type": "Arztpraxis",
@@ -3485,7 +3626,7 @@
       "phone": "+49 30 367 069 0",
       "website": "https://spandau.zahnarzt-staaken.de",
       "email": null,
-      "wheelchair": "no",
+      "wheelchair": null,
       "rating": null,
       "ratingCount": null,
       "dataSource": "OpenStreetMap",
@@ -3716,6 +3857,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/448081428"
+        }
+      ]
+    },
+    {
+      "id": "node-6481555288",
+      "osmType": "node",
+      "osmId": 6481555288,
+      "name": "Zahnarztpraxis · Zahnmedizin",
+      "type": "Zahnarztpraxis",
+      "specialties": [
+        "Zahnmedizin"
+      ],
+      "lat": 52.5285336,
+      "lon": 13.2087918,
+      "distanceKm": 3.804,
+      "address": null,
+      "openingHours": null,
+      "phone": null,
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/6481555288",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/6481555288"
         }
       ]
     },
@@ -3962,12 +4132,12 @@
       "lat": 52.5849218,
       "lon": 13.2282808,
       "distanceKm": 4.184,
-      "address": "Falkenplatz 6",
-      "openingHours": "Mo,Tu,Th 07:30-12:00,15:30-18:00; We 07:30-10:00; Fr 07:30-12:00",
-      "phone": "+49 30 4312650",
+      "address": null,
+      "openingHours": null,
+      "phone": null,
       "website": "https://www.praxisamfalkenplatz.de/",
-      "email": "kontakt@praxisamfalkenplatz.de",
-      "wheelchair": "limited",
+      "email": null,
+      "wheelchair": null,
       "rating": null,
       "ratingCount": null,
       "dataSource": "OpenStreetMap",
@@ -4295,7 +4465,7 @@
       "lon": 13.1640816,
       "distanceKm": 4.591,
       "address": "Heerstraße 417, 13593 Berlin",
-      "openingHours": "Mo-Tu,Fr 09:00-14:30; We-Th 15:00-20:00 || \"nach Vereinbarung\"",
+      "openingHours": "Mo-Tu,Fr 9:00 - 14:30; We-Th 15:00 - 20:00 || \"nach Vereinbarung\"",
       "phone": "+49 30 363 11 14",
       "website": null,
       "email": null,
@@ -4474,6 +4644,61 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/11161877000"
+        }
+      ]
+    },
+    {
+      "id": "web-1qjljug",
+      "name": "Dr. Max Rebensburg",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Innere Medizin",
+        "Pneumologie"
+      ],
+      "lat": 52.5531115,
+      "lon": 13.101355,
+      "distanceKm": 5.581,
+      "address": "Straße der Einheit 127a, 14612 Falkensee",
+      "openingHours": "Mo 09:00-13:00,15:00-17:00; Tu 08:00-13:00,15:00-17:00; We 09:00-18:00; Th 09:00-13:00,15:00-18:00; Fr 08:00-13:00",
+      "phone": "03322 8412312",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "KV Brandenburg / Arztverzeichnis",
+      "sourceUrl": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf",
+      "sources": [
+        {
+          "name": "KV Brandenburg / Arztverzeichnis",
+          "url": "https://arztsuche.kvbb.de/ases-kvbb/ases.jsf"
+        }
+      ]
+    },
+    {
+      "id": "web-om1iym",
+      "name": "Dr. med. Ute Kariger-Schweigert",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Augenheilkunde"
+      ],
+      "lat": 52.5531115,
+      "lon": 13.101355,
+      "distanceKm": 5.581,
+      "address": "Straße der Einheit 127a, 14612 Falkensee",
+      "openingHours": "Mo 08:00-14:00; Tu 08:00-14:00; We 08:00-12:30,13:30-18:00; Th 08:00-14:00",
+      "phone": "03322 1213996",
+      "website": "https://www.augenarzt-falkensee.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Augenarztpraxis Dr. Ute Kariger-Schweigert – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.augenarzt-falkensee.de/",
+      "sources": [
+        {
+          "name": "Augenarztpraxis Dr. Ute Kariger-Schweigert – offizielle Praxiswebseite",
+          "url": "https://www.augenarzt-falkensee.de/"
         }
       ]
     },
@@ -5605,6 +5830,33 @@
       ]
     },
     {
+      "id": "web-endsbp",
+      "name": "Maren Festner",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Hals-Nasen-Ohren-Heilkunde"
+      ],
+      "lat": 52.5611488,
+      "lon": 13.0932106,
+      "distanceKm": 6.096,
+      "address": "Bahnhofstraße 66, 14612 Falkensee",
+      "openingHours": null,
+      "phone": "03322 3496",
+      "website": "https://hno-festner.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "HNO Festner – offizielle Praxiswebseite / KV Brandenburg",
+      "sourceUrl": "https://hno-festner.de/",
+      "sources": [
+        {
+          "name": "HNO Festner – offizielle Praxiswebseite / KV Brandenburg",
+          "url": "https://hno-festner.de/"
+        }
+      ]
+    },
+    {
       "id": "node-10731107006",
       "osmType": "node",
       "osmId": 10731107006,
@@ -6560,6 +6812,34 @@
       ]
     },
     {
+      "id": "web-1utpsb1",
+      "name": "Dr. med. Sascha Frank",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin",
+        "Sportmedizin"
+      ],
+      "lat": 52.559073,
+      "lon": 13.0899766,
+      "distanceKm": 6.311,
+      "address": "Potsdamer Straße 1a, 14612 Falkensee",
+      "openingHours": null,
+      "phone": "03322 4252828",
+      "website": "https://hausarztfalkensee.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Hausarztpraxis Frank – offizielle Praxiswebseite",
+      "sourceUrl": "https://hausarztfalkensee.de/",
+      "sources": [
+        {
+          "name": "Hausarztpraxis Frank – offizielle Praxiswebseite",
+          "url": "https://hausarztfalkensee.de/"
+        }
+      ]
+    },
+    {
       "id": "web-10dkctl",
       "name": "Nicole Frank",
       "type": "Arztpraxis",
@@ -6584,6 +6864,34 @@
         {
           "name": "Stadt Falkensee",
           "url": "https://www.falkensee.de/verzeichnis/index.php?kategorie=204"
+        }
+      ]
+    },
+    {
+      "id": "web-6f4bi8",
+      "name": "Nicole Frank",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin",
+        "Kinder- und Jugendmedizin"
+      ],
+      "lat": 52.559073,
+      "lon": 13.0899766,
+      "distanceKm": 6.311,
+      "address": "Potsdamer Straße 1a, 14612 Falkensee",
+      "openingHours": null,
+      "phone": "03322 4252828",
+      "website": "https://hausarztfalkensee.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Hausarztpraxis Frank – offizielle Praxiswebseite",
+      "sourceUrl": "https://hausarztfalkensee.de/",
+      "sources": [
+        {
+          "name": "Hausarztpraxis Frank – offizielle Praxiswebseite",
+          "url": "https://hausarztfalkensee.de/"
         }
       ]
     },
@@ -6963,6 +7271,33 @@
       ]
     },
     {
+      "id": "web-bs4jy1",
+      "name": "Annette Weiberg",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5736424,
+      "lon": 13.0917332,
+      "distanceKm": 6.4,
+      "address": "Fehrbelliner Straße 28, 14612 Falkensee",
+      "openingHours": null,
+      "phone": null,
+      "website": "https://internisten-falkensee.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Internisten Falkensee – Praxisverzeichnis",
+      "sourceUrl": "https://internisten-falkensee.de/",
+      "sources": [
+        {
+          "name": "Internisten Falkensee – Praxisverzeichnis",
+          "url": "https://internisten-falkensee.de/"
+        }
+      ]
+    },
+    {
       "id": "web-yl5m74",
       "name": "Dipl.-Stom. Henning Schmidt",
       "type": "Zahnarztpraxis",
@@ -6990,30 +7325,35 @@
       ]
     },
     {
-      "id": "web-3potin",
+      "id": "web-1q68l1i",
       "name": "Dr. med. Sebastian Kahle",
       "type": "Arztpraxis",
       "specialties": [
         "Innere Medizin",
+        "Angiologie",
         "Allgemeinmedizin"
       ],
       "lat": 52.5736424,
       "lon": 13.0917332,
       "distanceKm": 6.4,
-      "address": "Fehrbelliner Str. 28, 14612 Falkensee",
+      "address": "Fehrbelliner Straße 28, 14612 Falkensee",
       "openingHours": null,
       "phone": "03322 214010",
-      "website": null,
+      "website": "https://internisten-falkensee.de/",
       "email": null,
       "wheelchair": null,
       "rating": null,
       "ratingCount": null,
-      "dataSource": "Stadt Falkensee",
-      "sourceUrl": "https://www.falkensee.de/verzeichnis/index.php?kategorie=204",
+      "dataSource": "Internisten Falkensee – offizielle Praxiswebseite",
+      "sourceUrl": "https://internisten-falkensee.de/",
       "sources": [
         {
           "name": "Stadt Falkensee",
           "url": "https://www.falkensee.de/verzeichnis/index.php?kategorie=204"
+        },
+        {
+          "name": "Internisten Falkensee – offizielle Praxiswebseite",
+          "url": "https://internisten-falkensee.de/"
         }
       ]
     },
@@ -7270,6 +7610,10 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/2868855001"
+        },
+        {
+          "name": "Hausarztpraxis Mildenberger – offizielle Praxiswebseite / KV Brandenburg",
+          "url": "https://hausarzt-mildenberger.de/"
         }
       ]
     },
@@ -7354,6 +7698,34 @@
         {
           "name": "Stadt Falkensee",
           "url": "https://www.falkensee.de/verzeichnis/index.php?kategorie=613"
+        }
+      ]
+    },
+    {
+      "id": "web-1qm786j",
+      "name": "Dr. med. Jan Dieckhöfer",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Kinder- und Jugendmedizin",
+        "Allergologie"
+      ],
+      "lat": 52.5621713,
+      "lon": 13.0870759,
+      "distanceKm": 6.516,
+      "address": "Hansastraße 12, 14612 Falkensee",
+      "openingHours": "Mo 08:00-12:00,15:00-18:00; Tu 08:00-12:00; We 08:00-12:00; Th 08:00-12:00,15:00-18:00; Fr 08:00-12:00",
+      "phone": "03322 243313",
+      "website": "https://www.kinderarzt-dieckhoefer.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Kinderarzt Dieckhöfer – offizielle Praxiswebseite / KV Brandenburg",
+      "sourceUrl": "https://www.kinderarzt-dieckhoefer.de/",
+      "sources": [
+        {
+          "name": "Kinderarzt Dieckhöfer – offizielle Praxiswebseite / KV Brandenburg",
+          "url": "https://www.kinderarzt-dieckhoefer.de/"
         }
       ]
     },
@@ -7496,6 +7868,34 @@
       ]
     },
     {
+      "id": "web-12001xb",
+      "name": "Dr. med. Agnieszka Oparski",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Innere Medizin",
+        "Angiologie"
+      ],
+      "lat": 52.5613153,
+      "lon": 13.0861774,
+      "distanceKm": 6.572,
+      "address": "Poststraße 48-50, 14612 Falkensee",
+      "openingHours": null,
+      "phone": "03322 279194",
+      "website": "https://diabetes-falkensee.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Diabetes Falkensee – offizielle Praxiswebseite",
+      "sourceUrl": "https://diabetes-falkensee.de/",
+      "sources": [
+        {
+          "name": "Diabetes Falkensee – offizielle Praxiswebseite",
+          "url": "https://diabetes-falkensee.de/"
+        }
+      ]
+    },
+    {
       "id": "web-1ar7oo0",
       "name": "Dr. med. dent. Jens Pönisch",
       "type": "Zahnarztpraxis",
@@ -7519,6 +7919,35 @@
         {
           "name": "Stadt Falkensee",
           "url": "https://www.falkensee.de/verzeichnis/index.php?kategorie=229"
+        }
+      ]
+    },
+    {
+      "id": "web-msugg7",
+      "name": "Dr. med. Hans-Peter Lüdemann",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Innere Medizin",
+        "Angiologie",
+        "Kardiologie"
+      ],
+      "lat": 52.5613153,
+      "lon": 13.0861774,
+      "distanceKm": 6.572,
+      "address": "Poststraße 48-50, 14612 Falkensee",
+      "openingHours": null,
+      "phone": "03322 279194",
+      "website": "https://diabetes-falkensee.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Diabetes Falkensee – offizielle Praxiswebseite",
+      "sourceUrl": "https://diabetes-falkensee.de/",
+      "sources": [
+        {
+          "name": "Diabetes Falkensee – offizielle Praxiswebseite",
+          "url": "https://diabetes-falkensee.de/"
         }
       ]
     },
@@ -7699,7 +8128,7 @@
       "lon": 13.2777074,
       "distanceKm": 6.65,
       "address": "Bernauer Straße 132a, 13507 Berlin",
-      "openingHours": "Mo-Fr 09:00-14:00",
+      "openingHours": "Mo-Fr 9:00-14:00",
       "phone": "+49 30 43566767",
       "website": "https://www.zahnarzt-tegel-sued.de/",
       "email": null,
@@ -8001,45 +8430,16 @@
       ]
     },
     {
-      "id": "node-13983366740",
+      "id": "node-1233470948",
       "osmType": "node",
-      "osmId": 13983366740,
-      "name": "Zahnärzte in Tegel",
-      "type": "Zahnarztpraxis",
-      "specialties": [
-        "Dentist"
-      ],
-      "lat": 52.5885066,
-      "lon": 13.2778348,
-      "distanceKm": 7.178,
-      "address": "30, 13507 Berlin",
-      "openingHours": "Mo-Th 09:00-19:00; Fr 09:00-16:00",
-      "phone": "+49 30 433 94 94",
-      "website": "https://zahnaerzte-in-tegel.de/",
-      "email": "praxis@zahnaerzte-in-tegel.de",
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13983366740",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13983366740"
-        }
-      ]
-    },
-    {
-      "id": "way-107293501",
-      "osmType": "way",
-      "osmId": 107293501,
+      "osmId": 1233470948,
       "name": "Dr. Karsten Paetzel, Dr. Cornelia Hoffmann",
       "type": "Arztpraxis",
       "specialties": [],
-      "lat": 52.613942,
-      "lon": 13.2394846,
-      "distanceKm": 7.187,
-      "address": "Schulzendorfer Straße 26A, 13503 Berlin",
+      "lat": 52.6139024,
+      "lon": 13.2394855,
+      "distanceKm": 7.184,
+      "address": null,
       "openingHours": "Mo-Fr 09:00-12:00, Mo,Tu,Th 16:00-18:00",
       "phone": null,
       "website": null,
@@ -8048,11 +8448,11 @@
       "rating": null,
       "ratingCount": null,
       "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/way/107293501",
+      "sourceUrl": "https://www.openstreetmap.org/node/1233470948",
       "sources": [
         {
           "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/way/107293501"
+          "url": "https://www.openstreetmap.org/node/1233470948"
         }
       ]
     },
@@ -8222,6 +8622,33 @@
         {
           "name": "Stadt Falkensee",
           "url": "https://www.falkensee.de/verzeichnis/index.php?kategorie=204"
+        }
+      ]
+    },
+    {
+      "id": "web-1bh4v1m",
+      "name": "Dr. med. Cornelia Möbius",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5594682,
+      "lon": 13.07574,
+      "distanceKm": 7.273,
+      "address": "Adlerstraße 48, 14612 Falkensee",
+      "openingHours": null,
+      "phone": "03322 239777",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Stadt Falkensee – Ärzteverzeichnis",
+      "sourceUrl": "https://www.falkensee.de/verzeichnis/index.php?bereich=57",
+      "sources": [
+        {
+          "name": "Stadt Falkensee – Ärzteverzeichnis",
+          "url": "https://www.falkensee.de/verzeichnis/index.php?bereich=57"
         }
       ]
     },
@@ -8553,7 +8980,7 @@
       "lon": 13.261518,
       "distanceKm": 7.522,
       "address": "Ruppiner Chaussee 137, 13503 Berlin",
-      "openingHours": "Mo,Tu 09:00-13:00,15:00-19:00; We \"nach Vereinbarung\"; Th,Fr 09:00-17:00; PH off",
+      "openingHours": "Mo,Tu 09:00-13:00,15:00-19:00; Mi \"nach Vereinbarung\"; th,Fr 09:00-17:00; PH off; ",
       "phone": null,
       "website": "https://www.gesunde-zaehne.berlin/",
       "email": null,
@@ -8597,6 +9024,33 @@
       ]
     },
     {
+      "id": "web-1ujhyw6",
+      "name": "Tatiana Neye",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5893329,
+      "lon": 13.2833809,
+      "distanceKm": 7.554,
+      "address": "Berliner Str. 2, 13507 Berlin",
+      "openingHours": null,
+      "phone": "030 43602860",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "Öffentliches Ärzteverzeichnis",
+      "sourceUrl": "https://www.dasoertliche.de/Themen/%C3%84rzte/Berlin-Tegel.html",
+      "sources": [
+        {
+          "name": "Öffentliches Ärzteverzeichnis",
+          "url": "https://www.dasoertliche.de/Themen/%C3%84rzte/Berlin-Tegel.html"
+        }
+      ]
+    },
+    {
       "id": "node-8319088520",
       "osmType": "node",
       "osmId": 8319088520,
@@ -8622,40 +9076,6 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/8319088520"
-        }
-      ]
-    },
-    {
-      "id": "node-13954234849",
-      "osmType": "node",
-      "osmId": 13954234849,
-      "name": "Dr. Tatiana Neye",
-      "type": "Arztpraxis",
-      "specialties": [
-        "Allgemeinmedizin",
-        "Acupuncture"
-      ],
-      "lat": 52.5893625,
-      "lon": 13.2835066,
-      "distanceKm": 7.563,
-      "address": "Berliner Straße 2, 13507 Berlin",
-      "openingHours": "Mo-Fr 08:00-12:00; Mo,Tu,Th 15:00-18:00",
-      "phone": "+49 30 43602860",
-      "website": "https://www.praxis-neye.de/",
-      "email": null,
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13954234849",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13954234849"
-        },
-        {
-          "name": "Öffentliches Ärzteverzeichnis",
-          "url": "https://www.dasoertliche.de/Themen/%C3%84rzte/Berlin-Tegel.html"
         }
       ]
     },
@@ -9055,39 +9475,10 @@
       ]
     },
     {
-      "id": "node-13954234851",
-      "osmType": "node",
-      "osmId": 13954234851,
-      "name": "Gemeinschaftspraxis Matthias Wanke und Dr. med. Said El Bali",
-      "type": "Arztpraxis",
-      "specialties": [
-        "Allgemeinmedizin"
-      ],
-      "lat": 52.590621,
-      "lon": 13.2833561,
-      "distanceKm": 7.617,
-      "address": "Berliner Straße 105, 13507 Berlin",
-      "openingHours": "Mo-Fr 09:00-13:00; Mo,Th 15:00-18:00; Mo-Fr 12:00-13:00 \"Akutsprechstunde\"",
-      "phone": "+49 30 433 20 11",
-      "website": "https://hausaerzte-tegel.de/hausaerzte/",
-      "email": "praxis@hausaerzte-tegel.de",
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13954234851",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13954234851"
-        }
-      ]
-    },
-    {
       "id": "node-3330737659",
       "osmType": "node",
       "osmId": 3330737659,
-      "name": "Unbenannte Arztpraxis",
+      "name": "Durchgangsarzt",
       "type": "Arztpraxis",
       "specialties": [],
       "lat": 52.521081,
@@ -9162,64 +9553,6 @@
         {
           "name": "Öffentliches Ärzteverzeichnis",
           "url": "https://www.dasoertliche.de/Themen/%C3%84rzte/Berlin-Tegel.html"
-        }
-      ]
-    },
-    {
-      "id": "node-13954234850",
-      "osmType": "node",
-      "osmId": 13954234850,
-      "name": "MVZ der Charité Praxis Tegel",
-      "type": "Arztpraxis",
-      "specialties": [
-        "Dermatologie"
-      ],
-      "lat": 52.5898653,
-      "lon": 13.2842116,
-      "distanceKm": 7.63,
-      "address": "Gorkistraße 3, 13507 Berlin",
-      "openingHours": "Mo-We,Fr 08:00-13:00; Mo-Tu 14:00-17:30; Th 08:00-12:30, 14:00-18:00",
-      "phone": "+49 30 434 50 25",
-      "website": "https://agz.charite.de/fachrichtungen/dermatologie_hautarztzentrum_tegel",
-      "email": "mvz-tegel@charite.de",
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13954234850",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13954234850"
-        }
-      ]
-    },
-    {
-      "id": "node-13983281734",
-      "osmType": "node",
-      "osmId": 13983281734,
-      "name": "Zahnoase",
-      "type": "Zahnarztpraxis",
-      "specialties": [
-        "Dentist"
-      ],
-      "lat": 52.5909409,
-      "lon": 13.2833702,
-      "distanceKm": 7.634,
-      "address": "Schloßstraße 2, 13507 Berlin",
-      "openingHours": "Mo-We 08:00-13:00, 14:00-18:30; Th 08:00-12:00, 14:00-18:30; Fr 08:00-18:00",
-      "phone": "+49 30 43603404",
-      "website": "https://www.zahnoase-berlin.de/",
-      "email": "info@zahnoase-berlin.de",
-      "wheelchair": "yes",
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13983281734",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13983281734"
         }
       ]
     },
@@ -9860,7 +10193,7 @@
       "lon": 13.277197,
       "distanceKm": 8.338,
       "address": "Soorstraße 26",
-      "openingHours": "Mo-Th 07:00-19:00; Fr 07:00-14:00",
+      "openingHours": "Mo-Do 07:00-19:00; Fr 07:00-14:00",
       "phone": "+493031802300",
       "website": "https://www.zahnarzt-siebers.de/",
       "email": "info@zahnarzt-siebers.de",
@@ -10162,35 +10495,6 @@
       ]
     },
     {
-      "id": "node-13982918501",
-      "osmType": "node",
-      "osmId": 13982918501,
-      "name": "Praxiszentrum Kaiserdamm",
-      "type": "Arztpraxis",
-      "specialties": [
-        "Innere Medizin"
-      ],
-      "lat": 52.5103421,
-      "lon": 13.2827983,
-      "distanceKm": 8.637,
-      "address": "Kaiserdamm 24, 14057",
-      "openingHours": null,
-      "phone": "+4930 3011390",
-      "website": "https://praxiszentrum-kaiserdamm.de/",
-      "email": "info@praxiszentrum-kaiserdamm.de",
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13982918501",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13982918501"
-        }
-      ]
-    },
-    {
       "id": "node-12400804018",
       "osmType": "node",
       "osmId": 12400804018,
@@ -10288,7 +10592,7 @@
       "lon": 13.2993911,
       "distanceKm": 8.733,
       "address": null,
-      "openingHours": "Tu,Th 15:00-19:00; Mo,We,Fr 09:00-13:00",
+      "openingHours": "Tu, Th 15:00-19:00; Mo, We, Fr 09:00-13:00",
       "phone": "+49 30 3137799",
       "website": "https://www.hausarzt-charlottenburg.de",
       "email": null,
@@ -11119,7 +11423,7 @@
       "lon": 13.3049719,
       "distanceKm": 9.033,
       "address": "Mierendorffplatz 12, 10589 Berlin",
-      "openingHours": "Mo,Tu,Th,Fr 08:00-13:00, Mo,Tu,Th 15:00-17:30",
+      "openingHours": "Mo,Tu,Th,Fr 08:30-12:30, Mo,Tu,Th 15:30-18:30",
       "phone": null,
       "website": null,
       "email": null,
@@ -11148,7 +11452,7 @@
       "lon": 13.3045961,
       "distanceKm": 9.042,
       "address": null,
-      "openingHours": "Mo-We 09:00-13:00, Mo-We 14:00-18:00, Th 12:00-18:00",
+      "openingHours": null,
       "phone": null,
       "website": null,
       "email": null,
@@ -11709,35 +12013,6 @@
       ]
     },
     {
-      "id": "node-14098981941",
-      "osmType": "node",
-      "osmId": 14098981941,
-      "name": "Praxis für Psychotherapie",
-      "type": "Psychotherapeutische Praxis",
-      "specialties": [
-        "Psychotherapie"
-      ],
-      "lat": 52.5096815,
-      "lon": 13.2969941,
-      "distanceKm": 9.446,
-      "address": null,
-      "openingHours": null,
-      "phone": null,
-      "website": null,
-      "email": null,
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/14098981941",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/14098981941"
-        }
-      ]
-    },
-    {
       "id": "node-9512131903",
       "osmType": "node",
       "osmId": 9512131903,
@@ -12138,33 +12413,6 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/5204793854"
-        }
-      ]
-    },
-    {
-      "id": "node-14008212661",
-      "osmType": "node",
-      "osmId": 14008212661,
-      "name": "Praxisklink Charlottenburg",
-      "type": "Klinik / MVZ",
-      "specialties": [],
-      "lat": 52.5117448,
-      "lon": 13.3047455,
-      "distanceKm": 9.752,
-      "address": "Bismarckstraße 45-47, 10627 Berlin",
-      "openingHours": "Mo-Th 07:00-17:00",
-      "phone": "+49 3038377050",
-      "website": "https://www.praxisklinik-charlottenburg.de",
-      "email": "info@praxisklinik-charlottenburg.de",
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/14008212661",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/14008212661"
         }
       ]
     },
@@ -13273,7 +13521,7 @@
       "id": "node-9592884384",
       "osmType": "node",
       "osmId": 9592884384,
-      "name": "Zahnarzt",
+      "name": "Alexander Michajlov;Artjom Sayenko",
       "type": "Zahnarztpraxis",
       "specialties": [
         "Zahnmedizin"

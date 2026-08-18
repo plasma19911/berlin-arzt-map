@@ -756,7 +756,84 @@
       "lon": 13.0466513,
       "displayName": "63, Holbeinstraße, Finkenkrug, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
       "checkedAt": "2026-08-18T20:44:51.079Z"
+    },
+    "potsdamer str 1a 14612 falkensee": {
+      "address": "Potsdamer Straße 1a, 14612 Falkensee",
+      "lat": 52.559073,
+      "lon": 13.0899766,
+      "displayName": "1a, Potsdamer Straße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T21:01:55.708Z"
+    },
+    "poststrasse 41 14612 falkensee": {
+      "address": "Poststraße 41, 14612 Falkensee",
+      "lat": 52.5613067,
+      "lon": 13.0875397,
+      "displayName": "41, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T21:01:57.151Z"
+    },
+    "str der einheit 127a 14612 falkensee": {
+      "address": "Straße der Einheit 127a, 14612 Falkensee",
+      "lat": 52.5531115,
+      "lon": 13.101355,
+      "displayName": "Forum Falkensee, 127a, Straße der Einheit, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T21:01:57.882Z"
+    },
+    "adlerstrasse 48 14612 falkensee": {
+      "address": "Adlerstraße 48, 14612 Falkensee",
+      "lat": 52.5594682,
+      "lon": 13.07574,
+      "displayName": "Adlerstraße, 48, Adlerstraße, Falkenhorst, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T21:01:59.255Z"
+    },
+    "poststrasse 48 50 14612 falkensee": {
+      "address": "Poststraße 48-50, 14612 Falkensee",
+      "lat": 52.5613153,
+      "lon": 13.0861774,
+      "displayName": "Medihaus Falkensee, 48/50, Poststraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T21:02:00.063Z"
+    },
+    "bahnhofstrasse 66 14612 falkensee": {
+      "address": "Bahnhofstraße 66, 14612 Falkensee",
+      "lat": 52.5611488,
+      "lon": 13.0932106,
+      "displayName": "66, Bahnhofstraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T21:02:01.444Z"
+    },
+    "hansastrasse 12 14612 falkensee": {
+      "address": "Hansastraße 12, 14612 Falkensee",
+      "lat": 52.5621713,
+      "lon": 13.0870759,
+      "displayName": "12, Hansastraße, Seegefeld, Falkensee, Havelland, Brandenburg, 14612, Deutschland",
+      "checkedAt": "2026-08-18T21:02:02.261Z"
+    },
+    "klosterstrasse 34 35 13581 berlin": {
+      "address": "Klosterstraße 34-35, 13581 Berlin",
+      "lat": 52.5321292,
+      "lon": 13.1985553,
+      "displayName": "34-35, Klosterstraße, Stresow, Spandau, Berlin, 13581, Deutschland",
+      "checkedAt": "2026-08-18T21:02:03.269Z"
+    },
+    "havelschanze 9a 13587 berlin": {
+      "address": "Havelschanze 9a, 13587 Berlin",
+      "lat": 52.5540557,
+      "lon": 13.2106776,
+      "displayName": "9A, Havelschanze, Quartier Nordhafen, Maselake-Zentrum, Hakenfelde, Spandau, Berlin, 13587, Deutschland",
+      "checkedAt": "2026-08-18T21:02:04.947Z"
+    },
+    "neumeisterstrasse 1 13585 berlin": {
+      "address": "Neumeisterstraße 1, 13585 Berlin",
+      "lat": 52.547676,
+      "lon": 13.2019336,
+      "displayName": "1, Neumeisterstraße, Neustadt, Spandau, Berlin, 13585, Deutschland",
+      "checkedAt": "2026-08-18T21:02:05.855Z"
+    },
+    "carl schurz str 31 13597 berlin": {
+      "address": "Carl-Schurz-Straße 31, 13597 Berlin",
+      "lat": 52.5371147,
+      "lon": 13.2028561,
+      "displayName": "Tchibo, 31, Carl-Schurz-Straße, Kolk, Altstadt, Spandau, Berlin, 13597, Deutschland",
+      "checkedAt": "2026-08-18T21:02:06.675Z"
     }
   },
-  "updatedAt": "2026-08-18T20:44:51.079Z"
+  "updatedAt": "2026-08-18T21:02:06.675Z"
 }
