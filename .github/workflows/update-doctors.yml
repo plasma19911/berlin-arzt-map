@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/update-doctors.mjs'
       - 'data/additional-doctor-candidates.json'
+      - 'data/manual-doctor-additions.json'
       - '.github/workflows/update-doctors.yml'
   schedule:
     - cron: '17 3 * * 1'
@@ -29,8 +30,28 @@ jobs:
         with:
           ref: main
 
+      - name: Verifizierte manuelle Ergänzungen einmischen
+        shell: bash
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const basePath = 'data/additional-doctor-candidates.json';
+          const manualPath = 'data/manual-doctor-additions.json';
+          const base = JSON.parse(fs.readFileSync(basePath, 'utf8'));
+          const manual = JSON.parse(fs.readFileSync(manualPath, 'utf8'));
+          const merged = {
+            ...base,
+            doctors: [...(base.doctors || []), ...(manual.doctors || [])]
+          };
+          fs.writeFileSync(basePath, JSON.stringify(merged, null, 2) + '\n');
+          console.log(`Zusatzquellen: ${(base.doctors || []).length} automatisch + ${(manual.doctors || []).length} manuell verifiziert.`);
+          NODE
+
       - name: Aktuelle Arzt-Daten aus allen Quellen abrufen
         run: node scripts/update-doctors.mjs
+
+      - name: Temporäre Zusammenführung zurücksetzen
+        run: git checkout -- data/additional-doctor-candidates.json
 
       - name: Datenänderung committen
         shell: bash
