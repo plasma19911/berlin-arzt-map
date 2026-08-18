@@ -169,7 +169,11 @@ function buildAddress(tags) {
 }
 function fallbackName(type, specialties) { return specialties.length ? `${type} · ${specialties[0]}` : `Unbenannte ${type}`; }
 function humanize(value) { return value.replace(/_/g, ' ').replace(/\b\w/g, (m) => m.toUpperCase()); }
-function parseRating(value) { const n = Number(String(value ?? '').replace(',', '.')); return Number.isFinite(n) && n >= 0 && n <= 5 ? round(n, 1) : null; }
+function parseRating(value) {
+  if (value == null || String(value).trim() === '') return null;
+  const n = Number(String(value).replace(',', '.'));
+  return Number.isFinite(n) && n >= 0 && n <= 5 ? round(n, 1) : null;
+}
 function parseIntSafe(value) { const n = Number.parseInt(value, 10); return Number.isFinite(n) && n >= 0 ? n : null; }
 
 function dedupe(items) {
