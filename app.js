@@ -232,7 +232,8 @@
 
   function showDetails(doctor) {
     const specialty = doctor.specialties?.length ? doctor.specialties.join(', ') : (doctor.type || 'Arztpraxis');
-    const rating = Number.isFinite(Number(doctor.rating))
+    const hasRating = doctor.rating !== null && doctor.rating !== undefined && String(doctor.rating).trim() !== '' && Number.isFinite(Number(doctor.rating)) && Number(doctor.rating) > 0;
+    const rating = hasRating
       ? `<span class="rating">★ ${Number(doctor.rating).toFixed(1)}${doctor.ratingCount ? ` · ${doctor.ratingCount} Bewertungen` : ''}</span>`
       : 'Keine Bewertung in der freien Datenquelle';
     const encodedName = encodeURIComponent(`${doctor.name || ''} ${doctor.address || ''}`.trim());
@@ -283,7 +284,7 @@
   function markerKind(doctor) {
     const type = normalize(doctor.type);
     if (type.includes('zahn')) return 'dentist';
-    if (type.includes('klinik') || type.includes('mvz') || type.includes('medizinisches versorgungszentrum')) return 'clinic';
+    if (type.includes('klinik') || type.includes('mvz') || type.includes('medizinisches versorgungszentrum') || type.includes('krankenhaus')) return 'clinic';
     return 'practice';
   }
 
