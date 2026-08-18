@@ -9,6 +9,80 @@
     fallbackZoom: 12,
   };
 
+  const SPECIALTY_TRANSLATIONS = new Map([
+    ['general', 'Allgemeinmedizin'],
+    ['general_practice', 'Allgemeinmedizin'],
+    ['family_medicine', 'Allgemeinmedizin'],
+    ['family_practice', 'Allgemeinmedizin'],
+    ['internal', 'Innere Medizin'],
+    ['internal_medicine', 'Innere Medizin'],
+    ['cardiology', 'Kardiologie'],
+    ['dermatology', 'Dermatologie'],
+    ['gynaecology', 'Gynäkologie'],
+    ['gynecology', 'Gynäkologie'],
+    ['obstetrics', 'Geburtshilfe'],
+    ['ophthalmology', 'Augenheilkunde'],
+    ['paediatrics', 'Kinder- und Jugendmedizin'],
+    ['pediatrics', 'Kinder- und Jugendmedizin'],
+    ['child_and_adolescent_medicine', 'Kinder- und Jugendmedizin'],
+    ['psychiatry', 'Psychiatrie'],
+    ['psychotherapy', 'Psychotherapie'],
+    ['psychology', 'Psychologie'],
+    ['urology', 'Urologie'],
+    ['orthopaedics', 'Orthopädie'],
+    ['orthopedics', 'Orthopädie'],
+    ['radiology', 'Radiologie'],
+    ['otolaryngology', 'Hals-Nasen-Ohren-Heilkunde'],
+    ['ear_nose_throat', 'Hals-Nasen-Ohren-Heilkunde'],
+    ['ent', 'Hals-Nasen-Ohren-Heilkunde'],
+    ['neurology', 'Neurologie'],
+    ['surgery', 'Chirurgie'],
+    ['general_surgery', 'Allgemeinchirurgie'],
+    ['vascular_surgery', 'Gefäßchirurgie'],
+    ['plastic_surgery', 'Plastische Chirurgie'],
+    ['orthopedic_surgery', 'Orthopädische Chirurgie'],
+    ['oncology', 'Onkologie'],
+    ['nephrology', 'Nephrologie'],
+    ['gastroenterology', 'Gastroenterologie'],
+    ['endocrinology', 'Endokrinologie'],
+    ['rheumatology', 'Rheumatologie'],
+    ['pulmonology', 'Pneumologie'],
+    ['pneumology', 'Pneumologie'],
+    ['allergology', 'Allergologie'],
+    ['anaesthetics', 'Anästhesiologie'],
+    ['anesthesiology', 'Anästhesiologie'],
+    ['anaesthesiology', 'Anästhesiologie'],
+    ['dentistry', 'Zahnmedizin'],
+    ['dentist', 'Zahnmedizin'],
+    ['oral_surgery', 'Oralchirurgie'],
+    ['maxillofacial_surgery', 'Mund-, Kiefer- und Gesichtschirurgie'],
+    ['orthodontics', 'Kieferorthopädie'],
+    ['periodontics', 'Parodontologie'],
+    ['endodontics', 'Endodontologie'],
+    ['dermatovenereology', 'Dermatologie und Venerologie'],
+    ['infectious_diseases', 'Infektiologie'],
+    ['sports_medicine', 'Sportmedizin'],
+    ['occupational_medicine', 'Arbeitsmedizin'],
+    ['emergency_medicine', 'Notfallmedizin'],
+    ['geriatrics', 'Geriatrie'],
+    ['geriatric', 'Geriatrie'],
+    ['haematology', 'Hämatologie'],
+    ['hematology', 'Hämatologie'],
+    ['nuclear_medicine', 'Nuklearmedizin'],
+    ['pathology', 'Pathologie'],
+    ['rehabilitation', 'Rehabilitationsmedizin'],
+    ['physical_medicine', 'Physikalische und Rehabilitative Medizin'],
+    ['pain_management', 'Schmerzmedizin'],
+    ['sleep_medicine', 'Schlafmedizin'],
+    ['diabetology', 'Diabetologie'],
+    ['angiology', 'Angiologie'],
+    ['proctology', 'Proktologie'],
+    ['hepatology', 'Hepatologie'],
+    ['immunology', 'Immunologie'],
+    ['genetics', 'Humangenetik'],
+    ['medical_genetics', 'Humangenetik'],
+  ]);
+
   const state = {
     data: null,
     filtered: [],
@@ -43,6 +117,11 @@
   registerServiceWorker();
 
   function initMap() {
+    if (!window.L) {
+      setStatus('Kartenbibliothek konnte nicht geladen werden.', 'warn');
+      return;
+    }
+
     state.map = L.map('map', {
       zoomControl: true,
       preferCanvas: true,
@@ -56,6 +135,7 @@
     }).addTo(state.map);
 
     state.markerLayer = L.layerGroup().addTo(state.map);
+    refreshMapSize();
   }
 
   function bindEvents() {
@@ -63,14 +143,23 @@
     els.specialty.addEventListener('change', applyFilters);
     els.distance.addEventListener('change', applyFilters);
     els.reload.addEventListener('click', () => loadData(true));
-    els.listToggle.addEventListener('click', () => els.sidebar.classList.toggle('open'));
-    els.closeList.addEventListener('click', () => els.sidebar.classList.remove('open'));
+    els.listToggle.addEventListener('click', () => {
+      els.sidebar.classList.toggle('open');
+      refreshMapSize(240);
+    });
+    els.closeList.addEventListener('click', () => {
+      els.sidebar.classList.remove('open');
+      refreshMapSize(240);
+    });
     els.closeDetails.addEventListener('click', closeDetails);
     els.backdrop.addEventListener('click', closeDetails);
+    window.addEventListener('resize', () => refreshMapSize(120));
+    window.addEventListener('orientationchange', () => refreshMapSize(300));
     window.addEventListener('keydown', (event) => {
       if (event.key === 'Escape') {
         closeDetails();
         els.sidebar.classList.remove('open');
+        refreshMapSize(240);
       }
     });
   }
@@ -95,7 +184,7 @@
       console.error(error);
       state.data = { home: null, doctors: [], updatedAt: null };
       renderAll();
-      setStatus('Noch keine Ärztedaten vorhanden – GitHub-Workflow einmal starten.', 'warn');
+      setStatus('Ärztedaten konnten nicht geladen werden.', 'warn');
     }
   }
 
@@ -103,9 +192,11 @@
     updateHomeLayer();
     populateSpecialties();
     applyFilters();
+    refreshMapSize(60);
   }
 
   function updateHomeLayer() {
+    if (!state.map) return;
     const home = getHome();
     const latLng = [home.lat, home.lon];
 
@@ -128,7 +219,8 @@
       title: 'Startpunkt',
     }).addTo(state.map).bindTooltip(`Startpunkt: ${CONFIG.address}`);
 
-    state.map.fitBounds(state.radiusLayer.getBounds(), { padding: [20, 20] });
+    refreshMapSize();
+    state.map.fitBounds(state.radiusLayer.getBounds(), { padding: [20, 20], animate: false });
   }
 
   function getHome() {
@@ -143,7 +235,7 @@
     const current = els.specialty.value;
     const specialties = new Set();
     for (const doctor of state.data?.doctors || []) {
-      for (const specialty of doctor.specialties || []) {
+      for (const specialty of getGermanSpecialties(doctor)) {
         if (specialty) specialties.add(specialty);
       }
     }
@@ -160,14 +252,15 @@
     const maxDistance = Number(els.distance.value || 10);
 
     state.filtered = doctors.filter((doctor) => {
+      const germanSpecialties = getGermanSpecialties(doctor);
       if (Number(doctor.distanceKm) > maxDistance) return false;
-      if (specialty !== 'all' && !(doctor.specialties || []).includes(specialty)) return false;
+      if (specialty !== 'all' && !germanSpecialties.includes(specialty)) return false;
       if (!query) return true;
       const haystack = normalize([
         doctor.name,
         doctor.type,
         doctor.address,
-        ...(doctor.specialties || []),
+        ...germanSpecialties,
       ].filter(Boolean).join(' '));
       return haystack.includes(query);
     });
@@ -177,6 +270,7 @@
   }
 
   function renderMarkers() {
+    if (!state.map || !state.markerLayer) return;
     state.markerLayer.clearLayers();
     state.markerById.clear();
     for (const doctor of state.filtered) {
@@ -194,7 +288,7 @@
   }
 
   function renderList() {
-    els.count.textContent = `${state.filtered.length} ${state.filtered.length === 1 ? 'Treffer' : 'Treffer'}`;
+    els.count.textContent = `${state.filtered.length} Treffer`;
     if (!state.filtered.length) {
       els.list.innerHTML = '<div class="empty-state">Keine passenden Einträge im gewählten Filter.<br>Die Karte nutzt freie OpenStreetMap-Daten; einzelne Praxen können dort fehlen.</div>';
       return;
@@ -202,7 +296,8 @@
 
     els.list.innerHTML = state.filtered.map((doctor) => {
       const kind = markerKind(doctor);
-      const subtitle = (doctor.specialties?.length ? doctor.specialties.join(', ') : doctor.type || 'Arztpraxis');
+      const germanSpecialties = getGermanSpecialties(doctor);
+      const subtitle = germanSpecialties.length ? germanSpecialties.join(', ') : doctor.type || 'Arztpraxis';
       return `
         <button class="doctor-card ${doctor.id === state.activeId ? 'active' : ''}" type="button" data-id="${escapeAttr(doctor.id)}">
           <span class="doctor-icon" aria-hidden="true">${markerEmoji(kind)}</span>
@@ -225,13 +320,17 @@
     state.activeId = id;
     renderList();
     const marker = state.markerById.get(id);
-    if (marker) state.map.panTo(marker.getLatLng(), { animate: true });
+    if (marker && state.map) state.map.panTo(marker.getLatLng(), { animate: true });
     showDetails(doctor);
-    if (window.innerWidth <= 840) els.sidebar.classList.remove('open');
+    if (window.innerWidth <= 840) {
+      els.sidebar.classList.remove('open');
+      refreshMapSize(240);
+    }
   }
 
   function showDetails(doctor) {
-    const specialty = doctor.specialties?.length ? doctor.specialties.join(', ') : (doctor.type || 'Arztpraxis');
+    const germanSpecialties = getGermanSpecialties(doctor);
+    const specialty = germanSpecialties.length ? germanSpecialties.join(', ') : (doctor.type || 'Arztpraxis');
     const hasRating = doctor.rating !== null && doctor.rating !== undefined && String(doctor.rating).trim() !== '' && Number.isFinite(Number(doctor.rating)) && Number(doctor.rating) > 0;
     const rating = hasRating
       ? `<span class="rating">★ ${Number(doctor.rating).toFixed(1)}${doctor.ratingCount ? ` · ${doctor.ratingCount} Bewertungen` : ''}</span>`
@@ -256,7 +355,7 @@
         ${doctor.website ? `<a class="action-link" href="${escapeAttr(safeUrl(doctor.website))}" target="_blank" rel="noopener">⌂ Webseite</a>` : ''}
         <a class="action-link" href="${reviewSearchUrl}" target="_blank" rel="noopener">★ Bewertungen suchen</a>
       </div>
-      <div class="source-note">Quelle der Praxisdaten: OpenStreetMap/Overpass. Bewertungen erscheinen nur, wenn sie als frei nutzbarer Datensatzwert vorhanden sind. Angaben bitte vor einem Arztbesuch auf der Praxiswebseite prüfen.</div>`;
+      <div class="source-note">Quelle der Praxisdaten: OpenStreetMap/Overpass. Angaben bitte vor einem Arztbesuch auf der Praxiswebseite prüfen.</div>`;
 
     els.detailSheet.classList.add('open');
     els.detailSheet.setAttribute('aria-hidden', 'false');
@@ -269,6 +368,22 @@
     els.detailSheet.setAttribute('aria-hidden', 'true');
     els.backdrop.hidden = true;
     renderList();
+  }
+
+  function getGermanSpecialties(doctor) {
+    return [...new Set((doctor?.specialties || []).map(translateSpecialty).filter(Boolean))];
+  }
+
+  function translateSpecialty(value) {
+    const original = String(value || '').trim();
+    if (!original) return '';
+    const key = normalize(original)
+      .replace(/&/g, 'and')
+      .replace(/[\s\-/]+/g, '_')
+      .replace(/[^a-z0-9_]/g, '')
+      .replace(/_+/g, '_')
+      .replace(/^_|_$/g, '');
+    return SPECIALTY_TRANSLATIONS.get(key) || original;
   }
 
   function divIcon(kind, emoji) {
@@ -327,8 +442,20 @@
   }
 
   function setStatus(text, mode = '') {
+    if (!els.status) return;
     els.status.textContent = text;
     els.status.className = `status-chip ${mode}`.trim();
+  }
+
+  function refreshMapSize(delay = 0) {
+    if (!state.map) return;
+    window.setTimeout(() => {
+      try {
+        state.map.invalidateSize({ animate: false, pan: false });
+      } catch (error) {
+        console.warn('Karte konnte nicht neu berechnet werden:', error);
+      }
+    }, delay);
   }
 
   function normalize(value) {
