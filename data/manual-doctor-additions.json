@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "description": "Manuell verifizierte Ergänzungen für Ärzte und Praxen, die in den automatischen Quellen fehlen.",
+  "doctors": [
+    {
+      "name": "Anne-Kathrin Kunze",
+      "type": "Arztpraxis",
+      "specialties": ["Allgemeinmedizin"],
+      "address": "Wegscheider Straße 14, 13587 Berlin",
+      "phone": "030 3351282",
+      "website": null,
+      "openingHours": null,
+      "sourceName": "Arzt-Auskunft",
+      "sourceUrl": "https://www.arzt-auskunft.de/arzt/allgemeinmedizin/berlin/anne-kathrin-kunze-710225"
+    },
+    {
+      "name": "Orthoberlin",
+      "type": "Arztpraxis",
+      "specialties": ["Orthopädie", "Unfallchirurgie"],
+      "address": "Falkenseer Chaussee 242a, 13583 Berlin",
+      "phone": "030 3727071",
+      "website": "https://www.orthoberlin-spandau.de/",
+      "openingHours": "Mo 08:00-13:00,13:30-16:30; Tu 08:00-13:00,13:30-16:30; We 08:00-13:00; Th 10:00-13:00,13:30-16:30; Fr 08:00-13:00",
+      "sourceName": "Orthoberlin – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.orthoberlin-spandau.de/"
+    },
+    {
+      "name": "Dr. med. Jens-Uwe Meyer",
+      "type": "Arztpraxis",
+      "specialties": ["Orthopädie", "Unfallchirurgie", "Osteopathie", "Akupunktur"],
+      "address": "Falkenseer Chaussee 242a, 13583 Berlin",
+      "phone": "030 3727071",
+      "website": "https://www.orthoberlin-spandau.de/",
+      "openingHours": "Mo 08:00-13:00,13:30-16:30; Tu 08:00-13:00,13:30-16:30; We 08:00-13:00; Th 10:00-13:00,13:30-16:30; Fr 08:00-13:00",
+      "sourceName": "Orthoberlin – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.orthoberlin-spandau.de/das-team/"
+    },
+    {
+      "name": "Matthias Pankow",
+      "type": "Arztpraxis",
+      "specialties": ["Orthopädie", "Unfallchirurgie"],
+      "address": "Falkenseer Chaussee 242a, 13583 Berlin",
+      "phone": "030 3727071",
+      "website": "https://www.orthoberlin-spandau.de/",
+      "openingHours": "Mo 08:00-13:00,13:30-16:30; Tu 08:00-13:00,13:30-16:30; We 08:00-13:00; Th 10:00-13:00,13:30-16:30; Fr 08:00-13:00",
+      "sourceName": "Orthoberlin – offizielle Praxiswebseite",
+      "sourceUrl": "https://www.orthoberlin-spandau.de/das-team/"
+    }
+  ]
+}
