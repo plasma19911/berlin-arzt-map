@@ -1,6 +1,11 @@
 name: Arzt-Daten wöchentlich aktualisieren
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update-doctors.mjs'
+      - '.github/workflows/update-doctors.yml'
   schedule:
     - cron: '17 3 * * 1'
   workflow_dispatch:
@@ -33,9 +38,6 @@ jobs:
       - name: Datenänderung committen
         shell: bash
         run: |
-          if git diff --quiet -- data/doctors.json; then
-            echo "Keine Datenänderung außer Aktualisierungszeitstempel erkannt."
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/doctors.json
