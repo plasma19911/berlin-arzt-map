@@ -1,7 +1,8 @@
-const CACHE = 'berlin-arzt-map-v2';
+const CACHE = 'berlin-arzt-map-v5';
 const APP_SHELL = [
   './',
   './index.html',
+  './leaflet-local.css',
   './styles.css',
   './app.js',
   './manifest.webmanifest',
@@ -24,7 +25,7 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
 
-  if (url.pathname.endsWith('/data/doctors.json')) {
+  if (event.request.mode === 'navigate' || url.origin === self.location.origin) {
     event.respondWith(networkFirst(event.request));
     return;
   }
@@ -52,6 +53,6 @@ async function cacheFirst(request) {
     if (response.ok || response.type === 'opaque') cache.put(request, response.clone());
     return response;
   } catch {
-    return Response.error();
+    return (await cache.match(request)) || Response.error();
   }
 }
