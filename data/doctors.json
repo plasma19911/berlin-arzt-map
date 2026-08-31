@@ -23,11 +23,11 @@
     "lon": 13.1833278,
     "displayName": "67, Marwitzer Straße, Hakenfelde, Spandau, Berlin, 13589, Deutschland"
   },
-  "updatedAt": "2026-08-18T21:06:09.041Z",
+  "updatedAt": "2026-08-31T09:51:01.659Z",
   "stats": {
-    "osm": 293,
+    "osm": 295,
     "additionalWithinRadius": 197,
-    "combined": 464,
+    "combined": 466,
     "duplicatesRemoved": 24
   },
   "doctors": [
@@ -1467,6 +1467,35 @@
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/Psychotherapie/Berlin-Spandau.html"
+        }
+      ]
+    },
+    {
+      "id": "node-14067870055",
+      "osmType": "node",
+      "osmId": 14067870055,
+      "name": "Dr. med. A. Wolff",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5387509,
+      "lon": 13.2046451,
+      "distanceKm": 2.677,
+      "address": "Carl-Schurz-Straße 53, 13597 Berlin",
+      "openingHours": "Mo-Tu 08:30-10:30, Th-Fr 08:30-10:30, Th 15:00-17:00",
+      "phone": "+49303335098",
+      "website": "http://www.praxis-dr-albrecht-wolff.de",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14067870055",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14067870055"
         }
       ]
     },
@@ -3800,35 +3829,6 @@
       ]
     },
     {
-      "id": "node-6481555288",
-      "osmType": "node",
-      "osmId": 6481555288,
-      "name": "Zahnarztpraxis · Zahnmedizin",
-      "type": "Zahnarztpraxis",
-      "specialties": [
-        "Zahnmedizin"
-      ],
-      "lat": 52.5285336,
-      "lon": 13.2087918,
-      "distanceKm": 3.804,
-      "address": null,
-      "openingHours": null,
-      "phone": null,
-      "website": null,
-      "email": null,
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/6481555288",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/6481555288"
-        }
-      ]
-    },
-    {
       "id": "way-57796020",
       "osmType": "way",
       "osmId": 57796020,
@@ -3841,7 +3841,7 @@
       "lon": 13.1763198,
       "distanceKm": 3.876,
       "address": "Seeburger Weg 13, 13581 Berlin",
-      "openingHours": null,
+      "openingHours": "Mo-Th 09:00-12:00,13:00-19:00; Fr 09:00-12:00",
       "phone": "+49 30 36 19 07 1",
       "website": "https://www.zahnarzt-spandau.de/",
       "email": "info@zahnarzt-spandau.de",
@@ -8978,7 +8978,7 @@
       "lat": 52.583556,
       "lon": 13.2881093,
       "distanceKm": 7.588,
-      "address": "Berliner Straße 25 A, 13507 Berlin",
+      "address": "Berliner Straße 25A, 13507 Berlin",
       "openingHours": null,
       "phone": null,
       "website": null,
@@ -9204,7 +9204,7 @@
       "lon": 13.2833702,
       "distanceKm": 7.634,
       "address": "Schloßstraße 2, 13507 Berlin",
-      "openingHours": "Mo-We 08:0013:00, 14:00-18:30; Th 08:00-12:00, 14:00-18:30 Fr 08:00-18:00",
+      "openingHours": "Mo-We 08:00-13:00, 14:00-18:30; Th 08:00-12:00, 14:00-18:30; Fr 08:00-18:00",
       "phone": "+49 30 43603404",
       "website": "https://www.zahnoase-berlin.de/",
       "email": "info@zahnoase-berlin.de",
@@ -10405,7 +10405,7 @@
       "lon": 13.300948,
       "distanceKm": 8.768,
       "address": "Osnabrücker Straße 25, 10589 Berlin",
-      "openingHours": "Mo 08:30-12:30,15:00-18:00; Tu 08:30-15:00; We 08:30-12:30; Th 08:30-12:00, 15:00-18:00; Fr 08:30-13:00",
+      "openingHours": "Mo 08:30-12:30,15:00-18:00; Tu 08:30-15:00; We 08:30-12:30; Th 08:30-12:00,15:00-18:00; Fr 08:30-13:00",
       "phone": "+49 30 3442930",
       "website": "https://www.praxis-doktor-berger.de/",
       "email": "mail@praxis-doktor-berger.de",
@@ -11338,6 +11338,33 @@
       ]
     },
     {
+      "id": "node-13238686401",
+      "osmType": "node",
+      "osmId": 13238686401,
+      "name": "Charité Fortbildungsakademie",
+      "type": "Klinik / MVZ",
+      "specialties": [],
+      "lat": 52.5454657,
+      "lon": 13.31796,
+      "distanceKm": 9.227,
+      "address": "Buchholzweg 2, 13627",
+      "openingHours": null,
+      "phone": null,
+      "website": "https://akademie.charite.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/13238686401",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13238686401"
+        }
+      ]
+    },
+    {
       "id": "node-4446880410",
       "osmType": "node",
       "osmId": 4446880410,
@@ -11363,33 +11390,6 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/4446880410"
-        }
-      ]
-    },
-    {
-      "id": "node-13238686401",
-      "osmType": "node",
-      "osmId": 13238686401,
-      "name": "Charite",
-      "type": "Klinik / MVZ",
-      "specialties": [],
-      "lat": 52.5461524,
-      "lon": 13.3182872,
-      "distanceKm": 9.237,
-      "address": "Buchholzweg 2, 13627",
-      "openingHours": null,
-      "phone": null,
-      "website": null,
-      "email": null,
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13238686401",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13238686401"
         }
       ]
     },
@@ -11677,6 +11677,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/4809449233"
+        }
+      ]
+    },
+    {
+      "id": "node-14098981941",
+      "osmType": "node",
+      "osmId": 14098981941,
+      "name": "Praxis für Psychotherapie",
+      "type": "Psychotherapeutische Praxis",
+      "specialties": [
+        "Psychotherapie"
+      ],
+      "lat": 52.5096815,
+      "lon": 13.2969941,
+      "distanceKm": 9.446,
+      "address": null,
+      "openingHours": null,
+      "phone": null,
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14098981941",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14098981941"
         }
       ]
     },
@@ -12081,6 +12110,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/5204793854"
+        }
+      ]
+    },
+    {
+      "id": "node-14104810802",
+      "osmType": "node",
+      "osmId": 14104810802,
+      "name": "Physiotherapie SanoMondo UG",
+      "type": "Krankenhaus",
+      "specialties": [
+        "Physiotherapy"
+      ],
+      "lat": 52.4976162,
+      "lon": 13.2861723,
+      "distanceKm": 9.75,
+      "address": "Bornstedter Straße 3, 10711 Berlin",
+      "openingHours": null,
+      "phone": null,
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14104810802",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14104810802"
         }
       ]
     },
