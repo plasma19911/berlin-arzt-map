@@ -23,7 +23,7 @@
     "lon": 13.1833278,
     "displayName": "67, Marwitzer Straße, Hakenfelde, Spandau, Berlin, 13589, Deutschland"
   },
-  "updatedAt": "2026-08-31T09:51:01.659Z",
+  "updatedAt": "2026-09-07T08:26:26.672Z",
   "stats": {
     "osm": 295,
     "additionalWithinRadius": 197,
@@ -7831,7 +7831,7 @@
       "phone": "+49 30 362030",
       "website": "https://www.biberburg.de/",
       "email": null,
-      "wheelchair": null,
+      "wheelchair": "yes",
       "rating": null,
       "ratingCount": null,
       "dataSource": "OpenStreetMap",
