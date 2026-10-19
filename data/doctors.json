@@ -23,11 +23,11 @@
     "lon": 13.1833278,
     "displayName": "67, Marwitzer Straße, Hakenfelde, Spandau, Berlin, 13589, Deutschland"
   },
-  "updatedAt": "2026-10-05T10:35:05.422Z",
+  "updatedAt": "2026-10-19T09:00:18.702Z",
   "stats": {
-    "osm": 293,
+    "osm": 307,
     "additionalWithinRadius": 197,
-    "combined": 464,
+    "combined": 478,
     "duplicatesRemoved": 24
   },
   "doctors": [
@@ -1178,7 +1178,7 @@
       "lon": 13.2059274,
       "distanceKm": 2.375,
       "address": "Neuendorfer Straße 100, 13585 Berlin",
-      "openingHours": null,
+      "openingHours": "Mo-Fr 09:00-14:00",
       "phone": null,
       "website": "https://mvzspandauneukoelln.de",
       "email": null,
@@ -1467,6 +1467,35 @@
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/Psychotherapie/Berlin-Spandau.html"
+        }
+      ]
+    },
+    {
+      "id": "node-14067870055",
+      "osmType": "node",
+      "osmId": 14067870055,
+      "name": "Dr. med. A. Wolff",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5387509,
+      "lon": 13.2046451,
+      "distanceKm": 2.677,
+      "address": "Carl-Schurz-Straße 53, 13597 Berlin",
+      "openingHours": "Mo-Tu 08:30-10:30, Th-Fr 08:30-10:30, Th 15:00-17:00",
+      "phone": "+49303335098",
+      "website": "http://www.praxis-dr-albrecht-wolff.de",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14067870055",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14067870055"
         }
       ]
     },
@@ -1866,6 +1895,33 @@
         {
           "name": "Das Örtliche",
           "url": "https://www.dasoertliche.de/Themen/Psychotherapie/Berlin-Spandau.html"
+        }
+      ]
+    },
+    {
+      "id": "node-14295829934",
+      "osmType": "node",
+      "osmId": 14295829934,
+      "name": "Good Skin Medical | Dermatologie Spandau",
+      "type": "Arztpraxis",
+      "specialties": [],
+      "lat": 52.5377414,
+      "lon": 13.2035279,
+      "distanceKm": 2.734,
+      "address": "Moritzstraße 1",
+      "openingHours": "Mo, Tu, Th 09:00-18:00; Fr 09:00-15:00",
+      "phone": "030 519996410",
+      "website": "https://dermatologie-spandau.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14295829934",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14295829934"
         }
       ]
     },
@@ -3800,35 +3856,6 @@
       ]
     },
     {
-      "id": "node-6481555288",
-      "osmType": "node",
-      "osmId": 6481555288,
-      "name": "Zahnarztpraxis · Zahnmedizin",
-      "type": "Zahnarztpraxis",
-      "specialties": [
-        "Zahnmedizin"
-      ],
-      "lat": 52.5285336,
-      "lon": 13.2087918,
-      "distanceKm": 3.804,
-      "address": null,
-      "openingHours": null,
-      "phone": null,
-      "website": null,
-      "email": null,
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/6481555288",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/6481555288"
-        }
-      ]
-    },
-    {
       "id": "way-57796020",
       "osmType": "way",
       "osmId": 57796020,
@@ -3841,7 +3868,7 @@
       "lon": 13.1763198,
       "distanceKm": 3.876,
       "address": "Seeburger Weg 13, 13581 Berlin",
-      "openingHours": null,
+      "openingHours": "Mo-Th 09:00-12:00,13:00-19:00; Fr 09:00-12:00",
       "phone": "+49 30 36 19 07 1",
       "website": "https://www.zahnarzt-spandau.de/",
       "email": "info@zahnarzt-spandau.de",
@@ -5174,9 +5201,9 @@
       "osmType": "node",
       "osmId": 10769528677,
       "name": "Dr. phil. Dipl.-Psych. Robert Rohner, Dipl.-Psych. Sandra Rohner",
-      "type": "Psychotherapeutische Praxis",
+      "type": "Arztpraxis",
       "specialties": [
-        "Psychotherapie"
+        "Psychiatrie"
       ],
       "lat": 52.5613291,
       "lon": 13.0936271,
@@ -5240,7 +5267,7 @@
       "lon": 13.0935714,
       "distanceKm": 6.073,
       "address": "Bahnhofstr. 64, 14612 Falkensee",
-      "openingHours": "Mo-Fr 07:30-13:00,14:00-18:00; We 07:30-13:00",
+      "openingHours": "Mo-Fr 07:30-13:00,14:00-18:00; We 07:30-13:00; PH off",
       "phone": "+49 3322 243413",
       "website": null,
       "email": null,
@@ -5386,7 +5413,7 @@
       "lon": 13.093504,
       "distanceKm": 6.077,
       "address": null,
-      "openingHours": "Mo, We, Fr 08:00-12:00; Tu 08:00-12:00, 14:30-18:00; Th 08:00-12:00, 14:30-17:00",
+      "openingHours": "Mo, We, Fr 08:00-12:00; Tu 08:00-12:00, 14:30-18:00; Th 08:00-12:00, 14:30-17:00; PH off",
       "phone": "+49 3322 22069",
       "website": "https://www.kinderarzt-falkensee.de/",
       "email": null,
@@ -5452,7 +5479,7 @@
       "lon": 13.0934353,
       "distanceKm": 6.082,
       "address": null,
-      "openingHours": "Mo-Fr 08:00-12:00, Mo-We 14:00-17:00",
+      "openingHours": "Mo-Fr 08:00-12:00, Mo-We 14:00-17:00; PH off",
       "phone": null,
       "website": "http://chirurgie-falkensee.de/",
       "email": null,
@@ -5482,7 +5509,7 @@
       "lon": 13.0933803,
       "distanceKm": 6.086,
       "address": null,
-      "openingHours": "Mo-We 08:00-12:00,14:00-18:00; Th,Fr 08:00-12:00",
+      "openingHours": "Mo-We 08:00-12:00,14:00-18:00; Th,Fr 08:00-12:00; PH off",
       "phone": "+49 3322 3271",
       "website": null,
       "email": null,
@@ -5516,7 +5543,7 @@
       "lon": 13.0932757,
       "distanceKm": 6.092,
       "address": null,
-      "openingHours": "Mo,We 08:00-14:30; Tu 08:00-16:30; Th 08:00-14:30,16:00-17:30",
+      "openingHours": "Mo,We 08:00-14:30; Tu 08:00-16:30; Th 08:00-14:30,16:00-17:30; PH off",
       "phone": "+49 3322 2310150",
       "website": "https://www.gastropraxis-falkensee.de/",
       "email": null,
@@ -5546,7 +5573,7 @@
       "lon": 13.0932603,
       "distanceKm": 6.093,
       "address": null,
-      "openingHours": "Mo 07:00-12:00,16:00-18:00; Tu 08:00-13:00,16:00-19:00; We,Fr 08:00-13:00; Th 08:00-13:00,17:00-19:00",
+      "openingHours": "Mo 07:00-12:00,16:00-18:00; Tu 08:00-13:00,16:00-19:00; We,Fr 08:00-13:00; Th 08:00-13:00,17:00-19:00; PH off",
       "phone": "+49 3322 4284350",
       "website": "https://www.praxis-dr-gropp.de/home/",
       "email": "info@praxis-dr-gropp.de",
@@ -5666,7 +5693,7 @@
       "lon": 13.0932174,
       "distanceKm": 6.096,
       "address": null,
-      "openingHours": "Mo-Th 08:00-12:00,15:00-18:00; We 08:00-14:00",
+      "openingHours": "Mo-Th 08:00-12:00,15:00-18:00; We 08:00-14:00; PH off",
       "phone": "+49 3322 278827",
       "website": null,
       "email": null,
@@ -6205,7 +6232,7 @@
       "lon": 13.0916423,
       "distanceKm": 6.201,
       "address": "Bahnhofstraße 79-81, 14612 Falkensee",
-      "openingHours": "Mo-Th 08:00-20:00; Fr 08:00-18:00",
+      "openingHours": "Mo-Th 08:00-20:00; Fr 08:00-18:00; PH off",
       "phone": "+49 3322 4290888",
       "website": "https://zahnaerztefalkensee.de/",
       "email": null,
@@ -6910,6 +6937,35 @@
       ]
     },
     {
+      "id": "node-14243898471",
+      "osmType": "node",
+      "osmId": 14243898471,
+      "name": "ZOS",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Orthopädie"
+      ],
+      "lat": 52.5363769,
+      "lon": 13.2698484,
+      "distanceKm": 6.37,
+      "address": null,
+      "openingHours": "Mo-Th 08:00-18:00; Fr 08:00-14:00; Sa,Su,PH off",
+      "phone": null,
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14243898471",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14243898471"
+        }
+      ]
+    },
+    {
       "id": "node-11161872683",
       "osmType": "node",
       "osmId": 11161872683,
@@ -7220,7 +7276,7 @@
       "lon": 13.0875397,
       "distanceKm": 6.48,
       "address": "Poststraße 41, 14612 Falkensee",
-      "openingHours": "Mo 08:00-12:00,15:00-18:00; Tu,Fr 08:00-13:00; We 08:00-12:00,13:00-15:00; Th 15:00-19:00",
+      "openingHours": "Mo 08:00-12:00,15:00-18:00; Tu,Fr 08:00-13:00; We 08:00-12:00,13:00-15:00; Th 15:00-19:00; PH off",
       "phone": "+49 3322 202238",
       "website": "http://hno-falkensee.de/",
       "email": null,
@@ -7277,7 +7333,7 @@
       "lon": 13.0875064,
       "distanceKm": 6.482,
       "address": "Poststraße 41, 14612 Falkensee",
-      "openingHours": "Mo,Th 08:00-12:00,16:00-18:00; Tu 08:00-12:00,15:00-18:00; We,Fr 08:00-12:00",
+      "openingHours": "Mo,Th 08:00-12:00,16:00-18:00; Tu 08:00-12:00,15:00-18:00; We,Fr 08:00-12:00; PH off",
       "phone": "+49 3322 201842",
       "website": "http://hausarzt-mildenberger.de/",
       "email": null,
@@ -7350,7 +7406,7 @@
       "lon": 13.0866158,
       "distanceKm": 6.542,
       "address": null,
-      "openingHours": "Mo,We,Fr 08:00-12:00; Tu,Th 08:00-12:00,15:00-18:00",
+      "openingHours": "Mo,We,Fr 08:00-12:00; Tu,Th 08:00-12:00,15:00-18:00; PH off",
       "phone": "+49 3322 202706",
       "website": "https://www.augenpraxis-kahle.de/",
       "email": "info@augenpraxis-kahle.de",
@@ -7406,7 +7462,7 @@
       "lon": 13.0865715,
       "distanceKm": 6.545,
       "address": "Poststr. 46, 14612 Falkensee",
-      "openingHours": "Mo 08:00-12:00,15:00-18:00; Tu-Fr 08:00-12:00; Th 14:00-18:00",
+      "openingHours": "Mo 08:00-12:00,15:00-18:00; Tu-Fr 08:00-12:00; Th 14:00-18:00; PH off",
       "phone": "+49 3322 200450",
       "website": null,
       "email": null,
@@ -7831,7 +7887,7 @@
       "phone": "+49 30 362030",
       "website": "https://www.biberburg.de/",
       "email": null,
-      "wheelchair": null,
+      "wheelchair": "yes",
       "rating": null,
       "ratingCount": null,
       "dataSource": "OpenStreetMap",
@@ -8367,7 +8423,7 @@
       "id": "node-4145388521",
       "osmType": "node",
       "osmId": 4145388521,
-      "name": "Kerstin Winkelmann Kieferorthopäde",
+      "name": "Kieferorthopädische Praxis Kerstin Winkelmann",
       "type": "Zahnarztpraxis",
       "specialties": [
         "Kieferorthopädie"
@@ -8375,11 +8431,11 @@
       "lat": 52.5862915,
       "lon": 13.2821391,
       "distanceKm": 7.333,
-      "address": null,
-      "openingHours": "Mo-Th 09:00-12:00,14:00-17:00",
-      "phone": "+4930 4964060",
-      "website": null,
-      "email": null,
+      "address": "Schlieperstraße 59, 13507 Berlin",
+      "openingHours": "Mo-Th 09:00-12:00,14:00-18:00",
+      "phone": "+49 30 4964060",
+      "website": "https://kieferorthopaedie-winkelmann.de/",
+      "email": "kfo-winkelmann@posteo.de",
       "wheelchair": null,
       "rating": null,
       "ratingCount": null,
@@ -8505,6 +8561,35 @@
       ]
     },
     {
+      "id": "node-14223763867",
+      "osmType": "node",
+      "osmId": 14223763867,
+      "name": "Zahnärzte am Tegeler Hafen",
+      "type": "Zahnarztpraxis",
+      "specialties": [
+        "Zahnmedizin"
+      ],
+      "lat": 52.5906475,
+      "lon": 13.2808667,
+      "distanceKm": 7.47,
+      "address": "Am Tegeler Hafen 2, 13507 Berlin",
+      "openingHours": "Mo,Tu,Th 08:30-18:30; We,Fr 08:30-15:00; \"Termine nach Vereinbarung\"",
+      "phone": "+49 30 434 5776",
+      "website": "https://zahnaerzte-reitemeyer.de/",
+      "email": "info@zahnaerzte-reitemeyer.de",
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14223763867",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14223763867"
+        }
+      ]
+    },
+    {
       "id": "node-4555674789",
       "osmType": "node",
       "osmId": 4555674789,
@@ -8516,11 +8601,11 @@
       "lat": 52.5906718,
       "lon": 13.2809364,
       "distanceKm": 7.475,
-      "address": "13507",
-      "openingHours": null,
-      "phone": "+49 30 434 90 846",
-      "website": "http://m.hnopraxis-berlin.de",
-      "email": "hnopraxistegel@freenet.de",
+      "address": "Am Tegeler Hafen 2, 13507 Berlin",
+      "openingHours": "Mo,We,Fr 07:45-13:00, Tu,Th 08:00-13:00, Mo,Th 14:15-19:00, Tu 14:15-18:00",
+      "phone": "+49 30 433 90 88",
+      "website": "https://www.hnopraxis-berlin.de/",
+      "email": "hnopraxistegel@t-online.de",
       "wheelchair": null,
       "rating": null,
       "ratingCount": null,
@@ -8530,6 +8615,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/4555674789"
+        }
+      ]
+    },
+    {
+      "id": "node-14223721171",
+      "osmType": "node",
+      "osmId": 14223721171,
+      "name": "Praxis am Tegeler Hafen",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Trauma"
+      ],
+      "lat": 52.5906964,
+      "lon": 13.2810118,
+      "distanceKm": 7.481,
+      "address": "Am Tegeler Hafen 2, 13507 Berlin",
+      "openingHours": "Mo,Tu,Th 08:00-11:00,14:00-16:00; We,Fr 08:00-11:00; Su \"nach Vereinbarung\"; 08:00-18:00 \"Arbeits-, Schul- und Wegeunfälle\"",
+      "phone": "+49 30 433 80 33",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14223721171",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14223721171"
         }
       ]
     },
@@ -8599,11 +8713,11 @@
       "lat": 52.5932678,
       "lon": 13.2795593,
       "distanceKm": 7.534,
-      "address": null,
-      "openingHours": null,
-      "phone": null,
-      "website": "https://www.medicalpark.de/humboldtmuehle",
-      "email": null,
+      "address": "Humboldtinsel 2-9, 13507 Berlin",
+      "openingHours": "Mo-Fr 08:00-17:00",
+      "phone": "+49 30 3002400",
+      "website": "https://humboldtmuehle.medicalpark.de/",
+      "email": "humboldtmuehle@medicalpark.de",
       "wheelchair": "yes",
       "rating": null,
       "ratingCount": null,
@@ -8629,10 +8743,10 @@
       "lon": 13.2834041,
       "distanceKm": 7.563,
       "address": "Berliner Straße 1A, 13507 Berlin",
-      "openingHours": null,
+      "openingHours": "Mo,Th 08:15-13:00, Mo,Th 15:00-17:00, Tu,Fr 08:15-14:00",
       "phone": "+49 30 4338866",
       "website": "http://augenarzt-tegel.com/",
-      "email": null,
+      "email": "info@augenarzt-tegel.de",
       "wheelchair": null,
       "rating": null,
       "ratingCount": null,
@@ -8719,7 +8833,7 @@
       "lon": 13.2839298,
       "distanceKm": 7.568,
       "address": "Berliner Straße 5, 13507 Berlin",
-      "openingHours": "Mo 09:00-12:00,14:00-17:00, Tu,Fr 09:00-13:00, Th 09:00-12:00, 16:00-19:00",
+      "openingHours": "Mo 09:00-12:00,14:00-17:00; Tu,Fr 09:00-13:00; Th 09:00-12:00,16:00-19:00",
       "phone": "+49 30 433 20 24",
       "website": "https://urologie-tegel.de/",
       "email": "kontakt@urologie-tegel.de",
@@ -8884,14 +8998,16 @@
       "osmType": "node",
       "osmId": 11734285956,
       "name": "HIT Hausärzte in Tegel",
-      "type": "Klinik / MVZ",
-      "specialties": [],
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
       "lat": 52.5886156,
       "lon": 13.2843348,
       "distanceKm": 7.577,
       "address": "Berliner Straße 6, 13507 Berlin",
-      "openingHours": null,
-      "phone": null,
+      "openingHours": "Mo-Fr 08:00-12:00, Mo,Th 16:00-19:00; Mo 19:00-20:00 \"nach Vereinbarung\"",
+      "phone": "+49 30 43 40 7000",
       "website": "https://hausarztzentrum-tegel.de/",
       "email": null,
       "wheelchair": null,
@@ -8978,7 +9094,7 @@
       "lat": 52.583556,
       "lon": 13.2881093,
       "distanceKm": 7.588,
-      "address": "Berliner Straße 25 A, 13507 Berlin",
+      "address": "Berliner Straße 25A, 13507 Berlin",
       "openingHours": null,
       "phone": null,
       "website": null,
@@ -9025,29 +9141,60 @@
       ]
     },
     {
-      "id": "node-2935287105",
+      "id": "node-14278172223",
       "osmType": "node",
-      "osmId": 2935287105,
-      "name": "Gesundheitszentrum",
-      "type": "Klinik / MVZ",
-      "specialties": [],
-      "lat": 52.583891,
-      "lon": 13.288331,
+      "osmId": 14278172223,
+      "name": "Die Orthopäden am Borsigturm",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Orthopädie"
+      ],
+      "lat": 52.5838828,
+      "lon": 13.2883365,
       "distanceKm": 7.615,
       "address": "Berliner Straße 25, 13507 Berlin",
-      "openingHours": null,
-      "phone": null,
-      "website": null,
-      "email": null,
-      "wheelchair": "yes",
+      "openingHours": "Mo,Th,Fr 09:00-13:00; Mo,Th 15:00-18:00; Tu 08:00-16:00; We 09:00-11:00",
+      "phone": "+49 30 4335051",
+      "website": "https://www.orthopaedie-berlin.de",
+      "email": "info@orthopaedie-berlin.de",
+      "wheelchair": null,
       "rating": null,
       "ratingCount": null,
       "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/2935287105",
+      "sourceUrl": "https://www.openstreetmap.org/node/14278172223",
       "sources": [
         {
           "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/2935287105"
+          "url": "https://www.openstreetmap.org/node/14278172223"
+        }
+      ]
+    },
+    {
+      "id": "node-14278172224",
+      "osmType": "node",
+      "osmId": 14278172224,
+      "name": "Smile Eyes :)",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Augenheilkunde"
+      ],
+      "lat": 52.5838269,
+      "lon": 13.2883818,
+      "distanceKm": 7.616,
+      "address": "Berliner Straße 25, 13507 Berlin",
+      "openingHours": null,
+      "phone": "+49 30 402 38 58",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14278172224",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14278172224"
         }
       ]
     },
@@ -9077,6 +9224,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/13954234851"
+        }
+      ]
+    },
+    {
+      "id": "node-14278172225",
+      "osmType": "node",
+      "osmId": 14278172225,
+      "name": "Zahnzentrum Dr. Hijazi",
+      "type": "Zahnarztpraxis",
+      "specialties": [
+        "Zahnmedizin"
+      ],
+      "lat": 52.5838966,
+      "lon": 13.2883907,
+      "distanceKm": 7.619,
+      "address": "Berliner Straße 25, 13507 Berlin",
+      "openingHours": "Mo-Fr 09:00-19:00",
+      "phone": "+49 30 43748465",
+      "website": "https://zahnzentrumdrhijazi.de/",
+      "email": "info@zahnzentrumdrhijazi.de",
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14278172225",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14278172225"
         }
       ]
     },
@@ -9163,6 +9339,35 @@
       ]
     },
     {
+      "id": "node-14232663602",
+      "osmType": "node",
+      "osmId": 14232663602,
+      "name": "Hautarztpraxis",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Dermatologie"
+      ],
+      "lat": 52.5908067,
+      "lon": 13.2833858,
+      "distanceKm": 7.628,
+      "address": "Schloßstraße 2, 13507 Berlin",
+      "openingHours": "Mo-Th 08:00-19:00; Fr 08:00-13:00, 14:00-19:00; \"Termin nur nach Vereinbarung\"",
+      "phone": null,
+      "website": null,
+      "email": "kontakt@hautarzt-tegel.de",
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14232663602",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14232663602"
+        }
+      ]
+    },
+    {
       "id": "node-13954234850",
       "osmType": "node",
       "osmId": 13954234850,
@@ -9192,6 +9397,37 @@
       ]
     },
     {
+      "id": "node-14232690892",
+      "osmType": "node",
+      "osmId": 14232690892,
+      "name": "Dr. med A. R. Kheyri",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Urologie",
+        "Andrology",
+        "Tumor Therapy"
+      ],
+      "lat": 52.5908617,
+      "lon": 13.2833837,
+      "distanceKm": 7.631,
+      "address": "Schloßstraße 2, 13507 Berlin",
+      "openingHours": "Mo,Th 09:00-13:00,15:00-18:00; Tu 09:00-15:00; We \"OP-Tag\"; Fr 09:00-13:00",
+      "phone": "+49 30 433 17 93",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14232690892",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14232690892"
+        }
+      ]
+    },
+    {
       "id": "node-13983281734",
       "osmType": "node",
       "osmId": 13983281734,
@@ -9200,11 +9436,11 @@
       "specialties": [
         "Dentist"
       ],
-      "lat": 52.5909409,
-      "lon": 13.2833702,
-      "distanceKm": 7.634,
+      "lat": 52.5908894,
+      "lon": 13.2833843,
+      "distanceKm": 7.633,
       "address": "Schloßstraße 2, 13507 Berlin",
-      "openingHours": "Mo-We 08:0013:00, 14:00-18:30; Th 08:00-12:00, 14:00-18:30 Fr 08:00-18:00",
+      "openingHours": "Mo-Th 08:00-18:30; Fr 08:00-18:00",
       "phone": "+49 30 43603404",
       "website": "https://www.zahnoase-berlin.de/",
       "email": "info@zahnoase-berlin.de",
@@ -9217,6 +9453,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/13983281734"
+        }
+      ]
+    },
+    {
+      "id": "node-14232507062",
+      "osmType": "node",
+      "osmId": 14232507062,
+      "name": "Privatpraxis für Kardiologie",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Kardiologie"
+      ],
+      "lat": 52.5909434,
+      "lon": 13.2833838,
+      "distanceKm": 7.635,
+      "address": "Schloßstraße 2, 13507 Berlin",
+      "openingHours": "Mo-Su,PH \"nach Vereinbarung\"",
+      "phone": "+49 30 640 99 222",
+      "website": "https://kardiologe-jacobsohn-berlin.de/",
+      "email": "dr.jacobsohn@kardiologe-jacobsohn-berlin.de",
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14232507062",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14232507062"
         }
       ]
     },
@@ -9277,6 +9542,36 @@
       ]
     },
     {
+      "id": "node-14232732831",
+      "osmType": "node",
+      "osmId": 14232732831,
+      "name": "Hausärztliche Praxisgemeinschaft",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin",
+        "Vaccination"
+      ],
+      "lat": 52.590794,
+      "lon": 13.2835402,
+      "distanceKm": 7.637,
+      "address": "Schloßstraße 2, 13507 Berlin",
+      "openingHours": "Mo-Th 08:30-18:00; Fr 08:30-16:00",
+      "phone": "+49 30 434 31 39;+49 30 434 909 30",
+      "website": "https://www.arzt-tegel.de",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14232732831",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14232732831"
+        }
+      ]
+    },
+    {
       "id": "web-1l5z9wl",
       "name": "Viola Wilde",
       "type": "Arztpraxis",
@@ -9300,6 +9595,35 @@
         {
           "name": "Öffentliches Ärzteverzeichnis",
           "url": "https://www.dasoertliche.de/Themen/%C3%84rzte/Berlin-Tegel.html"
+        }
+      ]
+    },
+    {
+      "id": "node-14232635491",
+      "osmType": "node",
+      "osmId": 14232635491,
+      "name": "Frauenärzte",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Gynäkologie"
+      ],
+      "lat": 52.590992,
+      "lon": 13.2833853,
+      "distanceKm": 7.638,
+      "address": "Schloßstraße 2, 13507 Berlin",
+      "openingHours": "Mo-Th 08:30-13:00; Tu-We 14:30-18:00; Fr 08:30-12:00; \"Termine nur nach Vereinbarung\"",
+      "phone": "+49 30 4346001",
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14232635491",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14232635491"
         }
       ]
     },
@@ -10364,6 +10688,35 @@
       ]
     },
     {
+      "id": "node-14268142108",
+      "osmType": "node",
+      "osmId": 14268142108,
+      "name": "Praxis Für Reisemedizin & Hausarztpraxis",
+      "type": "Arztpraxis",
+      "specialties": [
+        "Allgemeinmedizin"
+      ],
+      "lat": 52.5684086,
+      "lon": 13.3118727,
+      "distanceKm": 8.751,
+      "address": "Eichborndamm 3, 13403 Berlin",
+      "openingHours": "Mo-Fr 08:30-13:30; Mo,Tu,Th,Fr 15:15-18:00",
+      "phone": "+49 30 55604367",
+      "website": "https://www.reisemedizinpraxis.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14268142108",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14268142108"
+        }
+      ]
+    },
+    {
       "id": "node-7010624485",
       "osmType": "node",
       "osmId": 7010624485,
@@ -10405,7 +10758,7 @@
       "lon": 13.300948,
       "distanceKm": 8.768,
       "address": "Osnabrücker Straße 25, 10589 Berlin",
-      "openingHours": "Mo 08:30-12:30,15:00-18:00; Tu 08:30-15:00; We 08:30-12:30; Th 08:30-12:00, 15:00-18:00; Fr 08:30-13:00",
+      "openingHours": "Mo 08:30-12:30,15:00-18:00; Tu 08:30-15:00; We 08:30-12:30; Th 08:30-12:00,15:00-18:00; Fr 08:30-13:00",
       "phone": "+49 30 3442930",
       "website": "https://www.praxis-doktor-berger.de/",
       "email": "mail@praxis-doktor-berger.de",
@@ -11338,6 +11691,33 @@
       ]
     },
     {
+      "id": "node-13238686401",
+      "osmType": "node",
+      "osmId": 13238686401,
+      "name": "Charité Fortbildungsakademie",
+      "type": "Klinik / MVZ",
+      "specialties": [],
+      "lat": 52.5454657,
+      "lon": 13.31796,
+      "distanceKm": 9.227,
+      "address": "Buchholzweg 2, 13627",
+      "openingHours": null,
+      "phone": null,
+      "website": "https://akademie.charite.de/",
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/13238686401",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13238686401"
+        }
+      ]
+    },
+    {
       "id": "node-4446880410",
       "osmType": "node",
       "osmId": 4446880410,
@@ -11363,33 +11743,6 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/4446880410"
-        }
-      ]
-    },
-    {
-      "id": "node-13238686401",
-      "osmType": "node",
-      "osmId": 13238686401,
-      "name": "Charite",
-      "type": "Klinik / MVZ",
-      "specialties": [],
-      "lat": 52.5461524,
-      "lon": 13.3182872,
-      "distanceKm": 9.237,
-      "address": "Buchholzweg 2, 13627",
-      "openingHours": null,
-      "phone": null,
-      "website": null,
-      "email": null,
-      "wheelchair": null,
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/13238686401",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/13238686401"
         }
       ]
     },
@@ -11677,6 +12030,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/4809449233"
+        }
+      ]
+    },
+    {
+      "id": "node-14098981941",
+      "osmType": "node",
+      "osmId": 14098981941,
+      "name": "Praxis für Psychotherapie",
+      "type": "Psychotherapeutische Praxis",
+      "specialties": [
+        "Psychotherapie"
+      ],
+      "lat": 52.5096815,
+      "lon": 13.2969941,
+      "distanceKm": 9.446,
+      "address": null,
+      "openingHours": null,
+      "phone": null,
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14098981941",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14098981941"
         }
       ]
     },
@@ -12081,6 +12463,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/5204793854"
+        }
+      ]
+    },
+    {
+      "id": "node-14104810802",
+      "osmType": "node",
+      "osmId": 14104810802,
+      "name": "Physiotherapie SanoMondo UG",
+      "type": "Krankenhaus",
+      "specialties": [
+        "Physiotherapy"
+      ],
+      "lat": 52.4976162,
+      "lon": 13.2861723,
+      "distanceKm": 9.75,
+      "address": "Bornstedter Straße 3, 10711 Berlin",
+      "openingHours": null,
+      "phone": null,
+      "website": null,
+      "email": null,
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14104810802",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14104810802"
         }
       ]
     },
@@ -12574,7 +12985,7 @@
       "id": "node-967206093",
       "osmType": "node",
       "osmId": 967206093,
-      "name": "Andrea-Maria Sistori",
+      "name": "MetaZahn",
       "type": "Zahnarztpraxis",
       "specialties": [
         "Zahnmedizin"
@@ -12583,9 +12994,9 @@
       "lon": 13.2891596,
       "distanceKm": 9.876,
       "address": "Ringbahnstraße 14, 10711 Berlin",
-      "openingHours": "Mo,Tu,Th 08:00-15:00; We,Fr 12:00-20:00",
+      "openingHours": null,
       "phone": null,
-      "website": "https://www.zahnarzt-sistori.de/",
+      "website": "https://www.metazahnpraxis.de/",
       "email": null,
       "wheelchair": "limited",
       "rating": null,
