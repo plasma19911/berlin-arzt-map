@@ -23,11 +23,11 @@
     "lon": 13.1833278,
     "displayName": "67, Marwitzer Straße, Hakenfelde, Spandau, Berlin, 13589, Deutschland"
   },
-  "updatedAt": "2026-11-02T11:21:01.375Z",
+  "updatedAt": "2026-11-16T11:35:38.558Z",
   "stats": {
-    "osm": 307,
+    "osm": 308,
     "additionalWithinRadius": 197,
-    "combined": 478,
+    "combined": 479,
     "duplicatesRemoved": 24
   },
   "doctors": [
@@ -1496,6 +1496,35 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/14067870055"
+        }
+      ]
+    },
+    {
+      "id": "node-14354537985",
+      "osmType": "node",
+      "osmId": 14354537985,
+      "name": "UroSpandau",
+      "type": "Klinik / MVZ",
+      "specialties": [
+        "Urologie"
+      ],
+      "lat": 52.536252,
+      "lon": 13.1961523,
+      "distanceKm": 2.679,
+      "address": "Galenstraße 6, 13597 Berlin",
+      "openingHours": null,
+      "phone": "+49 30 43971050",
+      "website": "https://urospandau.de/",
+      "email": "info@urospandau.de",
+      "wheelchair": null,
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/14354537985",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14354537985"
         }
       ]
     },
@@ -4535,6 +4564,35 @@
       ]
     },
     {
+      "id": "node-325161442",
+      "osmType": "node",
+      "osmId": 325161442,
+      "name": "A. Nejad",
+      "type": "Zahnarztpraxis",
+      "specialties": [
+        "Zahnmedizin"
+      ],
+      "lat": 52.5105303,
+      "lon": 13.1728892,
+      "distanceKm": 5.44,
+      "address": "Weinmeisterhornweg 89, 13593 Berlin",
+      "openingHours": "Mo-Tu 09:00-19:00; We 09:00-14:00; Th 09:00-19:00; Fr 09:00-12:00",
+      "phone": "+49 30 361 91 06",
+      "website": null,
+      "email": null,
+      "wheelchair": "yes",
+      "rating": null,
+      "ratingCount": null,
+      "dataSource": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/node/325161442",
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/325161442"
+        }
+      ]
+    },
+    {
       "id": "node-11161877000",
       "osmType": "node",
       "osmId": 11161877000,
@@ -4624,35 +4682,6 @@
         {
           "name": "OpenStreetMap",
           "url": "https://www.openstreetmap.org/node/9496245891"
-        }
-      ]
-    },
-    {
-      "id": "node-325161442",
-      "osmType": "node",
-      "osmId": 325161442,
-      "name": "A. Nejad",
-      "type": "Zahnarztpraxis",
-      "specialties": [
-        "Zahnmedizin"
-      ],
-      "lat": 52.5088434,
-      "lon": 13.1804772,
-      "distanceKm": 5.585,
-      "address": null,
-      "openingHours": "Mo-Tu 09:00-19:00; We 09:00-14:00; Th 09:00-19:00; Fr 09:00-12:00",
-      "phone": "+49 30 361 91 06",
-      "website": null,
-      "email": null,
-      "wheelchair": "yes",
-      "rating": null,
-      "ratingCount": null,
-      "dataSource": "OpenStreetMap",
-      "sourceUrl": "https://www.openstreetmap.org/node/325161442",
-      "sources": [
-        {
-          "name": "OpenStreetMap",
-          "url": "https://www.openstreetmap.org/node/325161442"
         }
       ]
     },
@@ -12335,7 +12364,7 @@
       "lon": 13.3093527,
       "distanceKm": 9.729,
       "address": null,
-      "openingHours": null,
+      "openingHours": "Mo 09:00-17:00; Tu,Th 09:00-19:00; We 09:00-18:00; Fr 09:00-14:00",
       "phone": "+49 30 3411407",
       "website": "https://zahnaerzte-otto-suhr-allee.de/",
       "email": null,
